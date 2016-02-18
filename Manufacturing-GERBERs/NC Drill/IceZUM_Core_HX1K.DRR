@@ -1,0 +1,24 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: IceZUM_Core_HX1K.PcbDoc   18/02/2016  17:11:05
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : IceZUM_Core_HX1K.TXT
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        0.3mm (11.811mil)        Round          241              741.14 mm (29.18 Inch)
+T2        0.4mm (15.748mil)        Round          18               71.40 mm (2.81 Inch)
+T3        0.85mm (33.465mil)       Round          3                5.08 mm (0.20 Inch)
+T4        0.9mm (35.433mil)        Round          104              380.05 mm (14.96 Inch)
+T5        1mm (39.37mil)           Round          2                4.50 mm (0.18 Inch)
+T6        1.1mm (43.307mil)        Round          8                22.86 mm (0.90 Inch)
+T7        1.2mm (47.244mil)        Round          3                5.08 mm (0.20 Inch)
+T8        1.3mm (51.181mil)        Round          2                7.00 mm (0.28 Inch)
+T9        3.05mm (120.079mil)      Round          2                5.80 mm (0.23 Inch)
+T10       3.56mm (140.157mil)      Round          1                0.00 mm (0.00 Inch)
+T11       3.2mm (125.984mil)       Round          4         NPTH   153.63 mm (6.05 Inch)
+---------------------------------------------------------------------------
+Totals                                            388              1396.55 mm (54.98 Inch)
+
+Total Processing Time (hh:mm:ss) : 00:00:01

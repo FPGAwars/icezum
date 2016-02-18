@@ -1,0 +1,71 @@
+Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=Quantity~Integer~Quantity~100|Field=OrderingCode~String~OrderingCode~100|Field=OrderingCode 2~String~OrderingCode 2~100|Field=Manufacturer~String~Manufacturer~100|Field=Manufacturer 2~String~Manufacturer 2~100|Field=Price (€)~String~Price (€)~100|Field=Supplier~String~Supplier~100|Field=Temp_ Max~String~Temp_ Max~100|Field=Temp_ Min~String~Temp_ Min~100|Field=Value~String~Value~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~IceZUM_Core_HX1K.PrjPcb|ReportField=ProjectFullPath~D:\d\Altium\bqHW\Innovacion\IceZUM_Core_HX1K\trunk\IceZUM_Core_HX1K.PrjPcb|ReportField=Title~BOM IceZUM - Complete For Project [IceZUM_Core_HX1K.PrjPcb] (No PCB Document Selected)|ReportField=TotalQuantity~170|ReportField=ReportTime~17:11:16|ReportField=ReportDate~18/02/2016|ReportField=ReportDateTime~18/02/2016 17:11:16|ReportField=OutputName~BOM IceZUM - Complete|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~Eladio Delgado|ReportField=CheckedBy~|ReportField=CompanyName~bq - Mundo Reader|ReportField=ConfigurationParameters~|ReportField=ConfiguratorName~|ReportField=CurrentDate~|ReportField=CurrentTime~|ReportField=Date~|ReportField=DocumentFullPathAndName~|ReportField=DocumentName~|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=IsUserConfigurable~|ReportField=ModifiedDate~|ReportField=Organization~bq - Mundo Reader|ReportField=ProjectName~|ReportField=Revision~0|ReportField=Rule~|ReportField=SheetNumber~0|ReportField=SheetTotal~5|ReportField=Time~|ReportField=Title~Titulo|ReportField=VersionControl_RevNumber~|ReportField=DataSourceFileName~IceZUM_Core_HX1K.PrjPcb|ReportField=DataSourceFullPath~D:\d\Altium\bqHW\Innovacion\IceZUM_Core_HX1K\trunk\IceZUM_Core_HX1K.PrjPcb
+Capacitor SMD|C1, C2, C3, C4, C5, C6, C7, C8, C9, C10, C12, C13, C14, C15, C16, C18, C19, C20, C21, C23, C25, C26, C27, C28, C29, C30, C32, C33, C34, C35, C36, C37, C45, C46, C47, C48, C49, C50, C68|C0402|39|C0402C104K4RAC||Kemet||0,05||125|-55|100nF ±10% 16V
+Capacitor SMD|C11|C0603|1|EMK107BBJ106MA-T|C1608X5R1C106M080AB|Taiyo Yuden|TDK|0,124||85|-55|10uF ±20% 16V
+Capacitor SMD|C17, C24, C31, C41, C59, C64, C65|C0603|7|C1608X5R1C475K080AC||TDK||0,068||85|-55|4.7uF ±10% 16V
+Capacitor|C22|C0603|1|C0603C103K3RAC||Kemet||0,035||125|-55|10nF ±10% 25V
+Capacitor SMD|C38, C39, C40, C42, C43, C44, C51, C52, C53, C54, C55, C56, C57, C58|C0402|14|C0402C101K4RAC||Kemet||0,036||125|-55|100pF ±10% 16V
+Capacitor SMD, Capacitor SMD, Capacitor, Capacitor|C60, C62, C66, C70|C0603|4|C0603C104K3RAC||Kemet||0,035||125|-55|100nF ±10% 25V
+Capacitor SMD|C67|C1206|1|TMK316B7106KL-TD||Taiyo Yuden||0,066||125|-55|10uF ±10% 25V
+Capacitor|C69|C1206|1|LMK316ABJ226ML-T||Taiyo Yuden||0,094||85|-55|22uF ±20% 10V
+Capacitor|C71|C0603|1|GRM1885C1E621JA01D||Murata||0,023||125|-55|620pF ±5% 25V
+Schottky Diode|D1|SOD323|1|MMDL101T1G||On Semiconductor||0,046||150|-55|100mA 7V
+LED|D2, D3, D4, D5, D6, D7, D8, D9|LED0603|8|LY Q971-H1L2-36|HSMY-C190|OSRAM Opto|Avago Technologies|0,028||85|-40|Yellow
+Protection, Bidirectional Transient Suppression Diodes|D10|DO-214AC-SMA|1|SMAJ17CA|SMAJ17CA|Bourns|Littelfuse|0,113||150|-55|
+Dual Schottky Diode Common Cathode|D11|SOT23-3|1|BAT54C-G3-08|BAT54C|Vishay|Fairchild|0,042||125|-55|200mA 30V
+LED|D12|LED0603|1|LW Q38G-Q2R2-3K5L-1||OSRAM Opto||0,1||85|-40|White
+Zener Diode|D13|SOD323|1|BZX384C5V1-E3|BZX384B5V1-E3|Vishay|Vishay|0,024||150|-55|5V1
+PTC Resettable Fuse|F1|F1812|1|MF-MSMF050-2||Bourns||0,108|Abacus|85|-40|
+Protection, USB ESD|F2|SOT563|1|82400152|CDSOT563-0502|Würth|Bourns|0,1|Würth|125|-40|
+Connector, USB Micro B|J1|USB_Micro_B|1|10118192-0001LF|ZX62-B-5PA-11|FCI|Hirose Connector|0,11|Abacus|85|-30|
+1x6 pin Header 2.54mm|J2, J13|1x6 Pin Header 2.54|2|TSW-106-07-T-S-RED||Samtec||0,26|Samtec|125|-40|
+1x6 pin Header 2.54mm|J3, J14|1x6 Pin Header 2.54|2|TSW-106-07-T-S|613 006 111 21|Samtec|Würth Elektronik|0,26|Samtec|125|-40|6
+Connector, 10 pin Socket Header 2.54mm|J4|1x10 Socket Header THT 2.54mm|1|SSW-110-01-T-S|613 010 118 21|Samtec|Würth Elektronik|0,578|Samtec|125|-40|10
+8 pin Socket Header 2.54mm|J5, J10|1x8 Socket Header THT 2.54mm|2|SSW-108-01-T-S|613 008 118 21|Samtec|Würth Elektronik|0,438|Samtec|125|-40|8
+1x6 pin Header 2.54mm, Connector, 1x6 pin Header 2.54mm|J6, J12|1x6 Pin Header 2.54|2|TSW-106-07-T-S-NATURAL||Samtec||0,26|Samtec|125, 105|-40, -55|
+1x8 pin Header 2.54mm|J7|1x8 Pin Header 2.54|1|TSW-108-07-T-S-RED||Samtec||0,35|Samtec|125|-40|
+1x8 pin Header 2.54mm|J8|1x8 Pin Header 2.54|1|TSW-108-07-T-S|613 008 111 21|Samtec|Würth Elektronik|0,35|Samtec|125|-40|8
+1x8 pin Header 2.54mm|J9|1x8 Pin Header 2.54|1|TSW-108-07-T-S-NATURAL||Samtec||0,35|Samtec|125|-40|
+6 pin Socket Header 2.54mm|J11|1x6 Socket Header THT 2.54mm|1|SSW-106-01-T-S|613 006 118 21|Samtec|Würth Elektronik|0,381|Samtec|125|-40|6
+Connector, 1x4 pin Header 2.54mm|J15|1x4 Pin Header 2.54|1|TSW-104-07-T-S-RED||Samtec||0,23|Samtec|105|-55|
+Connector, 1x4 pin Header 2.54mm|J16|1x4 Pin Header 2.54|1|TSW-104-07-T-S|613 004 111 21|Samtec|Würth Elektronik|0,211|Samtec|105|-55|4
+Connector, 1x4 pin Header 2.54mm|J17|1x4 Pin Header 2.54|1|TSW-104-07-T-S-BLUE|613 004 111 21|Samtec|Würth Elektronik|0,211|Samtec|105|-55|4
+Connector, Power, DC Power Jack|J18|Jack 2.1|1|KLDHCX0202A|RAPC722X|Kycon|Switchcraft|0,2673|Avnet|||
+Connector, 8 pin Dual Header 2.54mm|J19|2x4 Pin Header 2.54|1|TSW-104-07-T-D|613 008 211 21|Samtec|Würth Elektronik|0,305|Samtec|125|-40|8
+Connector, Jumper, 3 pin Male Header 2.54mm|JP1|1x3 Header 2.54|1|613 003 111 21609 002 136 21||Würth|||Würth|125|-40|3
+Connector, Jumper, 1x2 Jumper 2.54mm|JPM1||1|609 002 136 21||Würth||0,05|Würth|125|-40|Blue 1x2
+Inductor SMD|L1|L0805|1|LQM21FN100M70L||muRata||0,062||125|-55|10uH 0,1A
+[NoValue], Ferrite Bead|L2, L4|L0603|2|BLM18SG121TN1D||Murata||0,053||125|-55|120R 0,025R 3000mA
+Ferrite Bead|L3|L0603|1|MPZ1608S221A||TDK||0,025||125|-55|220R 0,05R 2200mA
+Inductor SMD|L5|L4040|1|74438356022|XAL4020-222MEB|Würth Elektronik|Coilcraft|1,22|Würth|125|-40|2,2uH 4,7A
+P-Channel MOSFET, 6 pin|Q1, Q2, Q4|U-DFN2523-6|3|DMP3017SFK-7||Diodes Incorporated||0,256|Silica|150|-55|
+PFET|Q3|SOT23-3|1|DMP2035U-7||Diodes Incorporated||0,08|Silica|150|-55|
+PNP|Q5|SOT23-3|1|PMBT3906,215||NXP||0,019||150|-65|
+Resistor, SMD|R1, R3, R4, R5, R6, R7, R8, R12, R13, R14, R20, R21, R28, R37, R38|R0402|15|CRCW040210K0JN||Vishay||0,003||155|-55|10k ±5% 0.063W
+Resistor, SMD|R2|R0402|1|CRCW0402470RJN||Vishay||0,003||155|-55|470R ±5% 0.063W
+Resistor, SMD|R9|R0402|1|CRCW0402100RJN||Vishay||0,003||155|-55|100R ±5% 0.063W
+Resistor, Resistor, SMD, Resistor, SMD|R10, R25, R39|R0402|3|CRCW04021K00JN||Vishay||0,003||155|-55|1k ±5% 0.063W
+Resistor, SMD|R11|R0402|1|CRCW040212K0FK||Vishay||0,006||155|-55|12k ±1% 0.063W
+Resistor, SMD|R15|R0402|1|CRCW04022K20JN||Vishay||0,003||155|-55|2k2 ±5% 0.063W
+Resistor, SMD|R16, R32, R33, R35|R0402|4|ERJ-2GE0R00X|CRCW04020000Z0|Panasonic|Vishay|0,003||155|-55|0R ±5% 0.063W
+Resistor|R17, R18|4xArray_1206|2|CAY16-271J4LF||Bourns||0,03||125|-55|270R ±0,5% 0,0625W
+Resistor, SMD|R19|R0402|1|CRCW040210R0JN||Vishay||0,003||155|-55|10R ±5% 0.063W
+Resistor, SMD|R22, R23|R0402|2|CRCW04024K70JN||Vishay||0,003||155|-55|4k7 ±5% 0.063W
+Resistor, SMD|R24, R27|R0402|2|CRCW040247K0JN||Vishay||0,003||155|-55|47k ±5% 0.063W
+Resistor, SMD|R26, R29, R30, R31|R0402|4|CRCW0402100KJN||Vishay||0,003||155|-55|100k ±5% 0.063W
+Resistor, SMD|R34|R0402|1|CRCW04025K60JN||Vishay||0,003||155|-55|5k6 ±5% 0.063W
+Resistor, SMD|R36|R0402|1|CRCW0402220KJN||Vishay||0,003||155|-55|220k ±5% 0.063W
+Micro miniature pushbutton surface Switch|SW1, SW2|SW_SMD_6.0x3.8|2|434 121 025 816|KSR231GLFS|Würth Elektronik|Cannon, ITT Industries|0,223|Würth|85|-40|
+SPDT Switch|SW3|Slide SW SPDT Right Angle|1|450 302 014 072|MMP1010D-RA|Würth Elektronik|Knitter-Switch|0,4144|Würth|85|-40|
+Micro miniature pushbutton surface Switch|SW4|SW_Vert_THT_7.5x6x6.5|1|PTS645VL39-2 LFS||C&K Components||0,104|Abacus|60|-20|
+iCE40 HX1K Series FPGA Family, 1280 Logic Cells, 1.2 V Core, 64 K Embedded RAM Bits, 144-pin TQFP, Pb-Free, Tray|U1|TQFP-144_IPC-MD|1|iCE40HX1K-TQ144||Lattice||4||85|-40|
+NOR Flash Memory, serial|U2|DFN-8 6x5mm|1|N25Q032A13EF640E|S25FL032P0XNFI011|Micron|Spansion|0,9|Silica|85|-40|32Mb
+Dual High Speed USB to Multipurpose UART/FIFO IC|U3|FTDI_QFN-64|1|FT2232HQ-REEL||FTDI||3,45|Silica|85|-40|
+Oscillator, Low-Power CMOS, 4 pin, 1.8-3.3V|U4|OSC 3.2x2.5|1|DSC1001CL2-012.0000||Microchip||0,61||105|-40|12MHz
+EEPROM, 2K Microwire Compatible Serial, 8 or 16 bit word size, 2.5-5.5 Vcc range|U5|MSOP8|1|93LC56CT-I/MS||Microchip||0,24|Silica|85|-40|2Kb
+Voltage Translator, Hex|U6|QFN16|1|TXB0106RGYR||Texas Instruments||0,7|Silica|85|-40|
+ADC Converter, 12-Bit, 4-Ch, I2C|U7|QFN16|1|ADS7924IRTER||Texas Instruments||1,35|Silica|85|-40|
+Voltage Level Translator, 8-Bit Bidir., with TP|U8|VQFN20 4.5x3.5mm|1|TXS0108ERGYR||Texas Instruments||0,832|Silica|85|-40|
+Voltage Level Translator, 8-Bit Bidir., with TP|U9|VQFN20 4.5x3.5mm|1|TXB0108RGYR||Texas Instruments||0,832|Silica|85|-40|
+LDO Regulator, 8 pin, adjustable and fixed mode with enable|U10|U-DFN3030-8|1|AP7361-33FGE-7||Diodes Inc.||0,187|Silica|85|-40|
+LDO Regulator, Dual, 6 pin|U11|WSON-6-1,5x1,5mm|1|TLV7111233DSER||Texas Instruments||0,224|Silica|125|-40|
+3A High Efficient Synchronous Step Down Converter with DCS™ Control|U12|QFN16|1|TPS62133RGTR||Texas Instruments||1,5|Silica|85|-40|
