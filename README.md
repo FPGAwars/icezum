@@ -16,6 +16,7 @@ Arduino/zum Open FPGA electronic board.  Synthesize hardware easily, using only 
 * Input power voltage: 6 - 17v
 * Max input current: 3A (Perfect for powering your robots)
 * 20 Input/output 5v pins
+* 8 Input/Output 3.3V pins
 * USB micro-B connector for programming the FPGA from the PC (same than zum board)
 * FTDI 2232H USB device allows FPGA programming and UART interface to a PC
 * Reset pushbutton
