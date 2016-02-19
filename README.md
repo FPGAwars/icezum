@@ -7,7 +7,7 @@ Arduino/zum Open FPGA electronic board.  Synthesize hardware easily, using only 
 
 * FPGA development board ([iCE40HX1K-TQ144](https://github.com/Obijuan/open-fpga-verilog-tutorial/raw/master/tutorial/doc/iCE40LPHXFamilyDataSheet.pdf) from lattice)
 * Open hardware
-* Compatible with the [opensource icestorm toolchain]((http://www.clifford.at/icestorm/))
+* Compatible with the [opensource icestorm toolchain](http://www.clifford.at/icestorm/)
 * Arduino like board: similar pinout than Arduino one / [BQ zum](https://store.bq.com/es/placa-zum-core).
 * You can Reuse most of available shields
 * Control your robots / printbots from an FPGA
