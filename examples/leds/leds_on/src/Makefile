@@ -58,6 +58,6 @@ time: $(NAME).rpt
 
 #-- Clean the project
 clean:
-	rm -f *.bin *.asc *.blif *.out *.vcd examples/*~
+	rm -f *.bin *.asc *.blif *.out *.vcd examples/*~ *.rpt
 
 .PHONY: all clean

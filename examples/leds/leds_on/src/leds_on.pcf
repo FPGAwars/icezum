@@ -1,6 +1,6 @@
 # -- IceZUM Alhambra leds
 
-set_io LPORT[0] 95
+set_io LPORT[0] 95 
 set_io LPORT[1] 96
 set_io LPORT[2] 97
 set_io LPORT[3] 98
