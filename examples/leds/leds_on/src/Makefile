@@ -24,11 +24,19 @@ $(NAME).asc: $(NAME).blif $(NAME).pcf
 prog: $(NAME).bin
 	iceprog $<
 
+# --- Time report
+time: $(NAME).rpt
+
+
 #--------------------------------
 #-- General Compilation rules
 #--------------------------------
 
-.SUFFIXES: .asc .bin .blif .v .vcd
+.SUFFIXES: .asc .bin .blif .v .vcd .rpt
+
+# -- Rule for generating time reports
+.asc.rpt:
+	icetime -d hx1k -mtr $@ $^
 
 #-- Rule for generating the simulations
 .v.vcd:
@@ -50,6 +58,6 @@ prog: $(NAME).bin
 
 #-- Clean the project
 clean:
-	rm -f *.bin *.asc *.blif *.out *.vcd examples/*~
+	rm -f *.bin *.asc *.blif *.out *.vcd examples/*~ *.rpt
 
 .PHONY: all clean
