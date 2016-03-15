@@ -1,6 +1,6 @@
 # ----------------------------------------------------------------------
-# -- Scons script for Sintesizing the hello world verilog hardware
-# -- on an icestick board
+# -- Generic Scons script for Sintesizing hardware with APIO or scons
+# -- on an icestick or Icezum Alhambra
 # ----------------------------------------------------------------------
 import os
 from os.path import join
