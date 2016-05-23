@@ -1,4 +1,4 @@
-update=lun 23 may 2016 16:48:36 CEST
+update=lun 23 may 2016 20:25:43 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -30,3 +30,5 @@ version=1
 LibDir=
 [eeschema/libraries]
 LibName1=library/icezum
+LibName2=power
+LibName3=device
