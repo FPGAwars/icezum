@@ -1,4 +1,4 @@
-update=lun 23 may 2016 16:12:39 CEST
+update=lun 23 may 2016 16:48:36 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,33 +27,6 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=library
+LibDir=
 [eeschema/libraries]
-LibName1=transistors
-LibName2=conn
-LibName3=linear
-LibName4=regul
-LibName5=74xx
-LibName6=cmos4000
-LibName7=adc-dac
-LibName8=memory
-LibName9=xilinx
-LibName10=microcontrollers
-LibName11=dsp
-LibName12=microchip
-LibName13=analog_switches
-LibName14=motorola
-LibName15=texas
-LibName16=intel
-LibName17=audio
-LibName18=interface
-LibName19=digital-audio
-LibName20=philips
-LibName21=display
-LibName22=cypress
-LibName23=siliconi
-LibName24=opto
-LibName25=atmel
-LibName26=contrib
-LibName27=valves
-LibName28=library/icezum
+LibName1=library/icezum

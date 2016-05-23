@@ -1,33 +1,5 @@
 EESchema Schematic File Version 2
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
 LIBS:icezum
-LIBS:icezum-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -241,6 +213,177 @@ F 3 "" H 1160 5210 50  0000 C CNN
 	1    1160 5210
 	1    0    0    -1  
 $EndComp
+NoConn ~ 2160 4700
+NoConn ~ 2160 4800
+NoConn ~ 2160 4900
+NoConn ~ 2160 5000
+NoConn ~ 2160 5400
+Text GLabel 1980 5500 0    60   Input ~ 0
+ADC_INT
+Text GLabel 3800 3700 2    54   BiDi ~ 0
+FPGA_78
+Text GLabel 3800 3800 2    54   BiDi ~ 0
+FPGA_79
+Text GLabel 3800 3900 2    54   BiDi ~ 0
+FPGA_80
+Text GLabel 3800 4000 2    54   BiDi ~ 0
+FPGA_81
+Text GLabel 3800 4100 2    54   BiDi ~ 0
+FPGA_87
+Text GLabel 3800 4200 2    54   BiDi ~ 0
+FPGA_88
+Text GLabel 3800 4300 2    54   BiDi ~ 0
+ADC_SDA
+Text GLabel 3800 4400 2    54   Output ~ 0
+ADC_SCL
+NoConn ~ 3560 5500
+NoConn ~ 3560 5400
+NoConn ~ 3560 5300
+Text GLabel 3800 4500 2    54   Output ~ 0
+LED0
+Text GLabel 3800 4600 2    54   Output ~ 0
+LED1
+Text GLabel 3800 4700 2    54   Output ~ 0
+LED2
+Text GLabel 3800 4800 2    54   Output ~ 0
+LED0
+Text GLabel 3800 4900 2    54   Output ~ 0
+LED3
+Text GLabel 3800 5000 2    54   Output ~ 0
+LED4
+Text GLabel 3800 5100 2    54   Output ~ 0
+LED5
+Text GLabel 3800 5200 2    54   Output ~ 0
+LED7
+$Comp
+L iCE40HX1K-TQ144 U1
+U 3 1 57435B5D
+P 7490 990
+F 0 "U1" H 7790 1140 60  0000 C CNN
+F 1 "iCE40HX1K-TQ144" H 8150 -660 60  0000 C CNN
+F 2 "" H 7790 590 60  0000 C CNN
+F 3 "" H 7790 590 60  0000 C CNN
+	3    7490 990 
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C3
+U 1 1 5743685E
+P 6120 1210
+F 0 "C3" H 6240 1290 50  0000 L CNN
+F 1 "100nF" H 6240 1050 50  0000 L CNN
+F 2 "" H 6158 1060 50  0000 C CNN
+F 3 "" H 6120 1210 50  0000 C CNN
+F 4 "X7R" H 6320 1210 50  0000 C CNN "class"
+F 5 "16V" H 6310 1130 50  0000 C CNN "Voltage"
+	1    6120 1210
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR?
+U 1 1 57436864
+P 6120 910
+F 0 "#PWR?" H 6120 760 50  0001 C CNN
+F 1 "+3V3" H 6120 1050 50  0000 C CNN
+F 2 "" H 6120 910 50  0000 C CNN
+F 3 "" H 6120 910 50  0000 C CNN
+	1    6120 910 
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR?
+U 1 1 5743686A
+P 6120 1460
+F 0 "#PWR?" H 6120 1210 50  0001 C CNN
+F 1 "GNDREF" H 6120 1310 50  0001 C CNN
+F 2 "" H 6120 1460 50  0000 C CNN
+F 3 "" H 6120 1460 50  0000 C CNN
+	1    6120 1460
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C4
+U 1 1 57436872
+P 6690 1200
+F 0 "C4" H 6810 1280 50  0000 L CNN
+F 1 "100nF" H 6810 1040 50  0000 L CNN
+F 2 "" H 6728 1050 50  0000 C CNN
+F 3 "" H 6690 1200 50  0000 C CNN
+F 4 "X7R" H 6890 1200 50  0000 C CNN "class"
+F 5 "16V" H 6880 1120 50  0000 C CNN "Voltage"
+	1    6690 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR?
+U 1 1 57436878
+P 6690 1470
+F 0 "#PWR?" H 6690 1220 50  0001 C CNN
+F 1 "GNDREF" H 6690 1320 50  0001 C CNN
+F 2 "" H 6690 1470 50  0000 C CNN
+F 3 "" H 6690 1470 50  0000 C CNN
+	1    6690 1470
+	1    0    0    -1  
+$EndComp
+Text GLabel 9250 990  2    54   BiDi ~ 0
+FPGA_37
+Text GLabel 9250 1090 2    54   BiDi ~ 0
+FPGA_38
+Text GLabel 9260 1190 2    54   BiDi ~ 0
+FPGA_39
+Text GLabel 9260 1290 2    54   BiDi ~ 0
+FPGA_41
+Text GLabel 9260 1390 2    54   BiDi ~ 0
+FPGA_42
+Text GLabel 9260 1490 2    54   BiDi ~ 0
+FPGA_43
+NoConn ~ 8890 1590
+NoConn ~ 8890 1690
+NoConn ~ 8890 1790
+NoConn ~ 8890 1890
+NoConn ~ 8890 1990
+NoConn ~ 8890 2090
+NoConn ~ 8890 2190
+NoConn ~ 8890 2390
+NoConn ~ 8890 2490
+NoConn ~ 8890 2290
+Text GLabel 5760 2090 0    54   Output ~ 0
+iCE_DONE
+Text GLabel 5760 2190 0    54   Input ~ 0
+iCE_DONE
+$Comp
+L R R2
+U 1 1 57438123
+P 6110 2190
+F 0 "R2" V 6060 2290 50  0000 C CNN
+F 1 "470R±5% 0.063w" V 6190 2310 39  0000 C CNN
+F 2 "" V 6040 2190 50  0000 C CNN
+F 3 "" H 6110 2190 50  0000 C CNN
+	1    6110 2190
+	0    1    1    0   
+$EndComp
+$Comp
+L +3V3 #PWR?
+U 1 1 5743856A
+P 5750 1820
+F 0 "#PWR?" H 5750 1670 50  0001 C CNN
+F 1 "+3V3" H 5750 1960 50  0000 C CNN
+F 2 "" H 5750 1820 50  0000 C CNN
+F 3 "" H 5750 1820 50  0000 C CNN
+	1    5750 1820
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 57438596
+P 6110 1890
+F 0 "R1" V 6060 1990 50  0000 C CNN
+F 1 "10k±5% 0.063w" V 6190 2010 39  0000 C CNN
+F 2 "" V 6040 1890 50  0000 C CNN
+F 3 "" H 6110 1890 50  0000 C CNN
+	1    6110 1890
+	0    1    1    0   
+$EndComp
 Wire Wire Line
 	960  930  960  1080
 Wire Wire Line
@@ -309,27 +452,8 @@ Wire Wire Line
 	1290 5100 1160 5100
 Wire Wire Line
 	1160 5100 1160 5210
-NoConn ~ 2160 4700
-NoConn ~ 2160 4800
-NoConn ~ 2160 4900
-NoConn ~ 2160 5000
-NoConn ~ 2160 5400
-Text GLabel 1980 5500 0    60   Input ~ 0
-ADC_INT
 Wire Wire Line
 	2160 5500 1980 5500
-Text GLabel 3800 3700 2    54   BiDi ~ 0
-FPGA_78
-Text GLabel 3800 3800 2    54   BiDi ~ 0
-FPGA_79
-Text GLabel 3800 3900 2    54   BiDi ~ 0
-FPGA_80
-Text GLabel 3800 4000 2    54   BiDi ~ 0
-FPGA_81
-Text GLabel 3800 4100 2    54   BiDi ~ 0
-FPGA_87
-Text GLabel 3800 4200 2    54   BiDi ~ 0
-FPGA_88
 Wire Wire Line
 	3800 3700 3560 3700
 Wire Wire Line
@@ -342,33 +466,10 @@ Wire Wire Line
 	3800 4100 3560 4100
 Wire Wire Line
 	3800 4200 3560 4200
-Text GLabel 3800 4300 2    54   BiDi ~ 0
-ADC_SDA
-Text GLabel 3800 4400 2    54   Output ~ 0
-ADC_SCL
 Wire Wire Line
 	3800 4300 3560 4300
 Wire Wire Line
 	3800 4400 3560 4400
-NoConn ~ 3560 5500
-NoConn ~ 3560 5400
-NoConn ~ 3560 5300
-Text GLabel 3800 4500 2    54   Output ~ 0
-LED0
-Text GLabel 3800 4600 2    54   Output ~ 0
-LED1
-Text GLabel 3800 4700 2    54   Output ~ 0
-LED2
-Text GLabel 3800 4800 2    54   Output ~ 0
-LED0
-Text GLabel 3800 4900 2    54   Output ~ 0
-LED3
-Text GLabel 3800 5000 2    54   Output ~ 0
-LED4
-Text GLabel 3800 5100 2    54   Output ~ 0
-LED5
-Text GLabel 3800 5200 2    54   Output ~ 0
-LED7
 Wire Wire Line
 	3800 4500 3560 4500
 Wire Wire Line
@@ -385,4 +486,100 @@ Wire Wire Line
 	3560 5100 3800 5100
 Wire Wire Line
 	3800 5200 3560 5200
+Wire Wire Line
+	6120 910  6120 1060
+Wire Wire Line
+	6120 1470 6120 1360
+Wire Wire Line
+	6690 1350 6690 1470
+Wire Wire Line
+	6120 990  7490 990 
+Connection ~ 6120 990 
+Wire Wire Line
+	6690 1050 6690 990 
+Connection ~ 6690 990 
+Wire Wire Line
+	7250 1090 7250 990 
+Connection ~ 7250 990 
+Wire Wire Line
+	9250 990  8890 990 
+Wire Wire Line
+	9250 1090 8890 1090
+Wire Wire Line
+	8890 1190 9260 1190
+Wire Wire Line
+	9260 1290 8890 1290
+Wire Wire Line
+	8890 1390 9260 1390
+Wire Wire Line
+	9260 1490 8890 1490
+Wire Wire Line
+	7490 1090 7250 1090
+Wire Wire Line
+	7490 2090 5760 2090
+Wire Wire Line
+	5750 1820 5750 1890
+Wire Wire Line
+	5750 1890 5960 1890
+Wire Wire Line
+	5960 2190 5760 2190
+Wire Wire Line
+	6250 2190 7490 2190
+Wire Wire Line
+	6250 1890 6530 1890
+Connection ~ 6530 2090
+$Comp
+L +3V3 #PWR?
+U 1 1 57438C3B
+P 5750 2480
+F 0 "#PWR?" H 5750 2330 50  0001 C CNN
+F 1 "+3V3" H 5750 2620 50  0000 C CNN
+F 2 "" H 5750 2480 50  0000 C CNN
+F 3 "" H 5750 2480 50  0000 C CNN
+	1    5750 2480
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 57438C6A
+P 6110 2570
+F 0 "R3" V 6060 2670 50  0000 C CNN
+F 1 "10k±5% 0.063w" V 6190 2690 39  0000 C CNN
+F 2 "" V 6040 2570 50  0000 C CNN
+F 3 "" H 6110 2570 50  0000 C CNN
+	1    6110 2570
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5750 2480 5750 2570
+Wire Wire Line
+	5750 2570 5960 2570
+Text GLabel 5750 2770 0    54   Input ~ 0
+FPGA_RESET
+Wire Wire Line
+	6530 2770 5750 2770
+Wire Wire Line
+	6250 2570 6530 2570
+Connection ~ 6530 2570
+Wire Wire Line
+	6530 1890 6530 2090
+Wire Wire Line
+	6530 2190 6530 2770
+Connection ~ 6530 2190
+NoConn ~ 7480 1890
+NoConn ~ 7490 1790
+Text GLabel 8960 2850 2    54   BiDi ~ 0
+FPGA_49_GBIN5
+Text GLabel 8960 2950 2    54   BiDi ~ 0
+FPGA_50_GBIN4
+Wire Wire Line
+	8960 2850 7490 2850
+Wire Wire Line
+	7490 2850 7490 2490
+Wire Wire Line
+	7490 2390 7380 2390
+Wire Wire Line
+	7380 2390 7380 2950
+Wire Wire Line
+	7380 2950 8960 2950
 $EndSCHEMATC
