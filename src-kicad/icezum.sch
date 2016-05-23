@@ -1,6 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
 LIBS:transistors
 LIBS:conn
 LIBS:linear
