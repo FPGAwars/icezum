@@ -1,4 +1,4 @@
-update=lun 23 may 2016 09:16:25 CEST
+update=lun 23 may 2016 19:37:27 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,4 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=library/icezum
+LibName31=Lattice
