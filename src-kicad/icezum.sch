@@ -1,5 +1,6 @@
 EESchema Schematic File Version 2
 LIBS:icezum
+LIBS:power
 LIBS:icezum-cache
 EELAYER 25 0
 EELAYER END
