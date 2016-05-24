@@ -5,4 +5,9 @@ D Dual High Speed USB to Multipurpose UART/FIFO IC
 F http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT2232H.pdf
 $ENDCMP
 #
+$CMP N25Q032A
+D Serial flash memory 32Mbits
+F https://www.micron.com/~/media/documents/products/data-sheet/nor-flash/serial-nor/n25q/n25q_32mb_3v_65nm.pdf
+$ENDCMP
+#
 #End Doc Library
