@@ -287,10 +287,10 @@ F 5 "16V" H 9590 5580 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDREF #PWR?
+L GNDREF #PWR041
 U 1 1 5745D59B
 P 9500 6050
-F 0 "#PWR?" H 9500 5800 50  0001 C CNN
+F 0 "#PWR041" H 9500 5800 50  0001 C CNN
 F 1 "GNDREF" H 9500 5900 50  0001 C CNN
 F 2 "" H 9500 6050 50  0000 C CNN
 F 3 "" H 9500 6050 50  0000 C CNN
@@ -317,10 +317,10 @@ F 5 "16V" H 9890 5280 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDREF #PWR?
+L GNDREF #PWR042
 U 1 1 5745D678
 P 9800 5700
-F 0 "#PWR?" H 9800 5450 50  0001 C CNN
+F 0 "#PWR042" H 9800 5450 50  0001 C CNN
 F 1 "GNDREF" H 9800 5550 50  0001 C CNN
 F 2 "" H 9800 5700 50  0000 C CNN
 F 3 "" H 9800 5700 50  0000 C CNN
@@ -373,10 +373,10 @@ F 5 "16V" H 10790 5580 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDREF #PWR?
+L GNDREF #PWR043
 U 1 1 5745DAE2
 P 10100 6050
-F 0 "#PWR?" H 10100 5800 50  0001 C CNN
+F 0 "#PWR043" H 10100 5800 50  0001 C CNN
 F 1 "GNDREF" H 10100 5900 50  0001 C CNN
 F 2 "" H 10100 6050 50  0000 C CNN
 F 3 "" H 10100 6050 50  0000 C CNN
@@ -384,10 +384,10 @@ F 3 "" H 10100 6050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDREF #PWR?
+L GNDREF #PWR044
 U 1 1 5745DB0E
 P 10700 6050
-F 0 "#PWR?" H 10700 5800 50  0001 C CNN
+F 0 "#PWR044" H 10700 5800 50  0001 C CNN
 F 1 "GNDREF" H 10700 5900 50  0001 C CNN
 F 2 "" H 10700 6050 50  0000 C CNN
 F 3 "" H 10700 6050 50  0000 C CNN
@@ -395,10 +395,10 @@ F 3 "" H 10700 6050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDREF #PWR?
+L GNDREF #PWR045
 U 1 1 5745DB3A
 P 10400 5700
-F 0 "#PWR?" H 10400 5450 50  0001 C CNN
+F 0 "#PWR045" H 10400 5450 50  0001 C CNN
 F 1 "GNDREF" H 10400 5550 50  0001 C CNN
 F 2 "" H 10400 5700 50  0000 C CNN
 F 3 "" H 10400 5700 50  0000 C CNN
@@ -467,4 +467,273 @@ Wire Notes Line
 	7100 4550 7100 4350
 Wire Notes Line
 	7100 4350 6550 4350
+$Comp
+L 1x8_female_pin_Header_2.54mm J10
+U 1 1 5745F398
+P 4050 1950
+F 0 "J10" V 4200 2900 60  0000 C CNN
+F 1 "1x8_female_pin_Header_2.54mm" H 4400 1750 60  0001 C CNN
+F 2 "" H 4050 2500 60  0000 C CNN
+F 3 "" H 4050 2500 60  0000 C CNN
+	1    4050 1950
+	0    -1   -1   0   
+$EndComp
+Text Notes 3050 1650 0    49   ~ 0
+1x8 female pin Header 2.54mm
+Wire Wire Line
+	4050 1950 4050 2050
+Wire Wire Line
+	3950 2050 3950 1950
+Wire Wire Line
+	3850 2050 3850 1950
+Wire Wire Line
+	3750 2050 3750 1950
+Wire Wire Line
+	3650 2050 3650 1950
+Wire Wire Line
+	3550 2050 3550 1950
+Wire Wire Line
+	3450 2050 3450 1950
+Wire Wire Line
+	3350 2050 3350 1950
+Text Label 3950 2000 0    39   ~ 0
+D1
+Text Label 3850 2000 0    39   ~ 0
+D2
+Text Label 3750 2000 0    39   ~ 0
+D3
+Text Label 3650 2000 0    39   ~ 0
+D4
+Text Label 3550 2000 0    39   ~ 0
+D5
+Text Label 3450 2000 0    39   ~ 0
+D6
+Text Label 3350 2000 0    39   ~ 0
+D7
+Wire Notes Line
+	4770 2700 4750 2680
+Wire Notes Line
+	4770 2700 4750 2720
+Wire Notes Line
+	4710 2750 4690 2730
+Wire Notes Line
+	4710 2750 4690 2770
+$Comp
+L 1x8_male_pin_Header_2.54mm J8
+U 1 1 57474AD5
+P 4050 2250
+F 0 "J8" V 3900 3150 60  0000 C CNN
+F 1 "1x8_male_pin_Header_2.54mm" H 3800 2050 60  0001 C CNN
+F 2 "" H 4050 2800 60  0000 C CNN
+F 3 "" H 4050 2800 60  0000 C CNN
+	1    4050 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4050 2200 4050 2250
+Wire Wire Line
+	2950 2200 4050 2200
+Wire Wire Line
+	3950 2250 3950 2200
+Connection ~ 3950 2200
+Wire Wire Line
+	3850 2250 3850 2200
+Connection ~ 3850 2200
+Wire Wire Line
+	3750 2250 3750 2200
+Connection ~ 3750 2200
+Wire Wire Line
+	3650 2250 3650 2200
+Connection ~ 3650 2200
+Wire Wire Line
+	3550 2250 3550 2200
+Connection ~ 3550 2200
+Wire Wire Line
+	3450 2250 3450 2200
+Connection ~ 3450 2200
+Wire Wire Line
+	3350 2250 3350 2200
+Connection ~ 3350 2200
+$Comp
+L GNDREF #PWR046
+U 1 1 574750DE
+P 2950 2300
+F 0 "#PWR046" H 2950 2050 50  0001 C CNN
+F 1 "GNDREF" H 2950 2150 50  0001 C CNN
+F 2 "" H 2950 2300 50  0000 C CNN
+F 3 "" H 2950 2300 50  0000 C CNN
+	1    2950 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 2200 2950 2300
+Text Label 4050 2000 0    39   ~ 0
+D0
+Text Notes 3000 2600 0    50   ~ 0
+1x8 male pin Header 2.54mm
+Text Notes 4200 2400 0    50   ~ 0
+GND Row
+$Comp
+L 1x8_male_pin_Header_2.54mm J7
+U 1 1 57478068
+P 4050 2850
+F 0 "J7" V 3900 3750 60  0000 C CNN
+F 1 "1x8_male_pin_Header_2.54mm" H 3940 2660 60  0001 C CNN
+F 2 "" H 4050 3400 60  0000 C CNN
+F 3 "" H 4050 3400 60  0000 C CNN
+	1    4050 2850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4050 2850 4050 2800
+Wire Wire Line
+	4050 2800 2950 2800
+Wire Wire Line
+	2950 2800 2950 2750
+Wire Wire Line
+	3950 2850 3950 2800
+Connection ~ 3950 2800
+Wire Wire Line
+	3850 2850 3850 2800
+Connection ~ 3850 2800
+Wire Wire Line
+	3750 2850 3750 2800
+Connection ~ 3750 2800
+Wire Wire Line
+	3650 2850 3650 2800
+Connection ~ 3650 2800
+Wire Wire Line
+	3550 2850 3550 2800
+Connection ~ 3550 2800
+Wire Wire Line
+	3450 2850 3450 2800
+Connection ~ 3450 2800
+Wire Wire Line
+	3350 2850 3350 2800
+Connection ~ 3350 2800
+Text Notes 4200 3000 0    50   ~ 0
+VCC Row
+Text Notes 3000 3200 0    50   ~ 0
+1x8 male pin Header 2.54mm
+$Comp
+L 1x8_male_pin_Header_2.54mm J9
+U 1 1 574794C1
+P 4050 3450
+F 0 "J9" V 3900 4350 60  0000 C CNN
+F 1 "1x8_male_pin_Header_2.54mm" H 3940 3260 60  0001 C CNN
+F 2 "" H 4050 4000 60  0000 C CNN
+F 3 "" H 4050 4000 60  0000 C CNN
+	1    4050 3450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4050 3300 4050 3450
+Text Label 4050 3400 0    39   ~ 0
+D0
+Text Notes 4200 3600 0    50   ~ 0
+GPIO Row
+Wire Notes Line
+	4300 2400 4300 2650
+Wire Notes Line
+	4300 2650 4700 2650
+Wire Notes Line
+	4300 2900 4300 2700
+Wire Notes Line
+	4300 2700 4700 2700
+Wire Notes Line
+	4600 2750 4600 3550
+Wire Notes Line
+	4600 2750 4700 2750
+Wire Notes Line
+	4830 2650 4810 2630
+Wire Notes Line
+	4830 2650 4810 2670
+Wire Notes Line
+	4690 2700 4770 2700
+Wire Notes Line
+	4690 2650 4830 2650
+Text Notes 3000 3800 0    50   ~ 0
+1x8 male pin Header 2.54mm
+$Comp
+L 1x8_pin_female_header_DOC doc1
+U 1 1 5747B28F
+P 4750 1950
+F 0 "doc1" H 5200 1880 60  0001 C CNN
+F 1 "1x8_pin_female_header_DOC" H 5200 2450 60  0001 C CNN
+F 2 "" H 4600 2650 60  0000 C CNN
+F 3 "" H 4600 2650 60  0000 C CNN
+	1    4750 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 3x8_pin_male_header_DOC doc2
+U 1 1 5747B380
+P 4750 3100
+F 0 "doc2" H 5180 3010 60  0001 C CNN
+F 1 "3x8_pin_male_header_DOC" H 5270 3670 60  0001 C CNN
+F 2 "" H 4600 3800 60  0000 C CNN
+F 3 "" H 4600 3800 60  0000 C CNN
+	1    4750 3100
+	1    0    0    -1  
+$EndComp
+Text Notes 5600 2050 0    50   ~ 0
+D0
+Text Notes 5480 2050 0    50   ~ 0
+D1
+Text Notes 5350 2050 0    50   ~ 0
+D2
+Text Notes 5230 2050 0    50   ~ 0
+D3
+Text Notes 5120 2050 0    50   ~ 0
+D4
+Text Notes 4990 2050 0    50   ~ 0
+D5
+Text Notes 4870 2050 0    50   ~ 0
+D6
+Text Notes 4750 2050 0    50   ~ 0
+D7
+Text Notes 5530 3200 0    50   ~ 0
+D0
+Text Notes 5420 3200 0    50   ~ 0
+D1
+Text Notes 5300 3200 0    50   ~ 0
+D2
+Text Notes 5190 3200 0    50   ~ 0
+D3
+Text Notes 5080 3200 0    50   ~ 0
+D4
+Text Notes 4970 3200 0    50   ~ 0
+D5
+Text Notes 4860 3200 0    50   ~ 0
+D6
+Text Notes 4750 3200 0    50   ~ 0
+D7
+Wire Wire Line
+	3950 3450 3950 3300
+Wire Wire Line
+	3850 3450 3850 3300
+Wire Wire Line
+	3750 3450 3750 3300
+Wire Wire Line
+	3650 3450 3650 3300
+Wire Wire Line
+	3550 3450 3550 3300
+Wire Wire Line
+	3450 3450 3450 3300
+Wire Wire Line
+	3350 3450 3350 3300
+Text Label 3950 3400 0    39   ~ 0
+D1
+Text Label 3850 3400 0    39   ~ 0
+D2
+Text Label 3750 3400 0    39   ~ 0
+D3
+Text Label 3650 3400 0    39   ~ 0
+D4
+Text Label 3550 3400 0    39   ~ 0
+D5
+Text Label 3450 3400 0    39   ~ 0
+D6
+Text Label 3350 3400 0    39   ~ 0
+D7
 $EndSCHEMATC
