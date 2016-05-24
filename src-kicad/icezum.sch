@@ -5,7 +5,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title "IceZUM Alhambra FPGA board"
 Date "2016-05-23"
 Rev ""
@@ -25,4 +25,10 @@ Text Notes 5200 2450 0    60   ~ 0
 iCE40HX1K
 Text Notes 5350 2250 0    60   ~ 12
 FPGA
+$Sheet
+S 6900 2140 1160 690 
+U 57455C58
+F0 "Arduino sockets" 60
+F1 "arduino-sockets.sch" 60
+$EndSheet
 $EndSCHEMATC

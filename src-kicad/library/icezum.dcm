@@ -10,4 +10,9 @@ D Serial flash memory 32Mbits
 F https://www.micron.com/~/media/documents/products/data-sheet/nor-flash/serial-nor/n25q/n25q_32mb_3v_65nm.pdf
 $ENDCMP
 #
+$CMP iCE40HX1K-TQ144
+D Lattice iCE40 FPGA
+F http://www.latticesemi.com/~/media/LatticeSemi/Documents/DataSheets/iCE/iCE40LPHXFamilyDataSheet.pdf
+$ENDCMP
+#
 #End Doc Library
