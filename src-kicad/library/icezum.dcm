@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +5V
+K POWER, PWR
+$ENDCMP
+#
 $CMP FT2232H
 D Dual High Speed USB to Multipurpose UART/FIFO IC
 F http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT2232H.pdf
@@ -8,6 +12,11 @@ $ENDCMP
 $CMP N25Q032A
 D Serial flash memory 32Mbits
 F https://www.micron.com/~/media/documents/products/data-sheet/nor-flash/serial-nor/n25q/n25q_32mb_3v_65nm.pdf
+$ENDCMP
+#
+$CMP TXB0108
+D 8-Bit Bidirectional Voltage-Level Translator
+F http://www.ti.com/lit/ds/symlink/txb0108.pdf
 $ENDCMP
 #
 $CMP iCE40HX1K-TQ144
