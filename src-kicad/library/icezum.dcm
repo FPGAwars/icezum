@@ -13,6 +13,10 @@ $CMP Inductor
 D Inductor
 $ENDCMP
 #
+$CMP Mosfet_P
+F http://www.diodes.com/_files/datasheets/ds31830.pdf
+$ENDCMP
+#
 $CMP Mosfet_P_DFN-6
 D P-channel enhancement mode mosfet
 F http://www.mouser.com/ds/2/115/DMP3017SFK-364411.pdf
