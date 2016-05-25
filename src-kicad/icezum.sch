@@ -1,12 +1,14 @@
 EESchema Schematic File Version 2
 LIBS:icezum
 LIBS:power
+LIBS:[4]_Power_Supply-cache
+LIBS:[4]_Power_Supply-rescue
 LIBS:icezum-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title "IceZUM Alhambra FPGA board"
 Date "2016-05-23"
 Rev ""
@@ -31,5 +33,11 @@ S 6900 2140 1160 690
 U 57455C58
 F0 "Arduino sockets" 60
 F1 "arduino-sockets.sch" 60
+$EndSheet
+$Sheet
+S 7000 3500 1900 1150
+U 574540C9
+F0 "Power Supply" 60
+F1 "Power-supply.sch" 60
 $EndSheet
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-update=mar 24 may 2016 10:34:26 CEST
+update=mié 25 may 2016 07:53:48 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -31,3 +31,5 @@ LibDir=
 [eeschema/libraries]
 LibName1=library/icezum
 LibName2=power
+LibName3=[4]_Power_Supply-cache
+LibName4=[4]_Power_Supply-rescue
