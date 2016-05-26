@@ -42,6 +42,11 @@ D Step down converter
 F http://www.ti.com/lit/ds/slvsag7c/slvsag7c.pdf
 $ENDCMP
 #
+$CMP TXB0106
+D 8-Bit Bidirectional Voltage-Level Translator
+F http://www.ti.com/lit/ds/symlink/txb0108.pdf
+$ENDCMP
+#
 $CMP TXB0108
 D 8-Bit Bidirectional Voltage-Level Translator
 F http://www.ti.com/lit/ds/symlink/txb0108.pdf
