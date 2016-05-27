@@ -4,12 +4,13 @@ LIBS:power
 LIBS:[4]_Power_Supply-cache
 LIBS:[4]_Power_Supply-rescue
 LIBS:[3]_Connectors_&_IO-cache
+LIBS:[2]_USB_Interface-cache
 LIBS:icezum-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 5
+Sheet 4 6
 Title "Power Supply"
 Date "2016-05-25"
 Rev ""

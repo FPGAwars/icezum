@@ -14,6 +14,11 @@ D 1A low dropout adjustable and fixed-mode regulator with enable
 F http://www.diodes.com/_files/datasheets/AP7361.pdf
 $ENDCMP
 #
+$CMP DSC1001
+D Low-Power Precision CMOS Oscillator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/DSC1001%20Datasheet%20MKQBPD05061001-8.pdf
+$ENDCMP
+#
 $CMP FT2232H
 D Dual High Speed USB to Multipurpose UART/FIFO IC
 F http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT2232H.pdf
