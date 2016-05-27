@@ -4,6 +4,11 @@ $CMP +5V
 K POWER, PWR
 $ENDCMP
 #
+$CMP ADS7924
+D 12-Bit, 4-Channel, MicroPOWER Analog-to-Digital Converter With I2C Interface
+F http://www.ti.com/lit/ds/symlink/ads7924.pdf
+$ENDCMP
+#
 $CMP AP7361_DFN
 D 1A low dropout adjustable and fixed-mode regulator with enable
 F http://www.diodes.com/_files/datasheets/AP7361.pdf
