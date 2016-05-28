@@ -7086,9 +7086,7 @@ Wire Notes Line
 	7500 4200 7500 2100
 Wire Notes Line
 	7500 2100 3000 2100
-Text Notes 9200 4000 0    118  ~ 24
-ARDUINO
-Text Notes 9200 4250 0    118  ~ 24
+Text Notes 9250 3900 0    118  ~ 24
 SOCKETS
 Wire Notes Line
 	5100 3000 5100 3800
@@ -7144,4 +7142,8 @@ Text Notes 3900 850  0    157  ~ 31
 ICEZUM ALHAMBRA BOARD
 Text Notes 4450 1200 0    118  ~ 24
 OpenFPGAs made easy
+Text Notes 9450 4100 0    118  ~ 24
+AND\n
+Text Notes 9250 4300 0    118  ~ 24
+HEADERS\n
 $EndSCHEMATC
