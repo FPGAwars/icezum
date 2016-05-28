@@ -354,9 +354,9 @@ NoConn ~ 10050 2280
 NoConn ~ 10050 2380
 NoConn ~ 10050 2180
 Text GLabel 7670 1980 0    54   Output ~ 0
-iCE_DONE
+iCE_CDONE
 Text GLabel 7670 2080 0    54   Input ~ 0
-iCE_DONE
+iCE_CREST
 $Comp
 L R R2
 U 1 1 57438123
