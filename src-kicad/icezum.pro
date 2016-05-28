@@ -1,4 +1,4 @@
-update=vie 27 may 2016 15:29:32 CEST
+update=sáb 28 may 2016 16:10:50 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -35,3 +35,13 @@ LibName3=[4]_Power_Supply-cache
 LibName4=[4]_Power_Supply-rescue
 LibName5=[3]_Connectors_&_IO-cache
 LibName6=[2]_USB_Interface-cache
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=157
