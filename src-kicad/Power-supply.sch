@@ -1,10 +1,5 @@
 EESchema Schematic File Version 2
 LIBS:icezum
-LIBS:power
-LIBS:[4]_Power_Supply-cache
-LIBS:[4]_Power_Supply-rescue
-LIBS:[3]_Connectors_&_IO-cache
-LIBS:[2]_USB_Interface-cache
 LIBS:icezum-cache
 EELAYER 25 0
 EELAYER END
@@ -281,7 +276,7 @@ L R R37
 U 1 1 5745E758
 P 6100 6950
 F 0 "R37" H 6000 6700 50  0000 C CNN
-F 1 "110k±5% 0.063w" V 6150 6900 39  0000 C CNN
+F 1 "10k±5% 0.063w" V 6150 6900 39  0000 C CNN
 F 2 "" V 6030 6950 50  0000 C CNN
 F 3 "" H 6100 6950 50  0000 C CNN
 	1    6100 6950
@@ -468,17 +463,6 @@ F 3 "" H 2300 3850 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GNDREF #PWR084
-U 1 1 574682D7
-P 2300 3950
-F 0 "#PWR084" H 2300 3700 50  0001 C CNN
-F 1 "GNDREF" H 2300 3800 50  0001 C CNN
-F 2 "" H 2300 3950 50  0000 C CNN
-F 3 "" H 2300 3950 50  0000 C CNN
-	1    2300 3950
-	1    0    0    -1  
-$EndComp
-$Comp
 L Mosfet_P_DFN-6 Q2
 U 1 1 57468888
 P 3650 3150
@@ -494,7 +478,7 @@ L C C62
 U 1 1 57468ABF
 P 2900 3600
 F 0 "C62" V 2750 3550 50  0000 L CNN
-F 1 "10nF" V 3180 3520 50  0000 L CNN
+F 1 "100nF" V 3180 3520 50  0000 L CNN
 F 2 "" H 2938 3450 50  0000 C CNN
 F 3 "" H 2900 3600 50  0000 C CNN
 F 4 "X7R" V 3040 3600 50  0000 C CNN "class"
@@ -964,7 +948,7 @@ F 3 "" H 3600 4400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2900 4200 2900 4400
+	2900 4200 2900 4600
 Connection ~ 2900 4200
 $Comp
 L SPDT_Switch SW3
@@ -1027,7 +1011,7 @@ Wire Wire Line
 NoConn ~ 1300 3250
 Text Notes 650  2900 0    60   ~ 0
 DC Power Input:\nVoltage: 6 - 17V\nCurrent: 3A
-Text Notes 650  5250 0    47   ~ 0
+Text Notes 650  5340 0    47   ~ 0
 * Board powered from JACK:\n     It switches ON/OFF entire board\n\n* Board powered from USB:\n     It switches ON/OFF peripherals power\n     Logic always ON\n\n* Board powered from JACK & USB:\n  Switch OFF:\n      Logic ON / Peripherals OFF,\n      logic powered from USB\n  Switch ON:\n      Logic ON / Peripherals ON,\n      entire board powered from JACK
 Wire Wire Line
 	5200 4650 5250 4650
@@ -1035,21 +1019,15 @@ Wire Wire Line
 	5250 4650 5250 4700
 NoConn ~ 5200 4400
 Wire Wire Line
-	3600 4600 2900 4600
-Text Label 3000 4600 0    47   ~ 9
-5V_P_CTL
-Wire Wire Line
-	2900 4400 3600 4400
-Wire Wire Line
 	4250 4500 4450 4500
-Text Notes 650  4150 0    59   ~ 12
+Text Notes 650  4240 0    59   ~ 12
 PWR Switch operation:
 $Comp
 L AP7361_DFN U10
 U 1 1 5746DF4A
 P 2900 1350
 F 0 "U10" H 3140 1480 60  0000 L BNN
-F 1 "AP7361_DFN" H 3450 1480 60  0000 L BNN
+F 1 "AP7361" H 3660 1480 60  0000 L BNN
 F 2 "" H 3120 1460 60  0000 C CNN
 F 3 "" H 3120 1460 60  0000 C CNN
 	1    2900 1350
@@ -2008,9 +1986,52 @@ F4 7B 29 A8 7A 04 2D 6E 05 E0 44 BD DF EE 95 0C 31 09 98 F5 63 80 97 A8 F0 E3 E4
 F0 50 6C 30 DB 40 6F 41 F8 BF 73 F2 1B B1 70 F2 F3 B0 70 F2 F3 B0 70 F2 F3 B0 70 F2 F3 B0 70 F2 
 F3 F0 1D 79 17 0B BC D0 AE 96 03 B8 3F 0C 6D B8 A2 A8 0B 16 2C 58 B0 60 C1 82 05 0B 16 2C 58 B0 
 60 C1 82 05 0B 16 2C 58 B0 E0 7F 81 FF 00 64 C5 01 8A 14 5C 86 66 00 00 00 00 49 45 4E 44 AE 42 
-60 82 8B 
+60 82 FD 
 EndData
 $EndBitmap
 Text Notes 8650 6400 0    157  ~ 31
 Power Supply Sheet
+Wire Notes Line
+	470  2930 1510 2930
+Wire Notes Line
+	1510 2930 1510 2550
+$Comp
+L GNDREF #PWR084
+U 1 1 574682D7
+P 2300 3950
+F 0 "#PWR084" H 2300 3700 50  0001 C CNN
+F 1 "GNDREF" H 2300 3800 50  0001 C CNN
+F 2 "" H 2300 3950 50  0000 C CNN
+F 3 "" H 2300 3950 50  0000 C CNN
+	1    2300 3950
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	470  4100 2250 4100
+Wire Notes Line
+	2250 4100 2250 5500
+Text Notes 1680 3130 0    39   ~ 0
+4,5,6
+Text Notes 2250 3350 0    39   ~ 0
+3
+Text Notes 2560 3130 0    39   ~ 0
+1,2
+Text Notes 2850 3120 0    39   ~ 0
+1,2
+Text Notes 3660 3130 0    39   ~ 0
+4,5,6
+Text Notes 3230 3350 0    39   ~ 0
+3
+Wire Wire Line
+	3600 4400 3100 4400
+Text Label 3160 4400 0    39   ~ 0
+5V_P_CTL
+Wire Wire Line
+	2900 4600 3600 4600
+Text Notes 5720 6130 0    39   ~ 0
+1,2
+Text Notes 6540 6130 0    39   ~ 0
+4,5,6
+Text Notes 5600 1930 0    47   ~ 0
+NL
 $EndSCHEMATC
