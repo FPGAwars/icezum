@@ -1,4 +1,4 @@
-update=sáb 28 may 2016 16:10:50 CEST
+update=dom 29 may 2016 10:31:08 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,16 +25,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[eeschema]
-version=1
-LibDir=
-[eeschema/libraries]
-LibName1=library/icezum
-LibName2=power
-LibName3=[4]_Power_Supply-cache
-LibName4=[4]_Power_Supply-rescue
-LibName5=[3]_Connectors_&_IO-cache
-LibName6=[2]_USB_Interface-cache
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -45,3 +35,8 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=157
+[eeschema]
+version=1
+LibDir=
+[eeschema/libraries]
+LibName1=library/icezum
