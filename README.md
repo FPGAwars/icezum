@@ -1,7 +1,7 @@
 # Icezum Alhambra
 Arduino/zum compatible **Open FPGA** electronic board.  Synthesize hardware easily, using **only open source tools**
 
-![](ttps://github.com/FPGAwars/icezum/raw/master/doc/images/icezum-rev1-1607-img4.png)
+![](https://github.com/FPGAwars/icezum/raw/master/doc/images/icezum-rev1-1607-img4.png)
 
 ## Features
 
