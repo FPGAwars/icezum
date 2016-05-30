@@ -1,0 +1,1386 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 1052.3622 744.09448"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="icezum-block-diagram.svg">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker6838"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(0.6) rotate(180) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#786e6b;stroke-opacity:1;fill:#786e6b;fill-opacity:1"
+         id="path6840" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker6706"
+       style="overflow:visible;"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path6708"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#786e6b;stroke-opacity:1;fill:#786e6b;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(0.6) rotate(180) translate(0,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Mend"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path4329"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.4) rotate(180) translate(10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Mstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4344"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#786e6b;stroke-opacity:1;fill:#786e6b;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(0.6) translate(0,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="TriangleOutM"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4465"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Send"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker4998"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path5000"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#786e6b;stroke-width:1pt;stroke-opacity:1;fill:#786e6b;fill-opacity:1"
+         transform="scale(0.2) rotate(180) translate(6,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Mend"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path4347"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#786e6b;stroke-opacity:1;fill:#786e6b;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(0.6) rotate(180) translate(0,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Send"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Send"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path4335"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#786e6b;stroke-width:1pt;stroke-opacity:1;fill:#786e6b;fill-opacity:1"
+         transform="scale(0.2) rotate(180) translate(6,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="940.61042"
+     inkscape:cy="-62.258698"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer3"
+     showgrid="false"
+     inkscape:window-width="1855"
+     inkscape:window-height="1056"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="background">
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:5.99999998, 2;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect6981"
+       width="1967.1429"
+       height="1496.2996"
+       x="-10"
+       y="-10.191224"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="diagram"
+     transform="translate(0,-308.26772)"
+     style="display:inline">
+    <rect
+       style="display:inline;opacity:1;fill:#e5dec5;fill-opacity:1;stroke:#786e6b;stroke-width:0.99999988;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4243-5-3-2-92-1-4-8"
+       width="137.7325"
+       height="78.528183"
+       x="1370.2698"
+       y="1358.2941"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="display:inline;opacity:1;fill:#e5dec5;fill-opacity:1;stroke:#786e6b;stroke-width:0.99999988;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4243-5-3-2-92-2-6"
+       width="237.48781"
+       height="78.803986"
+       x="233.99693"
+       y="1438.7759"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="display:inline;opacity:1;fill:#e5dec5;fill-opacity:1;stroke:#786e6b;stroke-width:0.99999988;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4243-5-3-2-92-2-4"
+       width="218.64366"
+       height="80.336372"
+       x="830.99249"
+       y="1198.1399"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="display:inline;opacity:1;fill:#e5dec5;fill-opacity:1;stroke:#786e6b;stroke-width:0.99999976;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4243-5-3-2-9-5-8-0-5-3"
+       width="277.82794"
+       height="79.659073"
+       x="1627.9929"
+       y="839.47363"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="display:inline;opacity:1;fill:#e5dec5;fill-opacity:1;stroke:#786e6b;stroke-width:0.99999976;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4243-5-3-2-9-5-8-0-5"
+       width="277.82794"
+       height="77.661613"
+       x="1627.9929"
+       y="721.62396"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="display:inline;opacity:1;fill:#e5dec5;fill-opacity:1;stroke:#786e6b;stroke-width:0.99999988;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4243-5-3-2-9-5-8-0"
+       width="277.82794"
+       height="80.324875"
+       x="1627.9929"
+       y="601.11078"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="display:inline;opacity:1;fill:#e5dec5;fill-opacity:1;stroke:#786e6b;stroke-width:0.99999976;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4243-5-3-2-9-5-8"
+       width="277.16214"
+       height="99.633591"
+       x="1629.3246"
+       y="441.98038"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="display:inline;opacity:1;fill:#e5dec5;fill-opacity:1;stroke:#786e6b;stroke-width:0.99999976;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4243-5-3-2-9-5"
+       width="198.59358"
+       height="99.633591"
+       x="1329.0331"
+       y="441.31458"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="display:inline;opacity:1;fill:#e5dec5;fill-opacity:1;stroke:#786e6b;stroke-width:0.99999988;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4243-5-3-2-9"
+       width="277.82797"
+       height="82.322334"
+       x="1628.6589"
+       y="321.46738"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="display:inline;opacity:1;fill:#e5dec5;fill-opacity:1;stroke:#786e6b;stroke-width:0.99999988;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4243-5-3-2"
+       width="157.97763"
+       height="98.301964"
+       x="672.51953"
+       y="820.16492"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#786e6b;stroke-width:3.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 112.8534,641.59328 79.56799,0"
+       id="path4312"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="display:inline;opacity:1;fill:#e5dec5;fill-opacity:1;stroke:#786e6b;stroke-width:0.99999988;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4243-5-3"
+       width="98.419319"
+       height="78.763588"
+       x="14.788511"
+       y="601.4762"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="opacity:1;fill:#e5dec5;fill-opacity:1;stroke:#786e6b;stroke-width:0.99999988;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4243"
+       width="160.07768"
+       height="79.565895"
+       x="212.6665"
+       y="362.17102"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="opacity:1;fill:#b6d9b2;fill-opacity:1;stroke:#000000;stroke-width:0.99999988;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4172"
+       width="323.59598"
+       height="603.23083"
+       x="909.45435"
+       y="321.18536"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:46.05846786px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1010.0433"
+       y="634.41211"
+       id="text4150"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0000133,0.99998671)"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4152"
+         x="1010.0433"
+         y="634.41211"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium'">FPGA</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.53649521px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="992.06274"
+       y="695.82025"
+       id="text4150-4"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0000133,0.99998671)"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4152-3"
+         x="992.06274"
+         y="695.82025"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium'">iCE40HX1K</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.2319603px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="247.91986"
+       y="410.21176"
+       id="text4150-4-1"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0000133,0.99998671)"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4152-3-4"
+         x="247.91986"
+         y="410.21176"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';fill:#333333">12 MHz</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.23646545px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="252.58209"
+       y="655.52844"
+       id="text4150-4-1-9"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0000133,0.99998671)"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4152-3-4-0"
+         x="252.58209"
+         y="655.52844"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium'">FTDI</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.85301399px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="37.429142"
+       y="649.34778"
+       id="text4150-4-1-9-6"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0000133,0.99998671)"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4152-3-4-0-2"
+         x="37.429142"
+         y="649.34778"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';fill:#333333">USB</tspan></text>
+    <rect
+       style="display:inline;opacity:1;fill:#e5dec5;fill-opacity:1;stroke:#786e6b;stroke-width:0.99999988;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4243-5"
+       width="199.6263"
+       height="238.22691"
+       x="192.69717"
+       y="521.77356"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       id="g5424"
+       transform="matrix(1.864339,0,0,1.8642894,761.6388,-289.2435)"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#786e6b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3.99999976;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+         d="m -251.30664,390.00524 c -1.10381,0.0172 -1.98495,0.92548 -1.96875,2.0293 l 0,38.60218 c -0.0382,2.70464 4.03824,2.70464 4,0 l 0,-38.60218 c 0.0165,-1.1283 -0.90296,-2.04694 -2.03125,-2.0293 z"
+         id="path4314"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccccc" />
+      <path
+         style="fill:#786e6b;fill-opacity:1;fill-rule:evenodd;stroke:#786e6b;stroke-width:0.2145561pt;stroke-linejoin:round;stroke-opacity:1"
+         d="m -251.27616,434.60114 -6.75,-8.57214 13.58929,0 z"
+         id="path5430"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccc" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.69585419px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="252.54391"
+       y="655.83417"
+       id="text4150-4-1-2"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0000133,0.99998671)"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4152-3-4-9"
+         x="252.54391"
+         y="655.83417"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';fill:#333333">FTDI</tspan></text>
+    <path
+       sodipodi:nodetypes="cccccc"
+       inkscape:connector-curvature="0"
+       id="path4314-5"
+       d="m 369.98247,402.09912 c 0.0322,2.05781 1.72541,3.70051 3.78331,3.67032 l 527.83582,0 c 5.04234,0.0712 5.04234,-7.52845 0,-7.45717 l -527.83582,0 c -2.10354,-0.0307 -3.81619,1.68337 -3.78331,3.78685 z"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#786e6b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3.99999976;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path5430-7"
+       d="m 908.99259,402.04226 -15.98136,12.58396 0,-25.33437 z"
+       style="fill:#786e6b;fill-opacity:1;fill-rule:evenodd;stroke:#786e6b;stroke-width:0.39999988pt;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="cccccc"
+       inkscape:connector-curvature="0"
+       id="path4314-5-4"
+       d="m 396.42778,561.22952 c 0.0305,2.05783 1.64019,3.70053 3.59642,3.67032 l 501.76417,0 c 4.79334,0.0712 4.79334,-7.52845 0,-7.45715 l -501.76417,0 c -1.99961,-0.0307 -3.6277,1.68337 -3.59642,3.78683 z"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#786e6b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3.99999976;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path5430-7-1"
+       d="m 908.99259,560.67332 -15.98136,12.58396 0,-25.33437 z"
+       style="display:inline;fill:#786e6b;fill-opacity:1;fill-rule:evenodd;stroke:#786e6b;stroke-width:0.39999988pt;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path5430-7-1-1"
+       d="m 390.43459,560.67332 15.98137,12.58396 0,-25.33437 z"
+       style="display:inline;fill:#786e6b;fill-opacity:1;fill-rule:evenodd;stroke:#786e6b;stroke-width:0.39999988pt;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.93983269px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#786e6b;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="633.92804"
+       y="553.79889"
+       id="text4150-4-1-7"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0000133,0.99998671)"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4152-3-4-06"
+         x="633.92804"
+         y="553.79889"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';fill:#786e6b">Serial</tspan></text>
+    <path
+       sodipodi:nodetypes="cccccc"
+       inkscape:connector-curvature="0"
+       id="path4314-5-4-9"
+       d="m 396.42778,720.35991 c 0.0305,2.05784 1.64019,3.70054 3.59642,3.67033 l 501.76417,0 c 4.79334,0.0712 4.79334,-7.52845 0,-7.45716 l -501.76417,0 c -1.99961,-0.0307 -3.6277,1.68338 -3.59642,3.78683 z"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#786e6b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3.99999976;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path5430-7-1-7"
+       d="m 908.99259,719.80372 -15.98136,12.58396 0,-25.33438 z"
+       style="display:inline;fill:#786e6b;fill-opacity:1;fill-rule:evenodd;stroke:#786e6b;stroke-width:0.39999988pt;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path5430-7-1-1-2"
+       d="m 390.43459,719.80372 15.98137,12.58396 0,-25.33438 z"
+       style="display:inline;fill:#786e6b;fill-opacity:1;fill-rule:evenodd;stroke:#786e6b;stroke-width:0.39999988pt;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.93983269px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#786e6b;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="633.92804"
+       y="712.9314"
+       id="text4150-4-1-7-7"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0000133,0.99998671)"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4152-3-4-06-9"
+         x="633.92804"
+         y="712.9314"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';fill:#786e6b">SPI</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.7929039px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="707.07446"
+       y="860.36346"
+       id="text4150-4-1-2-8"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0000133,0.99998671)"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4152-3-4-9-2"
+         x="707.07446"
+         y="860.36346"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';fill:#333333">Config.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.85033989px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="704.67334"
+       y="893.16425"
+       id="text4150-4-1-2-8-0"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0000133,0.99998671)"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4152-3-4-9-2-5"
+         x="704.67334"
+         y="893.16425"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';fill:#333333">Memory</tspan></text>
+    <path
+       sodipodi:nodetypes="cccccc"
+       inkscape:connector-curvature="0"
+       id="path4314-1"
+       d="m 751.45809,720.55712 c -2.05787,0.036 -3.70063,1.93474 -3.67042,4.24234 l 0,80.69903 c -0.0712,5.65411 7.52865,5.65411 7.45736,0 l 0,-80.69903 c 0.0307,-2.35876 -1.68342,-4.27922 -3.78694,-4.24234 z"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#786e6b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3.99999976;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path5430-6"
+       d="m 751.5149,821.35186 -12.58428,-15.98094 25.33504,0 z"
+       style="fill:#786e6b;fill-opacity:1;fill-rule:evenodd;stroke:#786e6b;stroke-width:0.39999988pt;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.50260162px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1684.6028"
+       y="370.81046"
+       id="text4150-4-1-2-8-8"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0000133,0.99998671)"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4152-3-4-9-2-6"
+         x="1684.6028"
+         y="370.81046"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';fill:#333333">GPIO 3.3V (x8)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.95829964px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1431.5049"
+       y="480.39209"
+       id="text4150-4-1-2-8-8-8"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0000133,0.99998671)"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4152-3-4-9-2-6-9"
+         x="1431.5049"
+         y="480.39209"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;text-anchor:middle;fill:#333333">Level</tspan><tspan
+         sodipodi:role="line"
+         x="1431.5049"
+         y="512.83997"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;text-anchor:middle;fill:#333333"
+         id="tspan5679">Translators</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.95829964px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1763.8969"
+       y="485.57101"
+       id="text4150-4-1-2-8-8-8-1"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0000133,0.99998671)"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4152-3-4-9-2-6-9-5"
+         x="1763.8969"
+         y="485.57101"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;text-anchor:middle;fill:#333333">Arduino Sockets</tspan><tspan
+         sodipodi:role="line"
+         x="1763.8969"
+         y="518.01892"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;text-anchor:middle;fill:#333333"
+         id="tspan5679-0">(5V GPIO)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.52319908px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1682.5258"
+       y="649.25928"
+       id="text4150-4-1-2-8-8-5"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0000133,0.99998671)"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4152-3-4-9-2-6-5"
+         x="1682.5258"
+         y="649.25928"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';fill:#333333">User LEDs (x8)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.52319908px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1655.8927"
+       y="768.4422"
+       id="text4150-4-1-2-8-8-5-8"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0000133,0.99998671)"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4152-3-4-9-2-6-5-2"
+         x="1655.8927"
+         y="768.4422"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';fill:#333333">User Switches (x2)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.812603px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1639.311"
+       y="889.737"
+       id="text4150-4-1-2-8-8-5-8-9"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0000133,0.99998671)"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4152-3-4-9-2-6-5-2-2"
+         x="1639.311"
+         y="889.737"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';fill:#333333">12bit, 4-Channel ADC</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.93983269px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#786e6b;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1389.641"
+       y="872.72974"
+       id="text4150-4-1-7-7-3"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0000133,0.99998671)"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4152-3-4-06-9-0"
+         x="1389.641"
+         y="872.72974"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';fill:#786e6b">I2C</tspan></text>
+    <path
+       sodipodi:nodetypes="cccccc"
+       inkscape:connector-curvature="0"
+       id="path4314-5-4-8"
+       d="m 1239.1896,362.55014 c 0.023,2.05784 1.2244,3.70053 2.6848,3.67032 l 374.5833,0 c 3.5784,0.0712 3.5784,-7.52845 0,-7.45715 l -374.5833,0 c -1.4928,-0.0307 -2.7082,1.68338 -2.6848,3.78683 z"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#786e6b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3.99999976;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path5430-7-1-4"
+       d="m 1629.3422,361.99395 -15.9814,12.58396 0,-25.33437 z"
+       style="display:inline;fill:#786e6b;fill-opacity:1;fill-rule:evenodd;stroke:#786e6b;stroke-width:0.39999988pt;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path5430-7-1-1-3"
+       d="m 1233.1965,361.99395 15.9814,12.58396 0,-25.33437 z"
+       style="display:inline;fill:#786e6b;fill-opacity:1;fill-rule:evenodd;stroke:#786e6b;stroke-width:0.39999988pt;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="cccccc"
+       inkscape:connector-curvature="0"
+       id="path4314-5-4-8-8"
+       d="m 1237.1918,483.06315 c 0.01,2.05782 0.2739,3.70051 0.6006,3.67033 l 83.7862,0 c 0.8004,0.0712 0.8004,-7.52845 0,-7.45718 l -83.7862,0 c -0.334,-0.0307 -0.6058,1.68338 -0.6006,3.78685 z"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#786e6b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3.99999976;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path5430-7-1-4-4"
+       d="m 1328.3846,482.50696 -15.9814,12.58396 0,-25.33437 z"
+       style="display:inline;fill:#786e6b;fill-opacity:1;fill-rule:evenodd;stroke:#786e6b;stroke-width:0.39999988pt;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path5430-7-1-1-3-9"
+       d="m 1231.199,482.50696 15.9813,12.58396 0,-25.33437 z"
+       style="display:inline;fill:#786e6b;fill-opacity:1;fill-rule:evenodd;stroke:#786e6b;stroke-width:0.39999988pt;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="cccccc"
+       inkscape:connector-curvature="0"
+       id="path4314-5-4-8-8-1"
+       d="m 1534.1544,483.06315 c 0.01,2.05782 0.2739,3.70051 0.6005,3.67033 l 83.7863,0 c 0.8004,0.0712 0.8004,-7.52845 0,-7.45718 l -83.7863,0 c -0.3339,-0.0307 -0.6057,1.68338 -0.6005,3.78685 z"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#786e6b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3.99999976;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path5430-7-1-4-4-0"
+       d="m 1625.3471,482.50696 -15.9813,12.58396 0,-25.33437 z"
+       style="display:inline;fill:#786e6b;fill-opacity:1;fill-rule:evenodd;stroke:#786e6b;stroke-width:0.39999988pt;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path5430-7-1-1-3-9-9"
+       d="m 1528.1615,482.50696 15.9814,12.58396 0,-25.33437 z"
+       style="display:inline;fill:#786e6b;fill-opacity:1;fill-rule:evenodd;stroke:#786e6b;stroke-width:0.39999988pt;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="cccccc"
+       inkscape:connector-curvature="0"
+       id="path4314-5-4-8-9"
+       d="m 1239.1896,880.55629 c 0.023,2.05781 1.2244,3.70051 2.6848,3.67032 l 374.5833,0 c 3.5784,0.0712 3.5784,-7.52845 0,-7.45718 l -374.5833,0 c -1.4928,-0.0307 -2.7082,1.68338 -2.6848,3.78686 z"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#786e6b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3.99999976;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path5430-7-1-4-1"
+       d="m 1629.3422,880.00009 -15.9814,12.58393 0,-25.33435 z"
+       style="display:inline;fill:#786e6b;fill-opacity:1;fill-rule:evenodd;stroke:#786e6b;stroke-width:0.39999988pt;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path5430-7-1-1-3-8"
+       d="m 1233.1965,880.00009 15.9814,12.58393 0,-25.33435 z"
+       style="display:inline;fill:#786e6b;fill-opacity:1;fill-rule:evenodd;stroke:#786e6b;stroke-width:0.39999988pt;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="cccccc"
+       inkscape:connector-curvature="0"
+       id="path4314-5-4-8-9-3"
+       d="m 1239.1896,762.04073 c 0.023,2.05782 1.2244,3.70053 2.6848,3.67032 l 374.5833,0 c 3.5784,0.0712 3.5784,-7.52845 0,-7.45715 l -374.5833,0 c -1.4928,-0.0307 -2.7082,1.68338 -2.6848,3.78683 z"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#786e6b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3.99999976;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path5430-7-1-1-3-8-1"
+       d="m 1233.1965,761.48453 15.9814,12.58396 0,-25.33437 z"
+       style="display:inline;fill:#786e6b;fill-opacity:1;fill-rule:evenodd;stroke:#786e6b;stroke-width:0.39999988pt;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="cccccc"
+       inkscape:connector-curvature="0"
+       id="path4314-5-4-8-9-3-8"
+       d="m 1612.6824,642.19357 c -0.023,2.05782 -1.2245,3.70051 -2.6849,3.6703 l -374.5833,0 c -3.5783,0.0712 -3.5783,-7.52842 0,-7.45715 l 374.5833,0 c 1.4928,-0.0307 2.7082,1.68338 2.6849,3.78685 z"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#786e6b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3.99999976;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path5430-7-1-1-3-8-1-1"
+       d="m 1626.9984,641.63738 -15.9814,12.58394 0,-25.33438 z"
+       style="display:inline;fill:#786e6b;fill-opacity:1;fill-rule:evenodd;stroke:#786e6b;stroke-width:0.39999988pt;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       id="g6014"
+       transform="matrix(1.864339,0,0,1.8642894,761.6388,-298.43398)"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         y="802.54907"
+         x="-111.9468"
+         height="42.627392"
+         width="85.241608"
+         id="rect4243-5-3-2-92"
+         style="display:inline;opacity:1;fill:#e5dec5;fill-opacity:1;stroke:#786e6b;stroke-width:0.53639024;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path5993"
+         d="m -102.85714,824.68363 23.214283,0 21.428571,-11.25"
+         style="fill:none;fill-rule:evenodd;stroke:#567700;stroke-width:1.60917079;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path5995"
+         d="m -36.964286,824.68363 -22.589286,0"
+         style="fill:none;fill-rule:evenodd;stroke:#567700;stroke-width:1.60917079;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="3.2142856"
+         cy="824.41571"
+         cx="-59.107143"
+         id="path5997"
+         style="opacity:1;fill:#567700;fill-opacity:1;stroke:#567700;stroke-width:1.60917079;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       transform="matrix(1.864339,0,0,1.8642894,1039.4207,-55.499027)"
+       style="display:inline"
+       id="g6014-3"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         y="802.54907"
+         x="-111.9468"
+         height="42.627392"
+         width="85.241608"
+         id="rect4243-5-3-2-92-1"
+         style="display:inline;opacity:1;fill:#e5dec5;fill-opacity:1;stroke:#786e6b;stroke-width:0.53639024;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path5993-7"
+         d="m -102.85714,824.68363 23.214283,0 21.428571,-11.25"
+         style="fill:none;fill-rule:evenodd;stroke:#567700;stroke-width:1.60917079;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path5995-5"
+         d="m -36.964286,824.68363 -22.589286,0"
+         style="fill:none;fill-rule:evenodd;stroke:#567700;stroke-width:1.60917079;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="3.2142856"
+         cy="824.41571"
+         cx="-59.107143"
+         id="path5997-3"
+         style="opacity:1;fill:#567700;fill-opacity:1;stroke:#567700;stroke-width:1.60917079;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       transform="matrix(1.864339,0,0,1.8642894,1557.319,-297.49239)"
+       style="display:inline"
+       id="g6014-3-2"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         y="802.54907"
+         x="-111.9468"
+         height="42.627392"
+         width="85.241608"
+         id="rect4243-5-3-2-92-1-4"
+         style="display:inline;opacity:1;fill:#e5dec5;fill-opacity:1;stroke:#786e6b;stroke-width:0.53639024;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path5993-7-3"
+         d="m -102.85714,824.68363 23.214283,0 21.428571,-11.25"
+         style="fill:none;fill-rule:evenodd;stroke:#567700;stroke-width:1.60917079;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path5995-5-9"
+         d="m -36.964286,824.68363 -22.589286,0"
+         style="fill:none;fill-rule:evenodd;stroke:#567700;stroke-width:1.60917079;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="3.2142856"
+         cy="824.41571"
+         cx="-59.107143"
+         id="path5997-3-9"
+         style="opacity:1;fill:#567700;fill-opacity:1;stroke:#567700;stroke-width:1.60917079;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <rect
+       style="display:inline;opacity:1;fill:#e5dec5;fill-opacity:1;stroke:#786e6b;stroke-width:0.99999988;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4243-5-3-2-92-2"
+       width="198.86938"
+       height="100.11015"
+       x="233.99693"
+       y="1199.0815"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.52883148px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="270.45029"
+       y="1240.1721"
+       id="text4150-4-1-4"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0000133,0.99998671)"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4152-3-4-6"
+         x="270.45029"
+         y="1240.1721"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';fill:#333333">DC Socket</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.52883148px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="269.11859"
+       y="1279.4561"
+       id="text4150-4-1-4-5"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0000133,0.99998671)"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4152-3-4-6-6"
+         x="269.11859"
+         y="1279.4561"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';fill:#333333">6 - 17V, 3A</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#786e6b;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 433.04903,1239.1814 119.85038,0"
+       id="path6156"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#786e6b;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 710.8309,1239.1814 119.85035,0"
+       id="path6156-6"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.52883148px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="853.98199"
+       y="1247.795"
+       id="text4150-4-1-4-4"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0000133,0.99998671)"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4152-3-4-6-9"
+         x="853.98199"
+         y="1247.795"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';fill:#333333">DC/DC 5V-3A</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.52883148px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="253.13879"
+       y="1487.8596"
+       id="text4150-4-1-4-7"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0000133,0.99998671)"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4152-3-4-6-97"
+         x="253.13879"
+         y="1487.8596"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';fill:#333333">USB 5V (500mA)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.52883148px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1413.7754"
+       y="1406.4581"
+       id="text4150-4-1-4-4-1"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0000133,0.99998671)"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4152-3-4-6-9-0"
+         x="1413.7754"
+         y="1406.4581"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';fill:#333333">LDO</tspan></text>
+    <rect
+       style="display:inline;opacity:1;fill:#e5dec5;fill-opacity:1;stroke:#786e6b;stroke-width:0.99999988;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4243-5-3-2-92-1-4-8-2"
+       width="137.7325"
+       height="78.528183"
+       x="1370.2698"
+       y="1517.4244"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.52883148px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1413.7754"
+       y="1565.5907"
+       id="text4150-4-1-4-4-1-0"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0000133,0.99998671)"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4152-3-4-6-9-0-2"
+         x="1413.7754"
+         y="1565.5907"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';fill:#333333">LDO</tspan></text>
+    <rect
+       style="display:inline;opacity:1;fill:#e5dec5;fill-opacity:1;stroke:#786e6b;stroke-width:0.99999988;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4243-5-3-2-92-1-4-8-2-3"
+       width="137.7325"
+       height="78.528183"
+       x="1370.2698"
+       y="1676.5548"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.52883148px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1413.7754"
+       y="1724.723"
+       id="text4150-4-1-4-4-1-0-4"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0000133,0.99998671)"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4152-3-4-6-9-0-2-8"
+         x="1413.7754"
+         y="1724.723"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';fill:#333333">LDO</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.48955917px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1591.5392"
+       y="1208.2662"
+       id="text4150-4-1-4-4-5"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0000133,0.99998671)"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4152-3-4-6-9-2"
+         x="1591.5392"
+         y="1208.2662"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';fill:#333333">5V Peripherals</tspan></text>
+    <ellipse
+       style="opacity:1;fill:#786e6b;fill-opacity:1;stroke:#786e6b;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path6348"
+       cx="1567.677"
+       cy="1198.7902"
+       rx="11.299602"
+       ry="11.2993"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#786e6b;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 1507.4125,1238.8083 60.2645,0 0,-36.7227"
+       id="path6350"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.48955917px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1591.5392"
+       y="1366.4586"
+       id="text4150-4-1-4-4-5-3"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0000133,0.99998671)"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4152-3-4-6-9-2-0"
+         x="1591.5392"
+         y="1366.4586"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';fill:#333333">3.3V</tspan></text>
+    <ellipse
+       style="display:inline;opacity:1;fill:#786e6b;fill-opacity:1;stroke:#786e6b;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path6348-6"
+       cx="1567.677"
+       cy="1358.3927"
+       rx="11.299602"
+       ry="11.2993"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#786e6b;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 1507.4125,1398.4109 60.2645,0 0,-36.7227"
+       id="path6350-9"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <ellipse
+       style="display:inline;opacity:1;fill:#786e6b;fill-opacity:1;stroke:#786e6b;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path6348-6-7"
+       cx="1567.677"
+       cy="1518.9369"
+       rx="11.299602"
+       ry="11.2993"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#786e6b;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 1507.4125,1558.9551 60.2645,0 0,-36.7227"
+       id="path6350-9-1"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.48955917px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1591.5392"
+       y="1527.9465"
+       id="text4150-4-1-4-4-5-3-5"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0000133,0.99998671)"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4152-3-4-6-9-2-0-3"
+         x="1591.5392"
+         y="1527.9465"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';fill:#333333">1.2V</tspan></text>
+    <ellipse
+       style="display:inline;opacity:1;fill:#786e6b;fill-opacity:1;stroke:#786e6b;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path6348-6-7-9"
+       cx="1567.677"
+       cy="1676.656"
+       rx="11.299602"
+       ry="11.2993"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#786e6b;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 1507.4125,1716.6746 60.2645,0 0,-36.7227"
+       id="path6350-9-1-2"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.48955917px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1591.5392"
+       y="1685.6678"
+       id="text4150-4-1-4-4-5-3-5-4"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0000133,0.99998671)"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4152-3-4-6-9-2-0-3-5"
+         x="1591.5392"
+         y="1685.6678"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';fill:#333333">3.3V Ext</tspan></text>
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#786e6b;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 469.66999,1477.5441 362.88026,0"
+       id="path6156-9"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#786e6b;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 1047.4821,1239.2861 302.2892,0"
+       id="path6156-9-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#786e6b;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 1289.1803,1237.2886 0,482.7179"
+       id="path6156-9-3-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#786e6b;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 988.22267,1478.3146 302.28933,0"
+       id="path6156-9-3-8"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#786e6b;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 988.22267,1478.3146 302.28933,0"
+       id="path6156-9-3-8-4"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#786e6b;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 1285.8511,1398.4165 85.2269,0"
+       id="path6156-9-3-8-4-5"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#786e6b;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 1285.8511,1557.5469 85.2269,0"
+       id="path6156-9-3-8-4-5-8"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#786e6b;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 1285.8511,1717.3433 85.2269,0"
+       id="path6156-9-3-8-4-5-8-4"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:31.29417801px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="951.19818"
+       y="1131.5398"
+       id="text4150-4-1-4-4-5-33"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0000133,0.99998671)"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4152-3-4-6-9-2-6"
+         x="951.19818"
+         y="1131.5398"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';fill:#333333">Power Switch</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#786e6b;stroke-width:1.99999976;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:5.99999955, 1.99999984;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#Arrow2Mstart);marker-end:url(#marker6706)"
+       d="m 631.69338,1195.5207 0,-56.5484 796.62192,0 0,58.3436"
+       id="path6586"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#786e6b;stroke-width:1.99999976;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:5.99999991, 1.99999996;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker6838)"
+       d="m 511.1643,1239.7499 0,118.6427 397.36929,0 0,80.0367"
+       id="path6830"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.48955917px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1214.6814"
+       y="1188.2914"
+       id="text4150-4-1-4-4-5-5"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0000133,0.99998671)"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4152-3-4-6-9-2-3"
+         x="1214.6814"
+         y="1188.2914"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';fill:#333333">5V</tspan></text>
+    <ellipse
+       style="display:inline;opacity:1;fill:#786e6b;fill-opacity:1;stroke:#786e6b;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path6348-8"
+       cx="1190.1483"
+       cy="1178.8157"
+       rx="11.299602"
+       ry="11.2993"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#786e6b;stroke-width:2.99999976;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 1189.305,1185.3548 0,53.2654"
+       id="path6156-9-3-8-4-5-0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/obijuan/develop/icezum/src-kicad/images/icezum-block-diagram.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+  </g>
+</svg>
