@@ -24,6 +24,11 @@ D Low-Power Precision CMOS Oscillator
 F http://ww1.microchip.com/downloads/en/DeviceDoc/DSC1001%20Datasheet%20MKQBPD05061001-8.pdf
 $ENDCMP
 #
+$CMP ESDUSB
+D ESD protection for USB 2.0 interfaces
+F http://www.nxp.com/documents/application_note/AN10753.pdf
+$ENDCMP
+#
 $CMP FT2232H
 D Dual High Speed USB to Multipurpose UART/FIFO IC
 F http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT2232H.pdf
