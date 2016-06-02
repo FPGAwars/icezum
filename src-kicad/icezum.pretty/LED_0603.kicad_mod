@@ -24,6 +24,6 @@
   (model ${KIPRJMOD}/packages3d/LED_0603.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 180))
+    (rotate (xyz 0 0 0))
   )
 )
