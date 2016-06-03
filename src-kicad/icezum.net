@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/obijuan/develop/icezum/src-kicad/icezum.sch)
-    (date "jue 02 jun 2016 19:53:17 CEST")
+    (date "vie 03 jun 2016 12:13:02 CEST")
     (tool "Eeschema 4.0.2+e4-6225~38~ubuntu16.04.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -951,6 +951,7 @@
       (tstamp 574A356F))
     (comp (ref R17)
       (value "270R±5% 0.063w")
+      (footprint Icezum:R_Array_Convex_4x0603)
       (libsource (lib icezum) (part Resistor_array_1x4))
       (sheetpath (names /Peripherals/) (tstamps /57489FE9/))
       (tstamp 574A5120))
@@ -980,6 +981,7 @@
       (tstamp 574A8C2D))
     (comp (ref R18)
       (value "270R±5% 0.063w")
+      (footprint Icezum:R_Array_Convex_4x0603)
       (libsource (lib icezum) (part Resistor_array_1x4))
       (sheetpath (names /Peripherals/) (tstamps /57489FE9/))
       (tstamp 574A8C33))
