@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/obijuan/develop/icezum/src-kicad/icezum.sch)
-    (date "vie 03 jun 2016 12:13:02 CEST")
+    (date "vie 03 jun 2016 15:58:16 CEST")
     (tool "Eeschema 4.0.2+e4-6225~38~ubuntu16.04.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1005,6 +1005,7 @@
       (tstamp 574A8C5A))
     (comp (ref SW1)
       (value Switch)
+      (footprint Icezum:SW_SMD_60X3.8)
       (libsource (lib icezum) (part Switch))
       (sheetpath (names /Peripherals/) (tstamps /57489FE9/))
       (tstamp 574ACE03))
@@ -1018,6 +1019,7 @@
       (tstamp 574AD7AC))
     (comp (ref SW2)
       (value Switch)
+      (footprint Icezum:SW_SMD_60X3.8)
       (libsource (lib icezum) (part Switch))
       (sheetpath (names /Peripherals/) (tstamps /57489FE9/))
       (tstamp 574B1682))
