@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/obijuan/develop/icezum/src-kicad/icezum.sch)
-    (date "lun 06 jun 2016 16:47:56 CEST")
+    (date "lun 06 jun 2016 19:05:05 CEST")
     (tool "Eeschema 4.0.2+e4-6225~38~ubuntu16.04.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -83,6 +83,7 @@
   (components
     (comp (ref C1)
       (value 100nF)
+      (footprint Icezum:C_0402)
       (fields
         (field (name class) X7R)
         (field (name Voltage) 16V))
@@ -91,6 +92,7 @@
       (tstamp 5742E2A9))
     (comp (ref C2)
       (value 100nF)
+      (footprint Icezum:C_0402)
       (fields
         (field (name class) X7R)
         (field (name Voltage) 16V))
@@ -104,6 +106,7 @@
       (tstamp 57436BD0))
     (comp (ref C7)
       (value 100nF)
+      (footprint Icezum:C_0402)
       (fields
         (field (name class) X7R)
         (field (name Voltage) 16V))
@@ -112,6 +115,7 @@
       (tstamp 5743AB85))
     (comp (ref C8)
       (value 100nF)
+      (footprint Icezum:C_0402)
       (fields
         (field (name class) X7R)
         (field (name Voltage) 16V))
@@ -125,6 +129,7 @@
       (tstamp 574319A2))
     (comp (ref C3)
       (value 100nF)
+      (footprint Icezum:C_0402)
       (fields
         (field (name class) X7R)
         (field (name Voltage) 16V))
@@ -133,6 +138,7 @@
       (tstamp 5743685E))
     (comp (ref C4)
       (value 100nF)
+      (footprint Icezum:C_0402)
       (fields
         (field (name class) X7R)
         (field (name Voltage) 16V))
@@ -151,6 +157,7 @@
       (tstamp 57438C6A))
     (comp (ref C5)
       (value 100nF)
+      (footprint Icezum:C_0402)
       (fields
         (field (name class) X7R)
         (field (name Voltage) 16V))
@@ -164,6 +171,7 @@
       (tstamp 574481A7))
     (comp (ref C12)
       (value 100nF)
+      (footprint Icezum:C_0402)
       (fields
         (field (name class) X7R)
         (field (name Voltage) 16V))
@@ -180,6 +188,7 @@
       (tstamp 57449030))
     (comp (ref C13)
       (value 100nF)
+      (footprint Icezum:C_0402)
       (fields
         (field (name class) X7R)
         (field (name Voltage) 16V))
@@ -188,6 +197,7 @@
       (tstamp 57449D9A))
     (comp (ref C14)
       (value 100nF)
+      (footprint Icezum:C_0402)
       (fields
         (field (name class) X7R)
         (field (name Voltage) 16V))
@@ -196,6 +206,7 @@
       (tstamp 5744AF55))
     (comp (ref C15)
       (value 100nF)
+      (footprint Icezum:C_0402)
       (fields
         (field (name class) X7R)
         (field (name Voltage) 16V))
@@ -204,6 +215,7 @@
       (tstamp 5744B001))
     (comp (ref C16)
       (value 100nF)
+      (footprint Icezum:C_0402)
       (fields
         (field (name class) X7R)
         (field (name Voltage) 16V))
@@ -217,6 +229,7 @@
       (tstamp 5744CB9A))
     (comp (ref C9)
       (value 100nF)
+      (footprint Icezum:C_0402)
       (fields
         (field (name class) X7R)
         (field (name Voltage) 16V))
@@ -245,6 +258,7 @@
       (tstamp 57448214))
     (comp (ref C10)
       (value 100nF)
+      (footprint Icezum:C_0402)
       (fields
         (field (name class) X7R)
         (field (name Voltage) 16V))
@@ -258,6 +272,7 @@
       (tstamp 57438596))
     (comp (ref C6)
       (value 100nF)
+      (footprint Icezum:C_0402)
       (fields
         (field (name class) X7R)
         (field (name Voltage) 16V))
@@ -276,6 +291,7 @@
       (tstamp 57458C38))
     (comp (ref C49)
       (value 100nF)
+      (footprint Icezum:C_0402)
       (fields
         (field (name Class) X7R)
         (field (name Voltage) 16V))
@@ -284,6 +300,7 @@
       (tstamp 57459A5D))
     (comp (ref C50)
       (value 100nF)
+      (footprint Icezum:C_0402)
       (fields
         (field (name Class) X7R)
         (field (name Voltage) 16V))
@@ -421,6 +438,7 @@
       (tstamp 5747CB80))
     (comp (ref C36)
       (value 100nF)
+      (footprint Icezum:C_0402)
       (fields
         (field (name Class) X7R)
         (field (name Voltage) 16V))
@@ -429,6 +447,7 @@
       (tstamp 5747E4B0))
     (comp (ref C37)
       (value 100nF)
+      (footprint Icezum:C_0402)
       (fields
         (field (name Class) X7R)
         (field (name Voltage) 16V))
@@ -490,6 +509,7 @@
       (tstamp 5748A3FF))
     (comp (ref C47)
       (value 100nF)
+      (footprint Icezum:C_0402)
       (fields
         (field (name Class) X7R)
         (field (name Voltage) 16V))
@@ -498,6 +518,7 @@
       (tstamp 5748A407))
     (comp (ref C48)
       (value 100nF)
+      (footprint Icezum:C_0402)
       (fields
         (field (name Class) X7R)
         (field (name Voltage) 16V))
@@ -620,6 +641,7 @@
       (tstamp 574580DC))
     (comp (ref C68)
       (value 100nF)
+      (footprint Icezum:C_0402)
       (fields
         (field (name class) X7R)
         (field (name Voltage) 16V))
@@ -889,6 +911,7 @@
       (tstamp 5748E354))
     (comp (ref C46)
       (value 100nF)
+      (footprint Icezum:C_0402)
       (fields
         (field (name Class) X7R)
         (field (name Voltage) 16V))
@@ -897,6 +920,7 @@
       (tstamp 574908C6))
     (comp (ref C45)
       (value 100nF)
+      (footprint Icezum:C_0402)
       (fields
         (field (name Class) X7R)
         (field (name Voltage) 16V))
@@ -1011,6 +1035,7 @@
       (tstamp 574ACE03))
     (comp (ref C34)
       (value 100nF)
+      (footprint Icezum:C_0402)
       (fields
         (field (name Class) X7R)
         (field (name Voltage) 16V))
@@ -1025,6 +1050,7 @@
       (tstamp 574B1682))
     (comp (ref C35)
       (value 100nF)
+      (footprint Icezum:C_0402)
       (fields
         (field (name Class) X7R)
         (field (name Voltage) 16V))
@@ -1072,6 +1098,7 @@
       (tstamp 574C8984))
     (comp (ref C23)
       (value 100nF)
+      (footprint Icezum:C_0402)
       (fields
         (field (name class) X7R)
         (field (name Voltage) 16V))
@@ -1099,6 +1126,7 @@
       (tstamp 574CEB1B))
     (comp (ref C18)
       (value 100nF)
+      (footprint Icezum:C_0402)
       (fields
         (field (name class) X7R)
         (field (name Voltage) 16V))
@@ -1120,6 +1148,7 @@
       (tstamp 574D0D36))
     (comp (ref C25)
       (value 100nF)
+      (footprint Icezum:C_0402)
       (fields
         (field (name class) X7R)
         (field (name Voltage) 16V))
@@ -1128,6 +1157,7 @@
       (tstamp 574D0D47))
     (comp (ref C19)
       (value 100nF)
+      (footprint Icezum:C_0402)
       (fields
         (field (name class) X7R)
         (field (name Voltage) 16V))
@@ -1136,6 +1166,7 @@
       (tstamp 574D2A78))
     (comp (ref C20)
       (value 100nF)
+      (footprint Icezum:C_0402)
       (fields
         (field (name class) X7R)
         (field (name Voltage) 16V))
@@ -1144,6 +1175,7 @@
       (tstamp 574D2BB9))
     (comp (ref C21)
       (value 100nF)
+      (footprint Icezum:C_0402)
       (fields
         (field (name class) X7R)
         (field (name Voltage) 16V))
@@ -1152,6 +1184,7 @@
       (tstamp 574D2C3C))
     (comp (ref C26)
       (value 100nF)
+      (footprint Icezum:C_0402)
       (fields
         (field (name class) X7R)
         (field (name Voltage) 16V))
@@ -1160,6 +1193,7 @@
       (tstamp 574D3492))
     (comp (ref C27)
       (value 100nF)
+      (footprint Icezum:C_0402)
       (fields
         (field (name class) X7R)
         (field (name Voltage) 16V))
@@ -1168,6 +1202,7 @@
       (tstamp 574D355B))
     (comp (ref C28)
       (value 100nF)
+      (footprint Icezum:C_0402)
       (fields
         (field (name class) X7R)
         (field (name Voltage) 16V))
@@ -1176,6 +1211,7 @@
       (tstamp 574D35B7))
     (comp (ref C29)
       (value 100nF)
+      (footprint Icezum:C_0402)
       (fields
         (field (name class) X7R)
         (field (name Voltage) 16V))
@@ -1184,6 +1220,7 @@
       (tstamp 574D3612))
     (comp (ref C30)
       (value 100nF)
+      (footprint Icezum:C_0402)
       (fields
         (field (name class) X7R)
         (field (name Voltage) 16V))
@@ -1231,6 +1268,7 @@
       (tstamp 574949B6))
     (comp (ref C33)
       (value 100nF)
+      (footprint Icezum:C_0402)
       (fields
         (field (name class) X7R)
         (field (name Voltage) 16V))
