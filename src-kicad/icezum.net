@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/obijuan/develop/icezum/src-kicad/icezum.sch)
-    (date "lun 06 jun 2016 12:07:44 CEST")
+    (date "lun 06 jun 2016 16:47:56 CEST")
     (tool "Eeschema 4.0.2+e4-6225~38~ubuntu16.04.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1063,6 +1063,7 @@
       (tstamp 574C7E53))
     (comp (ref C22)
       (value 10nF)
+      (footprint Icezum:C_0603)
       (fields
         (field (name class) X7R)
         (field (name Voltage) 25V))
