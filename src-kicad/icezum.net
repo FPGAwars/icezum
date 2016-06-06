@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/obijuan/develop/icezum/src-kicad/icezum.sch)
-    (date "lun 06 jun 2016 09:17:17 CEST")
+    (date "lun 06 jun 2016 12:07:44 CEST")
     (tool "Eeschema 4.0.2+e4-6225~38~ubuntu16.04.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1224,6 +1224,7 @@
       (tstamp 574E3B0D))
     (comp (ref U5)
       (value 93LC56C)
+      (footprint Icezum:MSOP-8_3x3mm_Pitch0.65mm)
       (libsource (lib icezum) (part 93LC56C))
       (sheetpath (names "/USB communications/") (tstamps /574C0DEC/))
       (tstamp 574949B6))
