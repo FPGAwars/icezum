@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/obijuan/develop/icezum/src-kicad/icezum.sch)
-    (date "mié 08 jun 2016 19:27:31 CEST")
+    (date "mié 08 jun 2016 20:01:46 CEST")
     (tool "Eeschema 4.0.2+e4-6225~38~ubuntu16.04.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -616,6 +616,7 @@
       (tstamp 57454547))
     (comp (ref L4)
       (value Ferrite_Bead)
+      (footprint Icezum:L_0603)
       (fields
         (field (name OrderingCode) BLM18SG121TN1D))
       (libsource (lib icezum) (part Ferrite_Bead))
@@ -1108,6 +1109,7 @@
       (tstamp 574C6F13))
     (comp (ref L2)
       (value BLM18SG121TN1D)
+      (footprint Icezum:L_0603)
       (libsource (lib icezum) (part Inductor))
       (sheetpath (names "/USB communications/") (tstamps /574C0DEC/))
       (tstamp 574C7E53))
@@ -1160,6 +1162,7 @@
       (tstamp 574CF56D))
     (comp (ref L3)
       (value MPZ1608S221A)
+      (footprint Icezum:L_0603)
       (libsource (lib icezum) (part Inductor))
       (sheetpath (names "/USB communications/") (tstamps /574C0DEC/))
       (tstamp 574D0D2C))
