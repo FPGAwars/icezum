@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/obijuan/develop/icezum/src-kicad/icezum.sch)
-    (date "lun 06 jun 2016 19:05:05 CEST")
+    (date "mié 08 jun 2016 16:19:42 CEST")
     (tool "Eeschema 4.0.2+e4-6225~38~ubuntu16.04.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1074,6 +1074,7 @@
       (tstamp 574C0DF5))
     (comp (ref J1)
       (value USB_Micro_Type_B)
+      (footprint Icezum:USB_Micro-B)
       (libsource (lib icezum) (part USB_Micro_Type_B))
       (sheetpath (names "/USB communications/") (tstamps /574C0DEC/))
       (tstamp 574C40B2))
