@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/obijuan/develop/icezum/src-kicad/icezum.sch)
-    (date "jue 09 jun 2016 19:38:35 CEST")
+    (date "vie 10 jun 2016 08:19:17 CEST")
     (tool "Eeschema 4.0.2+e4-6225~38~ubuntu16.04.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -806,7 +806,7 @@
       (sheetpath (names "/Power Supply/") (tstamps /574540C9/))
       (tstamp 57470730))
     (comp (ref TP7)
-      (value TestPoint)
+      (value USB_5V)
       (footprint Icezum:Test_point)
       (libsource (lib icezum) (part TestPoint))
       (sheetpath (names "/Power Supply/") (tstamps /574540C9/))
@@ -1141,6 +1141,7 @@
       (tstamp 574C40B2))
     (comp (ref F2)
       (value ESDUSB)
+      (footprint Icezum:SOT-563)
       (libsource (lib icezum) (part ESDUSB))
       (sheetpath (names "/USB communications/") (tstamps /574C0DEC/))
       (tstamp 574C6F13))
