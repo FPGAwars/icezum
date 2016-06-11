@@ -64,7 +64,7 @@ $ENDCMP
 #
 $CMP TXB0106
 D 8-Bit Bidirectional Voltage-Level Translator
-F http://www.ti.com/lit/ds/symlink/txb0108.pdf
+F http://www.ti.com/lit/ds/symlink/txb0106.pdf
 $ENDCMP
 #
 $CMP TXB0108

@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/obijuan/develop/icezum/src-kicad/icezum.sch)
-    (date "sáb 11 jun 2016 07:58:09 CEST")
+    (date "sáb 11 jun 2016 19:55:20 CEST")
     (tool "Eeschema 4.0.2+e4-6225~38~ubuntu16.04.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -451,6 +451,7 @@
       (tstamp 57478113))
     (comp (ref U6)
       (value TXB0106)
+      (footprint Icezum:VQFN16)
       (libsource (lib icezum) (part TXB0106))
       (sheetpath (names "/Arduino sockets/") (tstamps /57455C58/))
       (tstamp 5747CB80))
@@ -1838,7 +1839,7 @@
         (pin (num 16) (name PGND) (type passive))))
     (libpart (lib icezum) (part TXB0106)
       (description "8-Bit Bidirectional Voltage-Level Translator")
-      (docs http://www.ti.com/lit/ds/symlink/txb0108.pdf)
+      (docs http://www.ti.com/lit/ds/symlink/txb0106.pdf)
       (fields
         (field (name Reference) U)
         (field (name Value) TXB0106))
