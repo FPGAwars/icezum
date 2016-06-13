@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/obijuan/develop/icezum/src-kicad/icezum.sch)
-    (date "lun 13 jun 2016 10:36:07 CEST")
+    (date "lun 13 jun 2016 18:34:01 CEST")
     (tool "Eeschema 4.0.2+e4-6225~38~ubuntu16.04.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -722,6 +722,7 @@
       (tstamp 57465164))
     (comp (ref D10)
       (value SMAJ17CA)
+      (footprint Icezum:DO-214AC)
       (libsource (lib icezum) (part Zener_Bidir_TVS))
       (sheetpath (names "/Power Supply/") (tstamps /574540C9/))
       (tstamp 5746625C))
