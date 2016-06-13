@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/obijuan/develop/icezum/src-kicad/icezum.sch)
-    (date "lun 13 jun 2016 08:44:37 CEST")
+    (date "lun 13 jun 2016 10:36:07 CEST")
     (tool "Eeschema 4.0.2+e4-6225~38~ubuntu16.04.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -785,6 +785,7 @@
       (tstamp 5746CB13))
     (comp (ref Q5)
       (value PMBT3906)
+      (footprint Icezum:SOT-23)
       (libsource (lib icezum) (part PNP))
       (sheetpath (names "/Power Supply/") (tstamps /574540C9/))
       (tstamp 5746DF1D))
@@ -820,6 +821,7 @@
       (tstamp 574715CE))
     (comp (ref Q3)
       (value DMP2035U-7)
+      (footprint Icezum:SOT-23)
       (libsource (lib icezum) (part Mosfet_P))
       (sheetpath (names "/Power Supply/") (tstamps /574540C9/))
       (tstamp 57473D4B))
@@ -831,6 +833,7 @@
       (tstamp 5747571D))
     (comp (ref D11)
       (value BAT54C-G3-08)
+      (footprint Icezum:SOT-23)
       (libsource (lib icezum) (part Dual_Diode_Schottky_BAT54C))
       (sheetpath (names "/Power Supply/") (tstamps /574540C9/))
       (tstamp 57476EE1))
