@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/obijuan/develop/icezum/src-kicad/icezum.sch)
-    (date "lun 13 jun 2016 18:34:01 CEST")
+    (date "mar 14 jun 2016 10:56:24 CEST")
     (tool "Eeschema 4.0.2+e4-6225~38~ubuntu16.04.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -700,6 +700,7 @@
       (tstamp 5745B1E2))
     (comp (ref Q4)
       (value DMP3017)
+      (footprint Icezum:DFN-2523-6)
       (libsource (lib icezum) (part Mosfet_P_DFN-6))
       (sheetpath (names "/Power Supply/") (tstamps /574540C9/))
       (tstamp 5745D3B4))
@@ -728,6 +729,7 @@
       (tstamp 5746625C))
     (comp (ref Q1)
       (value DMP3017)
+      (footprint Icezum:DFN-2523-6)
       (libsource (lib icezum) (part Mosfet_P_DFN-6))
       (sheetpath (names "/Power Supply/") (tstamps /574540C9/))
       (tstamp 57467008))
@@ -739,6 +741,7 @@
       (tstamp 57467CCE))
     (comp (ref Q2)
       (value DMP3017)
+      (footprint Icezum:DFN-2523-6)
       (libsource (lib icezum) (part Mosfet_P_DFN-6))
       (sheetpath (names "/Power Supply/") (tstamps /574540C9/))
       (tstamp 57468888))
