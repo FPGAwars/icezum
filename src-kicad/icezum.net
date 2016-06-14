@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/obijuan/develop/icezum/src-kicad/icezum.sch)
-    (date "mar 14 jun 2016 10:56:24 CEST")
+    (date "mar 14 jun 2016 12:05:59 CEST")
     (tool "Eeschema 4.0.2+e4-6225~38~ubuntu16.04.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -636,6 +636,7 @@
       (tstamp 57454CFA))
     (comp (ref C67)
       (value 10uF)
+      (footprint Icezum:C_1206)
       (fields
         (field (name class) X7R)
         (field (name Voltage) 25V))
@@ -680,6 +681,7 @@
       (tstamp 5745894D))
     (comp (ref C69)
       (value 22uF)
+      (footprint Icezum:C_1206)
       (fields
         (field (name class) X5R)
         (field (name Voltage) 10V))
