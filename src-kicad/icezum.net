@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/obijuan/develop/icezum/src-kicad/icezum.sch)
-    (date "mar 14 jun 2016 12:05:59 CEST")
+    (date "mar 14 jun 2016 18:21:01 CEST")
     (tool "Eeschema 4.0.2+e4-6225~38~ubuntu16.04.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -645,6 +645,7 @@
       (tstamp 5745530E))
     (comp (ref U12)
       (value TPS62133RGTR)
+      (footprint Icezum:QFN16)
       (libsource (lib icezum) (part TPS6213x))
       (sheetpath (names "/Power Supply/") (tstamps /574540C9/))
       (tstamp 574564A3))
@@ -659,6 +660,7 @@
       (tstamp 57456FD8))
     (comp (ref C71)
       (value 620pF)
+      (footprint Icezum:C_0603)
       (fields
         (field (name class) C0G)
         (field (name Voltage) 25V))
@@ -689,7 +691,7 @@
       (sheetpath (names "/Power Supply/") (tstamps /574540C9/))
       (tstamp 5745977B))
     (comp (ref TP1)
-      (value TestPoint)
+      (value 5V)
       (footprint Icezum:Test_point)
       (libsource (lib icezum) (part TestPoint))
       (sheetpath (names "/Power Supply/") (tstamps /574540C9/))
