@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/obijuan/develop/icezum/src-kicad/icezum.sch)
-    (date "jue 16 jun 2016 08:12:49 CEST")
+    (date "jue 16 jun 2016 10:45:27 CEST")
     (tool "Eeschema 4.0.2+e4-6225~38~ubuntu16.04.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -853,6 +853,7 @@
       (tstamp 57478FE3))
     (comp (ref U10)
       (value AP7361)
+      (footprint Icezum:DFN-3030-8)
       (libsource (lib icezum) (part AP7361_DFN))
       (sheetpath (names "/Power Supply/") (tstamps /574540C9/))
       (tstamp 5746DF4A))
@@ -943,6 +944,7 @@
       (tstamp 57488081))
     (comp (ref D12)
       (value White)
+      (footprint Icezum:LED_0603)
       (libsource (lib icezum) (part LED))
       (sheetpath (names "/Power Supply/") (tstamps /574540C9/))
       (tstamp 5748CACF))
