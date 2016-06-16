@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/obijuan/develop/icezum/src-kicad/icezum.sch)
-    (date "jue 16 jun 2016 10:45:27 CEST")
+    (date "jue 16 jun 2016 18:52:45 CEST")
     (tool "Eeschema 4.0.2+e4-6225~38~ubuntu16.04.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -874,6 +874,7 @@
       (tstamp 57472C5E))
     (comp (ref U11)
       (value TLV711)
+      (footprint Icezum:WSON-6)
       (libsource (lib icezum) (part TLV71x))
       (sheetpath (names "/Power Supply/") (tstamps /574540C9/))
       (tstamp 574759F2))
