@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/obijuan/develop/icezum/src-kicad/icezum.sch)
-    (date "vie 17 jun 2016 08:09:55 CEST")
+    (date "vie 17 jun 2016 11:29:40 CEST")
     (tool "Eeschema 4.0.2+e4-6225~38~ubuntu16.04.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -291,6 +291,7 @@
       (tstamp 5743FA65))
     (comp (ref U2)
       (value N25Q032A)
+      (footprint Icezum:DFN-8-6x5mm)
       (libsource (lib icezum) (part N25Q032A))
       (sheetpath (names /FPGA/) (tstamps /5742A672/))
       (tstamp 574426E3))
