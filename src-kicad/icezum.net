@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/obijuan/develop/icezum/src-kicad/icezum.sch)
-    (date "jue 16 jun 2016 18:52:45 CEST")
+    (date "vie 17 jun 2016 08:09:55 CEST")
     (tool "Eeschema 4.0.2+e4-6225~38~ubuntu16.04.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -915,8 +915,7 @@
       (sheetpath (names "/Power Supply/") (tstamps /574540C9/))
       (tstamp 5747AD4F))
     (comp (ref TP4)
-      (value TestPoint)
-      (footprint Icezum:Test_point)
+      (value 3V3X)
       (libsource (lib icezum) (part TestPoint))
       (sheetpath (names "/Power Supply/") (tstamps /574540C9/))
       (tstamp 5747BE6D))
