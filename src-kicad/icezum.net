@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/obijuan/develop/icezum/src-kicad/icezum.sch)
-    (date "vie 17 jun 2016 13:01:22 CEST")
+    (date "sáb 18 jun 2016 12:48:20 CEST")
     (tool "Eeschema 4.0.2+e4-6225~38~ubuntu16.04.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -229,6 +229,7 @@
       (tstamp 5744B0B6))
     (comp (ref D1)
       (value MMDL101T1G)
+      (footprint Icezum:SOD-323)
       (libsource (lib icezum) (part D_Schottky))
       (sheetpath (names /FPGA/) (tstamps /5742A672/))
       (tstamp 5744CB9A))
@@ -297,6 +298,7 @@
       (tstamp 574426E3))
     (comp (ref U9)
       (value TXB0108)
+      (footprint Icezum:VQFN20)
       (libsource (lib icezum) (part TXB0108))
       (sheetpath (names "/Arduino sockets/") (tstamps /57455C58/))
       (tstamp 57458C38))
@@ -530,6 +532,7 @@
       (tstamp 57481CD4))
     (comp (ref U8)
       (value TXS0108)
+      (footprint Icezum:VQFN20)
       (libsource (lib icezum) (part TXB0108))
       (sheetpath (names "/Arduino sockets/") (tstamps /57455C58/))
       (tstamp 5748A3FF))
