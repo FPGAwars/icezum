@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/obijuan/develop/icezum/src-kicad/icezum.sch)
-    (date "sáb 18 jun 2016 12:48:20 CEST")
+    (date "lun 20 jun 2016 08:30:29 CEST")
     (tool "Eeschema 4.0.2+e4-6225~38~ubuntu16.04.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -965,6 +965,7 @@
       (tstamp 5748B0A8))
     (comp (ref U7)
       (value ADS7924)
+      (footprint Icezum:QFN16)
       (libsource (lib icezum) (part ADS7924))
       (sheetpath (names /Peripherals/) (tstamps /57489FE9/))
       (tstamp 5748BFE4))
