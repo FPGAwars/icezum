@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/obijuan/develop/icezum/src-kicad/icezum.sch)
-    (date "mié 22 jun 2016 08:36:16 CEST")
+    (date "mié 22 jun 2016 09:19:36 CEST")
     (tool "Eeschema 4.0.2+e4-6225~38~ubuntu16.04.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -985,6 +985,7 @@
       (tstamp 5748BFE4))
     (comp (ref JP1)
       (value Jumper_3pin)
+      (footprint Icezum:1x03-pin-header-2.54mm)
       (libsource (lib icezum) (part Jumper_3pin))
       (sheetpath (names /Peripherals/) (tstamps /57489FE9/))
       (tstamp 5748CA2F))
