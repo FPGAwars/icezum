@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/obijuan/develop/icezum/src-kicad/icezum.sch)
-    (date "mié 22 jun 2016 15:54:39 CEST")
+    (date "mié 22 jun 2016 19:56:30 CEST")
     (tool "Eeschema 4.0.2+e4-6225~38~ubuntu16.04.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -946,6 +946,7 @@
       (tstamp 5747CEAD))
     (comp (ref SW4)
       (value Switch)
+      (footprint Icezum:SW_vert_tht_7.5x6x6.5)
       (libsource (lib icezum) (part Switch))
       (sheetpath (names "/Power Supply/") (tstamps /574540C9/))
       (tstamp 574867E7))
