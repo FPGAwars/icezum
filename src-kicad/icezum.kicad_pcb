@@ -1,15 +1,15 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.2+e4-6225~38~ubuntu16.04.1-stable)
 
   (general
-    (links 525)
-    (no_connects 525)
+    (links 527)
+    (no_connects 527)
     (area 96.392999 88.772999 165.227001 142.367001)
     (thickness 1.6)
     (drawings 122)
     (tracks 0)
     (zones 0)
-    (modules 177)
-    (nets 238)
+    (modules 178)
+    (nets 239)
   )
 
   (page A4)
@@ -334,6 +334,7 @@
   (net 235 "Net-(U1-Pad137)")
   (net 236 "Net-(J5-Pad1)")
   (net 237 AREF)
+  (net 238 "Net-(J18-Pad2)")
 
   (net_class Default "This is the default net class."
     (clearance 0.2)
@@ -454,6 +455,7 @@
     (add_net "Net-(D7-PadA)")
     (add_net "Net-(D8-PadA)")
     (add_net "Net-(D9-PadA)")
+    (add_net "Net-(J18-Pad2)")
     (add_net "Net-(J5-Pad1)")
     (add_net "Net-(JP1-Pad2)")
     (add_net "Net-(L5-Pad1)")
@@ -3032,7 +3034,7 @@
   )
 
   (module Icezum:C_0603 (layer F.Cu) (tedit 575FCD51) (tstamp 57587671)
-    (at 111.125 131.699 270)
+    (at 111.6965 131.699 270)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /574540C9/57454547)
@@ -5053,7 +5055,7 @@
   )
 
   (module Icezum:C_1206 (layer F.Cu) (tedit 575FD724) (tstamp 575FE3D1)
-    (at 113.2205 132.1435 270)
+    (at 113.665 132.1435 270)
     (descr "Capacitor SMD 1206, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 1206")
     (path /574540C9/5745530E)
@@ -6771,6 +6773,34 @@
       (at (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 -90))
+    )
+  )
+
+  (module Icezum:JACK_2.1 (layer F.Cu) (tedit 576BB7C7) (tstamp 576BBEEE)
+    (at 102.235 133.858)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags "CONN JACK")
+    (path /574540C9/57465164)
+    (fp_text reference J18 (at -5.2705 0.127) (layer Eco2.User)
+      (effects (font (size 0.5 0.5) (thickness 0.04)))
+    )
+    (fp_text value Power_Jack (at -5.08 5.588) (layer Eco2.User) hide
+      (effects (font (size 0.5 0.5) (thickness 0.04)))
+    )
+    (fp_line (start -7.62 5.08) (end -7.62 -4.318) (layer F.SilkS) (width 0.15))
+    (fp_line (start 7.112 -4.318) (end -7.62 -4.318) (layer F.SilkS) (width 0.15))
+    (fp_line (start 7.112 5.08) (end -7.62 5.08) (layer F.SilkS) (width 0.15))
+    (fp_line (start 7.112 5.08) (end 7.112 -4.318) (layer F.SilkS) (width 0.15))
+    (pad 2 thru_hole circle (at 0 0) (size 4.6736 4.6736) (drill 2.54) (layers *.Cu *.Mask F.SilkS)
+      (net 238 "Net-(J18-Pad2)"))
+    (pad 1 thru_hole circle (at 6.35 0) (size 5.334 5.334) (drill 2.54) (layers *.Cu *.Mask F.SilkS)
+      (net 127 "Net-(D10-PadK)"))
+    (pad 3 thru_hole circle (at 3.302 4.826) (size 4.6736 4.6736) (drill 2.54) (layers *.Cu *.Mask F.SilkS)
+      (net 9 GNDREF))
+    (model ${KIPRJMOD}/packages3d/jack-2.1mm.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.3937 0.3937 0.3937))
+      (rotate (xyz 0 0 90))
     )
   )
 
