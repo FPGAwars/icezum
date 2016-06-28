@@ -1,4 +1,4 @@
-update=sáb 25 jun 2016 10:46:00 CEST
+update=lun 27 jun 2016 12:26:07 CEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -16,11 +16,6 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=157
-[eeschema]
-version=1
-LibDir=
-[eeschema/libraries]
-LibName1=library/icezum
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -40,3 +35,9 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.15
 BoardOutlineThickness=0.15
 ModuleOutlineThickness=0.15
+[eeschema]
+version=1
+LibDir=
+[eeschema/libraries]
+LibName1=icezum-rescue
+LibName2=library/icezum
