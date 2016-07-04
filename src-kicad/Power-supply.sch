@@ -1360,13 +1360,13 @@ Wire Notes Line
 $Comp
 L Switch SW4
 U 1 1 574867E7
-P 8000 3250
-F 0 "SW4" H 8200 3400 60  0000 L BNN
-F 1 "Switch" H 8200 3100 60  0000 L BNN
-F 2 "Icezum:SW_vert_tht_7.5x6x6.5" H 8000 3250 60  0001 C CNN
-F 3 "" H 8000 3250 60  0000 C CNN
-	1    8000 3250
-	1    0    0    -1  
+P 8750 3250
+F 0 "SW4" H 9050 3400 60  0000 L BNN
+F 1 "Switch" H 9000 3100 60  0000 L BNN
+F 2 "Icezum:SW_vert_tht_7.5x6x6.5" H 8750 3250 60  0001 C CNN
+F 3 "" H 8750 3250 60  0000 C CNN
+	1    8750 3250
+	-1   0    0    -1  
 $EndComp
 $Comp
 L GNDREF #PWR0104
