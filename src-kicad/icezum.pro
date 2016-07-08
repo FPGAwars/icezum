@@ -1,4 +1,4 @@
-update=mar 05 jul 2016 19:05:14 CEST
+update=vie 08 jul 2016 08:18:36 CEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -6,22 +6,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=157
-[eeschema]
-version=1
-LibDir=
-[eeschema/libraries]
-LibName1=icezum-rescue
-LibName2=library/icezum
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -41,3 +25,18 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.09999999999999999
 BoardOutlineThickness=0.09999999999999999
 ModuleOutlineThickness=0.15
+[eeschema]
+version=1
+LibDir=
+[eeschema/libraries]
+LibName1=library/icezum
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=157
