@@ -1,4 +1,4 @@
-(module VQFN16 (layer F.Cu) (tedit 57760E17)
+(module VQFN16 (layer F.Cu) (tedit 577FDAAA)
   (descr "16-Lead Plastic Quad Flat, No Lead Package (NG) - 3x3x0.9 mm Body [QFN]; (see Microchip Packaging Specification 00000049BS.pdf)")
   (tags "QFN 0.5")
   (attr smd)
