@@ -1,4 +1,4 @@
-update=vie 08 jul 2016 08:18:36 CEST
+update=lun 11 jul 2016 13:23:10 CEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -6,25 +6,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[pcbnew]
-version=1
-PageLayoutDescrFile=
-LastNetListRead=icezum.net
-PadDrill=0
-PadDrillOvalY=0
-PadSizeH=0.6476999999999999
-PadSizeV=0.4064
-PcbTextSizeV=1.5
-PcbTextSizeH=1.5
-PcbTextThickness=0
-ModuleTextSizeV=1
-ModuleTextSizeH=1
-ModuleTextSizeThickness=0.15
-SolderMaskClearance=0.075
-SolderMaskMinWidth=0
-DrawSegmentWidth=0.09999999999999999
-BoardOutlineThickness=0.09999999999999999
-ModuleOutlineThickness=0.15
 [eeschema]
 version=1
 LibDir=
@@ -40,3 +21,22 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=157
+[pcbnew]
+version=1
+PageLayoutDescrFile=
+LastNetListRead=icezum.net
+PadDrill=0
+PadDrillOvalY=0
+PadSizeH=2.5527
+PadSizeV=2.0447
+PcbTextSizeV=1.5
+PcbTextSizeH=1.5
+PcbTextThickness=0
+ModuleTextSizeV=1
+ModuleTextSizeH=1
+ModuleTextSizeThickness=0.15
+SolderMaskClearance=0.075
+SolderMaskMinWidth=0
+DrawSegmentWidth=0.01
+BoardOutlineThickness=0.09999999999999999
+ModuleOutlineThickness=0.15
