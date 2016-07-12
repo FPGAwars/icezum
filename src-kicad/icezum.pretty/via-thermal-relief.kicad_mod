@@ -1,0 +1,10 @@
+(module via-thermal-relief (layer F.Cu) (tedit 57853BC3)
+  (fp_text reference REF** (at 0.14 -3.36) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value via-thermal-relief (at 0.61 2.4) (layer Eco2.User) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad ~ thru_hole circle (at 0 0) (size 0.74 0.74) (drill 0.3) (layers *.Cu *.Mask)
+    (zone_connect 1))
+)
