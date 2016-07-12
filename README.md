@@ -46,6 +46,8 @@ Arduino/zum compatible **Open FPGA** electronic board.  Synthesize hardware easi
 ## Acknowledges
 * Many thanks to [BQ](https://www.bq.com/es/), for funding the initial prototype V1.0, during the period 2015-12-20 to 2016-04-14. Thanks a lot for increasing our technological heritage by sponsoring openhardware boards.
 
+![](https://github.com/FPGAwars/icezum/raw/master/doc/images/bq-logo.png)
+
 ## License
 
 ![](https://github.com/FPGAwars/icezum/raw/master/doc/images/attribution-share-alike-creative-commons-license.png)
