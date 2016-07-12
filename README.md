@@ -28,21 +28,23 @@ Arduino/zum compatible **Open FPGA** electronic board.  Synthesize hardware easi
 
 [The project documentation is located in the wiki](https://github.com/FPGAwars/icezum/wiki)
 
-## Author
+## Authors
 
-* Eladio Delgado Mingorance
+* **V1.0**: Eladio Delgado Mingorance. Sponsored by [BQ](https://www.bq.com/es/)
 
 ## Credits
-
-* María Delgado Mingorance
-* Juan González
-* Design derived from the [zum core board](https://github.com/bq/zum/tree/master/zum-core) by BQ
-* Design derived from the [Icestick](http://www.latticesemi.com/icestick) by Lattice
+* [BQ](https://www.bq.com/es/). Thanks for funding this project from 2015-12-20 to 2016-04-14. During this period, the icezum V1.0 was born and 10 prototypes were manufactured.
+* María Delgado Mingorance, for helping in the manufacturing and design of the V1.0
+* V1.0 was derived from the [zum core board](https://github.com/bq/zum/tree/master/zum-core) by BQ
+* V1.0 was derived from the [Icestick](http://www.latticesemi.com/icestick) by Lattice
 * [Icestorm project](http://www.clifford.at/icestorm/), by Clifford Wolf and Mathias Lasser
 * Icezum Pinout, by [Alberto Piganti](http://www.pighixxx.com/test/2016/05/icezum-pinout/)
-* BQ. Thanks for funding this project from 2015-12-20 to 2016-04-14
 * [Jairo Zerberos](https://github.com/zerberros). Migration of the FT2232H schematic symbol from altium to kicad. Thanks!
 * [altium2kicad](https://github.com/thesourcerer8/altium2kicad]). Tool used for the migration from Altium to Kicad. Many thanks to the developers!
+* Juan González (Obijuan): V1.0 specifications. Migration to Kicad (V1.0K)
+
+## Acknowledges
+* Many thanks to [BQ](https://www.bq.com/es/), for funding the initial prototype V1.0, during the period 2015-12-20 to 2016-04-14. Thanks a lot for increasing our technological heritage by sponsoring openhardware boards.
 
 ## License
 
