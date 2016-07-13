@@ -1,4 +1,4 @@
-(module Fiducial (layer F.Cu) (tedit 576FB8CC)
+(module Fiducial (layer F.Cu) (tedit 578681C7)
   (descr "Circular Fiducial, 1mm bare copper top; 2.54mm keepout")
   (tags marker)
   (attr virtual)
@@ -10,7 +10,7 @@
   )
   (fp_circle (center 0 0) (end 1.6002 0) (layer F.CrtYd) (width 0.05))
   (pad ~ smd circle (at 0 0) (size 1.5 1.5) (layers F.Cu F.Mask)
-    (solder_mask_margin 0.75) (solder_paste_margin -0.75) (clearance 0.75))
+    (solder_mask_margin 0.75) (solder_paste_margin -0.75) (clearance 1))
   (model ${KIPRJMOD}/packages3d/fiducial.wrl
     (at (xyz 0 0 -0.005))
     (scale (xyz 0.3937 0.3937 0.3937))
