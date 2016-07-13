@@ -58,7 +58,7 @@ Arduino/zum compatible **Open FPGA** electronic board.  Synthesize hardware easi
  
  TODO
  
- ### V1.1K
+### V1.1K
  
  TODO
 
