@@ -54,7 +54,7 @@ Arduino/zum compatible **Open FPGA** electronic board.  Synthesize hardware easi
 
 ### V1.1
 
- In paralell with the V1.0K version, Eladio started to work into the V1.1, which is the one that will be manufactured for the backers. As there were still no Kicad version when Eladio started, It is being designed in Altium and will be migrated to Kicad as the V1.1K version
+ * **2016/04/20**: In paralell with the V1.0K version, Eladio started to work on the V1.1, which is the one that will be manufactured for the backers. As there were still no Kicad version when Eladio started, It is being designed in Altium and will be migrated to Kicad as the V1.1K version
  
  TODO
  
