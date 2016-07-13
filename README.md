@@ -28,9 +28,18 @@ Arduino/zum compatible **Open FPGA** electronic board.  Synthesize hardware easi
 
 [The project documentation is located in the wiki](https://github.com/FPGAwars/icezum/wiki)
 
+## History
+### V1.0
+* **2015-12-20**: The icezum board was conceived in the BQlabs, the robotics and innovation department at BQ. The idea was to have a very easy to use FPGA board, similar to Arduino/ ZUM boards, so that anyone can connect sensors and create robots or small projects using an FPGA instead of a processor. We wanted to extend the educational approach of BQ to the digital circuits design. At that time, Juan Gonzalez (Obijuan) was the head of that department. Eladio Delgado, an external autonomous engineer was assigned the task of designing the board
+*  **2016-02-29**: The board was renamed to "Icezum Alhambra" because Eladio lives in a small town in Granada. The name was suggested by **Sebastián Gallardo** in [this post in the FPGAwars community](https://groups.google.com/d/msg/fpga-wars-explorando-el-lado-libre/f1W0Vtt5NdE/LEDRSXudGwAJ) (In Spanish)
+
+### V1.0K
+* **V1.0K**: Icezum Ahambra migrated to Kicad by Juan González (Obijuan). 3D models designed with FreeCAD. Now the board is not only openhardware but also designed only using libre-tools, so that anyone can easily study it, modify and
+
 ## Authors
 
 * **V1.0**: Eladio Delgado Mingorance. Sponsored by [BQ](https://www.bq.com/es/)
+* **V1.0K**: Migrated to Kicad by Juan González (Obijuan). 3D models designed with FreeCAD
 
 ## Credits
 * [BQ](https://www.bq.com/es/). Thanks for funding this project from 2015-12-20 to 2016-04-14. During this period, the icezum V1.0 was born and 10 prototypes were manufactured.
