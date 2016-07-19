@@ -1,3 +1,5 @@
 * **icezum-Edge.cuts.gbr**: Mechanical layer 1 (*icezum-GM1*)
 * **icezum-F.Cu.gbr**: Copper Top layer (*icezum-GTL*)
 * **icezum-B.Cu.gbr**: Copper Bottom layer (*icezum-GBL*)
+* **icezum-In1.Cu.gbr**: Copper Inner layer 1 (*icezum-G1*)
+* **icezum-In2.Cu.gbr**: Copper Inner layer 2 (*icezum-G2*)
