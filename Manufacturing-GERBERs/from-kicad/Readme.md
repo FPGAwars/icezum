@@ -1,1 +1,1 @@
-* **icezum.GM1**: Mechanical layer 1 (*icezum_Edge.cut.gbr*)
+* **icezum-Edge.cuts.gbr**: Mechanical layer 1 (*icezum-GM1*)
