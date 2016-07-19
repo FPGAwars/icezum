@@ -5,7 +5,7 @@
     (no_connects 0)
     (area 93.221144 88.314999 166.107791 153.318001)
     (thickness 1.6)
-    (drawings 145)
+    (drawings 143)
     (tracks 2445)
     (zones 0)
     (modules 200)
@@ -2246,7 +2246,7 @@
     )
   )
 
-  (module Icezum:Test_point (layer F.Cu) (tedit 5772BFAF) (tstamp 5759B11A)
+  (module Icezum:Test_point (layer F.Cu) (tedit 578E045A) (tstamp 5759B11A)
     (at 104.0892 102.0572)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -2255,8 +2255,8 @@
     (fp_text reference TP7 (at -0.0254 0.0254) (layer Eco2.User)
       (effects (font (size 0.5 0.5) (thickness 0.04)))
     )
-    (fp_text value USB_5V (at -0.1905 2.5146 90) (layer F.SilkS)
-      (effects (font (size 0.7366 0.6096) (thickness 0.1016)))
+    (fp_text value USB_5V (at -0.0692 1.1328) (layer Eco2.User) hide
+      (effects (font (size 0.5 0.5) (thickness 0.04)))
     )
     (fp_circle (center 0 0) (end 0.8128 0.3302) (layer F.CrtYd) (width 0.05))
     (fp_circle (center 0 0) (end 0 -0.7112) (layer F.SilkS) (width 0.15))
@@ -7629,6 +7629,9 @@
     )
   )
 
+  (gr_text USB_5V (at 103.94 104.7 90) (layer F.SilkS)
+    (effects (font (size 0.65 0.65) (thickness 0.13)))
+  )
   (gr_text SW2 (at 113.55 103) (layer F.SilkS)
     (effects (font (size 1 1.2) (thickness 0.15)))
   )
@@ -7778,9 +7781,6 @@
   (gr_text D0 (at 143.5735 128.3462) (layer F.SilkS)
     (effects (font (size 0.6 0.7) (thickness 0.1)))
   )
-  (gr_line (start 110.236 124.9045) (end 110.6805 124.46) (angle 90) (layer F.SilkS) (width 0.15))
-  (gr_line (start 110.236 123.8885) (end 110.236 124.9045) (angle 90) (layer F.SilkS) (width 0.15))
-  (gr_line (start 110.6805 124.333) (end 110.236 123.8885) (angle 90) (layer F.SilkS) (width 0.15))
   (gr_text AR (at 160.0327 105.2576 90) (layer F.SilkS)
     (effects (font (size 0.6 0.7) (thickness 0.1)))
   )
@@ -28985,6 +28985,21 @@
       (pts
         (xy 115.56 111.11) (xy 117.25 111.11) (xy 117.25 110.28) (xy 116.95 109.98) (xy 115.65 109.98)
         (xy 115.51 110.12) (xy 115.51 111.11) (xy 115.56 111.11)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.SilkS) (tstamp 578E07CC) (hatch edge 0.508)
+    (connect_pads (clearance 0.2))
+    (min_thickness 0.01)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 111.04 124.52) (xy 110.13 124.91) (xy 110.13 124.11) (xy 111.04 124.52)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 111.027573 124.519886) (xy 110.135 124.902417) (xy 110.135 124.117737)
       )
     )
   )
