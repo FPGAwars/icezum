@@ -5,3 +5,4 @@
 * **icezum-In2.Cu.gbr**: Copper Inner layer 2 (*icezum-G2*)
 * **icezum-F.SilkS.gbr**: Top SilkScreen Layer (*icezum-GTO*)
 * **icezum-B.SilkS.gbr**: Bottom SilkScreen Layer (*icezum-GBO*)
+* **icezum-F.Mask.gbr**: Top Solder Mask Layer (*icezum-GTS*)
