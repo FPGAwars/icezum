@@ -3,3 +3,4 @@
 * **icezum-B.Cu.gbr**: Copper Bottom layer (*icezum-GBL*)
 * **icezum-In1.Cu.gbr**: Copper Inner layer 1 (*icezum-G1*)
 * **icezum-In2.Cu.gbr**: Copper Inner layer 2 (*icezum-G2*)
+* **icezum-F.SilkS.gbr**: Top SilkScreen Layer (*icezum-GTO*)
