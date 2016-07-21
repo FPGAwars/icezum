@@ -1,4 +1,4 @@
-update=mar 19 jul 2016 09:00:27 CEST
+update=jue 21 jul 2016 15:57:49 CEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -25,10 +25,10 @@ LabSize=157
 version=1
 PageLayoutDescrFile=
 LastNetListRead=icezum.net
-PadDrill=0.3
-PadDrillOvalY=0.3
-PadSizeH=0.74
-PadSizeV=0.74
+PadDrill=0
+PadDrillOvalY=0
+PadSizeH=1.016
+PadSizeV=1.016
 PcbTextSizeV=1.5
 PcbTextSizeH=1.5
 PcbTextThickness=0
