@@ -6,3 +6,4 @@
 * **icezum-F.SilkS.gbr**: Top SilkScreen Layer (*icezum-GTO*)
 * **icezum-B.SilkS.gbr**: Bottom SilkScreen Layer (*icezum-GBO*)
 * **icezum-F.Mask.gbr**: Top Solder Mask Layer (*icezum-GTS*)
+* **icezum-B.Mask.gbr**: Bottom Solder Mask Layer (*icezum-GBS*)
