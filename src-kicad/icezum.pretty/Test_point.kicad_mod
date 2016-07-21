@@ -1,4 +1,4 @@
-(module Test_point (layer F.Cu) (tedit 5774CB4C)
+(module Test_point (layer F.Cu) (tedit 5790AB83)
   (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
   (tags "resistor 0603")
   (attr smd)
@@ -10,5 +10,6 @@
   )
   (fp_circle (center 0 0) (end 0.8128 0.3302) (layer F.CrtYd) (width 0.05))
   (fp_circle (center 0 0) (end 0 -0.7112) (layer F.SilkS) (width 0.15))
-  (pad 1 smd circle (at 0 0) (size 1.016 1.016) (layers F.Cu F.Paste F.Mask))
+  (pad 1 smd circle (at 0 0) (size 1.016 1.016) (layers F.Cu F.Paste F.Mask)
+    (solder_paste_margin -1.016))
 )
