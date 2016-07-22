@@ -43,7 +43,7 @@
   (pad 17 smd rect (at 0 0) (size 2.5527 2.0447) (layers F.Cu F.Paste F.Mask))
   (model ${KIPRJMOD}/packages3d/PVQFN16.wrl
     (at (xyz 0 0 0))
-    (scale (xyz 0.41 0.41 0.41))
+    (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
 )
