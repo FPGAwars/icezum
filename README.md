@@ -70,12 +70,14 @@ Arduino/zum compatible **Open FPGA** electronic board.  Synthesize hardware easi
 ## Credits
 * [BQ](https://www.bq.com/es/). Thanks for funding this project from 2015-12-20 to 2016-04-14. During this period, the icezum V1.0 was born and 10 prototypes were manufactured.
 * María Delgado Mingorance, for helping in the manufacturing and design of the V1.0
+* V1.0 was derived from the [Arduino Uno board](https://www.arduino.cc/en/Main/ArduinoBoardUno)
 * V1.0 was derived from the [zum core board](https://github.com/bq/zum/tree/master/zum-core) by BQ
 * V1.0 was derived from the [Icestick](http://www.latticesemi.com/icestick) by Lattice
 * [Icestorm project](http://www.clifford.at/icestorm/), by Clifford Wolf and Mathias Lasser
 * Icezum Pinout, by [Alberto Piganti](http://www.pighixxx.com/test/2016/05/icezum-pinout/)
 * [Jairo Zerberos](https://github.com/zerberros). Migration of the FT2232H schematic symbol from altium to kicad. Thanks!
 * [altium2kicad](https://github.com/thesourcerer8/altium2kicad]). Tool used for the migration from Altium to Kicad. Many thanks to the developers!
+* [Kicadsetup](https://sourceforge.net/projects/kicadstepup/). Tool for exporting the board to FreeCAD
 * Juan González (Obijuan): V1.0 specifications. Migration to Kicad (V1.0K)
 
 ## Acknowledges
