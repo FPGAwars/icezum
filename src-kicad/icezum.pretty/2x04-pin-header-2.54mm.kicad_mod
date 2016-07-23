@@ -28,8 +28,8 @@
   (pad 7 thru_hole circle (at 7.62 0) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS))
   (pad 8 thru_hole circle (at 7.62 -2.54) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS))
   (model ${KIPRJMOD}/packages3d/2x4-pin-header-2.54mm-yellow.wrl
-    (at (xyz 0.15 0.05 0))
-    (scale (xyz 0.3937 0.3937 0.3937))
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
 )

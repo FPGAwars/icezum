@@ -22,7 +22,7 @@
   (pad 3 thru_hole circle (at 2.54 0) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS))
   (model ${KIPRJMOD}/packages3d/1x3-pin-header-2.54mm.wrl
     (at (xyz 0 0 0))
-    (scale (xyz 0.3937 0.3937 0.3937))
+    (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))
   )
 )
