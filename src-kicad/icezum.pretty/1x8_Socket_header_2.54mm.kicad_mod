@@ -26,8 +26,8 @@
   (pad 7 thru_hole circle (at 15.24 0) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS))
   (pad 8 thru_hole circle (at 17.78 0) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask F.SilkS))
   (model ${KIPRJMOD}/packages3d/1x8-socket-header-2.54mm.wrl
-    (at (xyz 0.35 0 0))
-    (scale (xyz 0.3937 0.3937 0.3937))
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))
   )
 )
