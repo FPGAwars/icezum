@@ -1,10 +1,10 @@
-(module slide-sw-spdt-right-angle (layer F.Cu) (tedit 5777F983)
+(module slide-sw-spdt-right-angle (layer F.Cu) (tedit 57934F12)
   (descr "Through hole socket strip")
   (tags "socket strip")
-  (fp_text reference REF** (at -3.8354 -1.4732) (layer F.SilkS)
+  (fp_text reference REF** (at 0 1.905) (layer Eco2.User)
     (effects (font (size 0.5 0.5) (thickness 0.04)))
   )
-  (fp_text value slide-sw-spdt-right-angle (at 0.1143 5.8801) (layer Eco2.User)
+  (fp_text value slide-sw-spdt-right-angle (at 0.1143 5.8801) (layer Eco2.User) hide
     (effects (font (size 0.5 0.5) (thickness 0.04)))
   )
   (fp_line (start -0.2032 0) (end 0.2032 0) (layer F.CrtYd) (width 0.05))
@@ -25,7 +25,7 @@
   (pad 3 thru_hole circle (at 2.54 0) (size 1.37 1.37) (drill 0.85) (layers *.Cu *.Mask F.SilkS))
   (model ${KIPRJMOD}/packages3d/slide-sw-spdt-right-angle.wrl
     (at (xyz 0 0 0))
-    (scale (xyz 0.3937 0.3937 0.3937))
+    (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
 )

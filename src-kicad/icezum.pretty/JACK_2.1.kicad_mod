@@ -1,10 +1,10 @@
-(module JACK_2.1 (layer F.Cu) (tedit 576E59B6)
+(module JACK_2.1 (layer F.Cu) (tedit 57934E3F)
   (descr "module 1 pin (ou trou mecanique de percage)")
   (tags "CONN JACK")
-  (fp_text reference REF** (at 0.0635 -5.08) (layer F.SilkS)
+  (fp_text reference REF** (at 5.08 -3.81) (layer Eco2.User)
     (effects (font (size 0.5 0.5) (thickness 0.04)))
   )
-  (fp_text value JACK_2.1 (at -5.08 5.588) (layer Eco2.User)
+  (fp_text value JACK_2.1 (at -5.08 5.588) (layer Eco2.User) hide
     (effects (font (size 0.5 0.5) (thickness 0.04)))
   )
   (fp_line (start 5.4102 0) (end 7.1374 0) (layer F.CrtYd) (width 0.15))
@@ -22,7 +22,7 @@
   (pad 2 thru_hole circle (at 3.2512 4.8006) (size 4.62 4.62) (drill 3.05) (layers *.Cu *.Mask F.SilkS))
   (model ${KIPRJMOD}/packages3d/jack-2.1mm.wrl
     (at (xyz 0 0 0))
-    (scale (xyz 0.3937 0.3937 0.3937))
+    (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))
   )
 )
