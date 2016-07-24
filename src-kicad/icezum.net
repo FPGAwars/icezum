@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/obijuan/develop/icezum/src-kicad/icezum.sch)
-    (date "dom 24 jul 2016 12:26:22 CEST")
+    (date "dom 24 jul 2016 13:14:37 CEST")
     (tool "Eeschema 4.0.2+e4-6225~38~ubuntu16.04.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1374,7 +1374,7 @@
       (sheetpath (names "/USB communications/") (tstamps /574C0DEC/))
       (tstamp 574D8B0C))
     (comp (ref C31)
-      (value 4.7nF)
+      (value 4.7uF)
       (footprint Icezum:C_0603)
       (fields
         (field (name class) X5R)
