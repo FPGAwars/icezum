@@ -29,6 +29,10 @@ D ESD protection for USB 2.0 interfaces
 F http://www.nxp.com/documents/application_note/AN10753.pdf
 $ENDCMP
 #
+$CMP FIDUCIAL
+D Fiducial
+$ENDCMP
+#
 $CMP FT2232H
 D Dual High Speed USB to Multipurpose UART/FIFO IC
 F http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT2232H.pdf
