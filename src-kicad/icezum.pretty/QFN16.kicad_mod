@@ -1,11 +1,11 @@
-(module QFN16 (layer F.Cu) (tedit 57779D71)
+(module QFN16 (layer F.Cu) (tedit 57946EAF)
   (descr "16-Lead Plastic Quad Flat, No Lead Package (NG) - 3x3x0.9 mm Body [QFN]; (see Microchip Packaging Specification 00000049BS.pdf)")
   (tags "QFN 0.5")
   (attr smd)
-  (fp_text reference REF** (at 0 -2.85) (layer F.SilkS)
+  (fp_text reference REF** (at 0 -2.85) (layer Eco2.User)
     (effects (font (size 0.5 0.5) (thickness 0.04)))
   )
-  (fp_text value QFN16 (at 0 2.85) (layer F.Fab)
+  (fp_text value QFN16 (at 0 2.85) (layer F.Fab) hide
     (effects (font (size 0.5 0.5) (thickness 0.04)))
   )
   (fp_line (start -0.508 0) (end 0.508 0) (layer F.CrtYd) (width 0.05))
@@ -43,7 +43,7 @@
     (solder_paste_margin_ratio -0.2))
   (model ${KIPRJMOD}/packages3d/QFN16.wrl
     (at (xyz 0 0 0))
-    (scale (xyz 0.3937 0.3937 0.3937))
+    (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
 )
