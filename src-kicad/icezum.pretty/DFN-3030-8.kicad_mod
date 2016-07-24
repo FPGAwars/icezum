@@ -1,11 +1,11 @@
-(module DFN-3030-8 (layer F.Cu) (tedit 57781776)
+(module DFN-3030-8 (layer F.Cu) (tedit 57947510)
   (descr "DD Package; 8-Lead Plastic DFN (3mm x 3mm) (see Linear Technology DFN_8_05-08-1698.pdf)")
   (tags "DFN 0.5")
   (attr smd)
-  (fp_text reference REF** (at -0.2794 -2.1463) (layer F.SilkS)
+  (fp_text reference REF** (at -0.2794 -2.1463) (layer Eco2.User)
     (effects (font (size 0.5 0.5) (thickness 0.04)))
   )
-  (fp_text value DFN-3030-8 (at 0 2.286) (layer F.Fab)
+  (fp_text value DFN-3030-8 (at 0 2.286) (layer F.Fab) hide
     (effects (font (size 0.5 0.5) (thickness 0.04)))
   )
   (fp_line (start -0.508 0) (end 0.508 0) (layer F.CrtYd) (width 0.05))
@@ -33,7 +33,7 @@
     (solder_paste_margin_ratio -0.2))
   (model ${KIPRJMOD}/packages3d/DFN_3030-8.wrl
     (at (xyz 0 0 0))
-    (scale (xyz 0.3937 0.3937 0.3937))
+    (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
 )

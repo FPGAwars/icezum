@@ -1,11 +1,11 @@
-(module WSON-6 (layer F.Cu) (tedit 5778EAE7)
+(module WSON-6 (layer F.Cu) (tedit 57947577)
   (descr "DC6 Package; 6-Lead Plastic DFN (2mm x 2mm) (see Linear Technology DFN_6_05-08-1703.pdf)")
   (tags "DFN 0.5")
   (attr smd)
-  (fp_text reference REF** (at 0.0127 -1.5113) (layer F.SilkS)
+  (fp_text reference REF** (at 0.0127 -1.5113) (layer Eco2.User)
     (effects (font (size 0.5 0.5) (thickness 0.04)))
   )
-  (fp_text value WSON-6 (at 0.0635 1.651) (layer Eco2.User)
+  (fp_text value WSON-6 (at 0.0635 1.651) (layer Eco2.User) hide
     (effects (font (size 0.5 0.5) (thickness 0.04)))
   )
   (fp_line (start -0.508 0) (end 0.508 0) (layer F.CrtYd) (width 0.05))
@@ -25,7 +25,7 @@
   (pad 6 smd rect (at 0.5715 -0.508) (size 0.7493 0.2794) (layers F.Cu F.Paste F.Mask))
   (model ${KIPRJMOD}/packages3d/WSON-6.wrl
     (at (xyz 0 0 0))
-    (scale (xyz 0.3937 0.3937 0.3937))
+    (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
 )

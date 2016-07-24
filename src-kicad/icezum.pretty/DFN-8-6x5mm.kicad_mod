@@ -1,11 +1,11 @@
-(module DFN-8-6x5mm (layer F.Cu) (tedit 5779468C)
+(module DFN-8-6x5mm (layer F.Cu) (tedit 57947630)
   (descr "8-Lead Plastic Dual Flat, No Lead Package (MF) - 6x5 mm Body [DFN-S] (see Microchip Packaging Specification 00000049BS.pdf)")
   (tags "DFN 1.27")
   (attr smd)
-  (fp_text reference REF** (at -2.0955 -3.3401) (layer F.SilkS)
+  (fp_text reference REF** (at 0.12 -0.93) (layer Eco2.User)
     (effects (font (size 0.5 0.5) (thickness 0.04)))
   )
-  (fp_text value DFN-8-6x5mm (at 0.0254 3.4417) (layer Eco2.User)
+  (fp_text value DFN-8-6x5mm (at 0.0254 3.4417) (layer Eco2.User) hide
     (effects (font (size 0.5 0.5) (thickness 0.04)))
   )
   (fp_line (start -0.508 0) (end 0.508 0) (layer F.CrtYd) (width 0.05))
@@ -33,7 +33,7 @@
     (solder_paste_margin_ratio -0.2))
   (model ${KIPRJMOD}/packages3d/DFN-8-6x5mm.wrl
     (at (xyz 0 0 0))
-    (scale (xyz 0.3937 0.3937 0.3937))
+    (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
 )
