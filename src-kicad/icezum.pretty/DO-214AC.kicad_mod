@@ -1,11 +1,11 @@
-(module DO-214AC (layer F.Cu) (tedit 576F87D7)
+(module DO-214AC (layer F.Cu) (tedit 57946B27)
   (descr "Microsemi LSM115J")
   (tags "DO-214BA diode")
   (attr smd)
-  (fp_text reference REF** (at 0.3302 -1.8796) (layer F.SilkS)
+  (fp_text reference REF** (at 0.3302 -1.8796) (layer Eco2.User)
     (effects (font (size 0.5 0.5) (thickness 0.04)))
   )
-  (fp_text value DO-214AC (at 0 1.905) (layer Eco2.User)
+  (fp_text value DO-214AC (at 0 1.905) (layer Eco2.User) hide
     (effects (font (size 0.5 0.5) (thickness 0.04)))
   )
   (fp_line (start -0.508 0) (end 0.508 0) (layer F.CrtYd) (width 0.05))
@@ -24,7 +24,7 @@
   (pad K smd rect (at -1.9812 0) (size 2.2352 2.2352) (layers F.Cu F.Paste F.Mask))
   (model ${KIPRJMOD}/packages3d/DO-214AC.wrl
     (at (xyz 0 0 0))
-    (scale (xyz 0.3937 0.3937 0.3937))
+    (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
 )
