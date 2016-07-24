@@ -1,11 +1,11 @@
-(module F_1812 (layer F.Cu) (tedit 57868BCC)
+(module F_1812 (layer F.Cu) (tedit 57946515)
   (descr "Resistor SMD 1812, flow soldering, Panasonic (see ERJ12)")
   (tags "resistor 1812")
   (attr smd)
-  (fp_text reference REF** (at 0.1651 -2.3749) (layer F.SilkS)
+  (fp_text reference REF** (at 0 -1.27) (layer Eco2.User)
     (effects (font (size 0.5 0.5) (thickness 0.04)))
   )
-  (fp_text value F_1812 (at -0.1143 2.3876) (layer Eco2.User)
+  (fp_text value F_1812 (at -0.1143 2.3876) (layer Eco2.User) hide
     (effects (font (size 0.5 0.5) (thickness 0.04)))
   )
   (fp_line (start -2.921 1.7526) (end 2.8702 1.7526) (layer F.SilkS) (width 0.2032))
@@ -22,7 +22,7 @@
   (pad 1 smd rect (at -2.12 0) (size 1.5 3.2004) (layers F.Cu F.Paste F.Mask))
   (model ${KIPRJMOD}/packages3d/F1812-505k.wrl
     (at (xyz 0 0 0))
-    (scale (xyz 0.41 0.41 0.41))
+    (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
 )
