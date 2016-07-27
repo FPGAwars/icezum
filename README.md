@@ -32,9 +32,9 @@ Arduino/zum compatible **Open FPGA** electronic board.  Synthesize hardware easi
 ### V1.0
 * **2015-12-20**: The icezum board was conceived in the **BQlabs**, the robotics and innovation department at [BQ](https://www.bq.com/es/). The idea was to have a very easy to use FPGA board, fully openhardware, similar to Arduino/ZUM boards, so that anyone can connect sensors and create robots or small projects using an FPGA instead of a processor. We wanted to extend the educational approach of BQ to the digital circuits design. At that time, Juan Gonzalez (Obijuan) was the head of the department. Eladio Delgado, a very-skilled senior external engineer was assigned the task of designing the board. He was already involve in other projects with BQ
 
-*  **2016-02-29**: The board was renamed to **Icezum Alhambra** because Eladio lives in a small town in Granada. The name was suggested by **Sebastián Gallardo** in [this post in the FPGAwars community](https://groups.google.com/d/msg/fpga-wars-explorando-el-lado-libre/f1W0Vtt5NdE/LEDRSXudGwAJ) (In Spanish)
-
 * **2016-02-18**: [The icezum board bqlabs repo](https://github.com/bqlabs/icezum) at github is created and all the V1.0 files released
+
+*  **2016-02-29**: The board was renamed to **Icezum Alhambra** because Eladio lives in a small town in Granada. The name was suggested by **Sebastián Gallardo** in [this post in the FPGAwars community](https://groups.google.com/d/msg/fpga-wars-explorando-el-lado-libre/f1W0Vtt5NdE/LEDRSXudGwAJ) (In Spanish)
 
 * **2016-03-05**: The first prototype is build and a bitstream is successfully upload into the board! [Images](https://github.com/FPGAwars/icezum/raw/master/doc/2016-03-04-Mounting-first-prototype/icezum-alhambra-mounting-15.jpg) 10 PCBs were manufactured in total. 5 Prototypes were mounted (by hand) by Eladio and his sister María. 5 more were mounted one mounth later
 
@@ -54,7 +54,7 @@ Arduino/zum compatible **Open FPGA** electronic board.  Synthesize hardware easi
 
 ### V1.1
 
- * **2016/04/20**: In paralell with the V1.0K version, Eladio started to work on the V1.1, which is the one that will be manufactured for the backers. As there were still no Kicad version when Eladio started, It is being designed in Altium and will be migrated to Kicad as the V1.1K version
+ * **2016/04/20**: In paralell with the V1.0K version, Eladio started to work on the V1.1, which is the one that will be manufactured for the backers. As there were still no Kicad version when Eladio started, It is being designed in Altium and will be migrated later to Kicad as the V1.1K version
  
  TODO
  
