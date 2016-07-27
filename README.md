@@ -78,6 +78,7 @@ Arduino/zum compatible **Open FPGA** electronic board.  Synthesize hardware easi
 * [Jairo Zerberos](https://github.com/zerberros). Migration of the FT2232H schematic symbol from altium to kicad. Thanks!
 * [altium2kicad](https://github.com/thesourcerer8/altium2kicad]). Tool used for the migration from Altium to Kicad. Many thanks to the developers!
 * [Kicadsetup](https://sourceforge.net/projects/kicadstepup/). Tool for exporting the board to FreeCAD
+* [Alhambra festival picture](http://beentheredrawnthat.blogspot.com.es/2016/07/festivales-de-musica-y-danza-alhambra.html), by Cristina Urdiales. Thanks for this beautiful paiting!
 * Juan González (Obijuan): V1.0 specifications. Migration to Kicad (V1.0K)
 
 ## Acknowledges
