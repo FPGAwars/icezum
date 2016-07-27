@@ -1,4 +1,4 @@
-(module pad-via (layer F.Cu) (tedit 57908C73)
+(module pad-via (layer F.Cu) (tedit 5798549C)
   (fp_text reference VIA** (at 0 -1.27) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -6,5 +6,5 @@
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (pad ~ thru_hole circle (at 0 0) (size 0.74 0.74) (drill 0.3) (layers *.Cu *.Mask)
-    (zone_connect 2))
+    (clearance -0.74) (zone_connect 2))
 )
