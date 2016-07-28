@@ -52,6 +52,8 @@ Arduino/zum compatible **Open FPGA** electronic board.  Synthesize hardware easi
 
 * **2016/07/03**: All the money (6500€ in total) is received from the backers! Thanks a lot!!! ([Backers list](https://docs.google.com/spreadsheets/d/1yngU6kfMr5JWJYXrxBMJ7l1Cai2iuucMDoND4NpgU5Y))
 
+* **2016/07/28**: V1.0K is released!
+
 ### V1.1
 
  * **2016/04/20**: In paralell with the V1.0K version, Eladio started to work on the V1.1, which is the one that will be manufactured for the backers. As there were still no Kicad version when Eladio started, It is being designed in Altium and will be migrated later to Kicad as the V1.1K version
@@ -65,7 +67,7 @@ Arduino/zum compatible **Open FPGA** electronic board.  Synthesize hardware easi
 ## Authors
 
 * **V1.0**: Eladio Delgado Mingorance. Sponsored by [BQ](https://www.bq.com/es/)
-* **V1.0K**: Migrated to Kicad by Juan González (Obijuan). 3D models designed with FreeCAD
+* **V1.0K**: Migrated to Kicad by Juan González (Obijuan). 3D models designed with FreeCAD. Everything is generated using only opensource tools (schematics, pcb, 3D models, pinout, BOM...). This version belongs to our T**echnological Heritage**
 
 ## Credits
 * [BQ](https://www.bq.com/es/). Thanks for funding this project from 2015-12-20 to 2016-04-14. During this period, the icezum V1.0 was born and 10 prototypes were manufactured.
