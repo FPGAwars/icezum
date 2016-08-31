@@ -1,0 +1,13 @@
+DRC Rules Export File for PCB: D:\d\WK\Altium\_Projects\IceZUM_Core_HX1K\trunk\PCB\IceZUM_Core_HX1K.PcbDoc
+RuleKind=SolderMaskExpansion|RuleName=Via_Tenting_Top|Scope=Board|Minimum=-78.74
+RuleKind=MinimumAnnularRing|RuleName=MinimumAnnularRing_03|Scope=Board|Minimum=393.70
+RuleKind=MinimumAnnularRing|RuleName=ViaHoleSize|Scope=Board|Minimum=393.70
+RuleKind=MinimumAnnularRing|RuleName=OnlyTMBVias|Scope=Board|Minimum=393.70
+RuleKind=MinimumAnnularRing|RuleName=MinimumAnnularRing_04|Scope=Board|Minimum=393.70
+RuleKind=Clearance|RuleName=Clearance_KO|Scope=Board|Minimum=15.75
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=7.87
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=7.87
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=2.95
+RuleKind=SolderMaskExpansion|RuleName=Via_Tenting_Bottom|Scope=Board|Minimum=2.95
+RuleKind=SolderMaskExpansion|RuleName=Via_Tenting_TopBot|Scope=Board|Minimum=-78.74
