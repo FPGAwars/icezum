@@ -3,13 +3,15 @@ Arduino/zum compatible **Open FPGA** electronic board.  Synthesize hardware easi
 
 ![]()
 
-This branch contains the source files for the **Icezum Alhambra V1.1**
+This branch contains the *source files* for the **Icezum Alhambra V1.1**
+
+Icezum Alhambra v1.1 was designed in Altium, but it will be migrated to Kicad as V1.1K
 
 # Author
 * [Eladio Delgado Mingorance](https://twitter.com/EladioDM)
 
 ## Credits
-* *Icezum Alhambra v1.1* is a derivative work form the **Icezum Alhambra 1.0 by BQ**. [For more details read the Icezum main README](https://github.com/FPGAwars/icezum)
+* *Icezum Alhambra v1.1* is a derivative work from the **Icezum Alhambra 1.0 by BQ**. [For more details read the Icezum main README](https://github.com/FPGAwars/icezum)
 
 ## License
 
