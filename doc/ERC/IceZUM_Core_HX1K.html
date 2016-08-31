@@ -1,0 +1,378 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+        h1, h2, h3, h4, h5, h6 { 
+            font-family : sans-serif;
+            color : white;
+            background-color : #21489e;
+            padding: 0.3em;
+        }
+        body { 
+            font-family : verdana;
+        }
+        td, th {  
+            padding: 0.5em;
+            text-align : center;
+            width : 18%;    
+        }
+        th { 
+            background-color : #A6CAF0;
+        
+        }
+        th.column1, td.column1 { 
+            text-align: left;
+            width : auto; 
+        }
+        table { 
+            width : 100%; 
+        }
+        .front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3 {
+            padding-top : 0.1em;
+            padding-bottom : 0.1em;
+            border : 0px solid black;
+            width : auto;
+            vertical-align: top
+        }
+        .front_matter_column1 {
+            text-align : right;
+        }
+        .total_column1, .total_column {
+            font-weight : bold; 
+        }
+        .total_column1 {
+            text-align : right;
+        }
+        .front_matter_column2 {
+            text-align : center;
+        }
+        .front_matter_column3 {
+            text-align : left;
+        }
+        .warning, .error { 
+            color : red;
+            font-weight : bold;
+        }   
+        tr.onmouseout_odd { 
+            background-color : #EEEEE0 
+        }
+        tr.onmouseout_even { 
+            background-color : #F3F3E3   
+        }
+        tr.onmouseover_odd, tr.onmouseover_even { 
+            background-color : lightYellow 
+        } 
+        a:link, a:visited, .q a:link,.q a:active,.q {
+            color: #21489e; 
+        }
+        a:link.callback, a:visited.callback { 
+            color: #008000 
+        }
+        p.contents_level1 {
+            font-weight : bold;
+            font-size : 110%;
+            margin : 0.5em;
+        }
+        p.contents_level2 {
+            position : relative;
+            left : 20px;
+            margin : 0.5em;
+        }
+    </style><script type="text/javascript">
+        function coordToMils(coord) {
+            var number = coord / 10000;
+            
+            if (number != number.toFixed(3))
+                number = number.toFixed(3);
+            
+            return number + 'mil'
+        }
+
+        function coordToMM(coord) {
+            var number = 0.0254 * coord / 10000;
+            
+            if (number != number.toFixed(4))
+                number = number.toFixed(4);
+            
+            return number + 'mm'
+        }
+    
+        function convertCoord(coordNode, units) {
+            for (var i = 0; i < coordNode.childNodes.length; i++) {
+                coordNode.removeChild(coordNode.childNodes[i]);     
+            }
+
+            var coord = coordNode.getAttribute('value');
+            if (coord != null) {
+                if (units == 'mm') {    
+                    textNode = document.createTextNode(coordToMM(coord));
+                    coordNode.appendChild(textNode);
+                } else if (units == 'mil') {
+                    textNode = document.createTextNode(coordToMils(coord));     
+                    coordNode.appendChild(textNode);    
+                }
+            }
+        }
+    
+        function convertUnits(unitNode, units) {
+            for (var i = 0; i < unitNode.childNodes.length; i++) {
+                unitNode.removeChild(unitNode.childNodes[i]);       
+            }
+        
+            textNode = document.createTextNode(units); 
+            unitNode.appendChild(textNode);
+        }
+    
+        function changeUnits(radio_input, units) {
+            if (radio_input.checked) {
+            
+                var elements = document.getElementsByName('coordinate');
+                if (elements) {
+                    for (var i = 0; i < elements.length; i++) {
+                        convertCoord(elements[i], units);
+                    }
+                }
+    
+                var elements = document.getElementsByName('units');
+                if (elements) {
+                    for (var i = 0; i < elements.length; i++) {
+                        convertUnits(elements[i], units);
+                    }
+                }
+            }
+        }   
+    </script></head>
+<body onload=""><img ALT="Altium" src="
+            file://C:\Users\Public\Documents\Altium\AD15\Templates\AD-rgb_logo_223x64.gif
+        "><h1>Electrical Rule Check Report</h1>
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date</td>
+<td class="front_matter_column2">:</td>
+<td class="front_matter_column3">30/08/2016</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time</td>
+<td class="front_matter_column2">:</td>
+<td class="front_matter_column3">23:17:00</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename</td>
+<td class="front_matter_column2">:</td>
+<td class="front_matter_column3"><a href="file:///D:\d\WK\Altium\_Projects\IceZUM_Core_HX1K\trunk\Project Outputs for IceZUM_Core_HX1K\ERC\IceZUM_Core_HX1K.html" class="file"><acronym title="D:\d\WK\Altium\_Projects\IceZUM_Core_HX1K\trunk\Project Outputs for IceZUM_Core_HX1K\ERC\IceZUM_Core_HX1K.html">D:\d\WK\Altium\_Projects\IceZUM_Core_HX1K\trunk\Project Outputs for IceZUM_Core_HX1K\ERC\IceZUM_Core_HX1K.html</acronym></a></td>
+</tr>
+</table>
+<hr><a name="IDR5G02F5A1KJDMDITLBNFGU5SJH02ZBZ4CVTQDPM53OTXSQ5LMZGK"><table>
+<tr></tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width: 15%; font-size: 120%; font-weight: Bold; background-color: #A6CAF0" class="column1">Class</td>
+<td style="width: 35%; font-size: 120%; font-weight: Bold; background-color: #A6CAF0" class="column2">Document</td>
+<td style="width: 50%; font-size: 120%; font-weight: Bold; background-color: #A6CAF0" class="column3">Message</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">[3]_USB_Interface.SchDoc</td>
+<td style="width: 50%" class="column3">GPIO_L0 contains IO Pin and Output Port objects (Port ICE_SS_B)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">[3]_USB_Interface.SchDoc</td>
+<td style="width: 50%" class="column3">GPIO_L2 contains IO Pin and Input Port objects (Port ICE_CDONE)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">[3]_USB_Interface.SchDoc</td>
+<td style="width: 50%" class="column3">GPIO_L3 contains IO Pin and Output Port objects (Port ICE_CREST)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">[2]_FPGA.SchDoc</td>
+<td style="width: 50%" class="column3">NetR1_2 contains IO Pin and Output Port objects (Pin U1-65,Port ICE_CDONE)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">[2]_FPGA.SchDoc</td>
+<td style="width: 50%" class="column3">NetR5_1 contains IO Pin and Input Port objects (Pin U1-70,Port ICE_SCK)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">[2]_FPGA.SchDoc</td>
+<td style="width: 50%" class="column3">NetR6_1 contains IO Pin and Input Port objects (Pin U1-71,Port ICE_SS_B)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">[2]_FPGA.SchDoc</td>
+<td style="width: 50%" class="column3">NetU1_1 contains IO Pin and Output Port objects (Port \FT_DCD)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">[2]_FPGA.SchDoc</td>
+<td style="width: 50%" class="column3">NetU1_2 contains IO Pin and Output Port objects (Port \FT_DSR)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">[2]_FPGA.SchDoc</td>
+<td style="width: 50%" class="column3">NetU1_3 contains IO Pin and Input Port objects (Port \FT_DTR)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">[2]_FPGA.SchDoc</td>
+<td style="width: 50%" class="column3">NetU1_4 contains IO Pin and Output Port objects (Port \FT_CTS)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">[2]_FPGA.SchDoc</td>
+<td style="width: 50%" class="column3">NetU1_7 contains IO Pin and Input Port objects (Port \FT_RTS)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">[2]_FPGA.SchDoc</td>
+<td style="width: 50%" class="column3">NetU1_8 contains IO Pin and Output Port objects (Port FT_RX)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">[2]_FPGA.SchDoc</td>
+<td style="width: 50%" class="column3">NetU1_9 contains IO Pin and Input Port objects (Port FT_TX)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">[2]_FPGA.SchDoc</td>
+<td style="width: 50%" class="column3">NetU1_10 contains IO Pin and Output Port objects (Port U_SW1)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">[2]_FPGA.SchDoc</td>
+<td style="width: 50%" class="column3">NetU1_11 contains IO Pin and Output Port objects (Port U_SW2)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">[2]_FPGA.SchDoc</td>
+<td style="width: 50%" class="column3">NetU1_21 contains IO Pin and Input Port objects (Port ICE_CLK)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">[2]_FPGA.SchDoc</td>
+<td style="width: 50%" class="column3">NetU1_67 contains IO Pin and Input Port objects (Pin U1-67,Port ICE_MOSI)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">[2]_FPGA.SchDoc</td>
+<td style="width: 50%" class="column3">NetU1_68 contains IO Pin and Output Pin objects (Pin U1-68)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">[2]_FPGA.SchDoc</td>
+<td style="width: 50%" class="column3">NetU1_68 contains IO Pin and Output Port objects (Pin U1-68,Port ICE_MISO)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">[2]_FPGA.SchDoc</td>
+<td style="width: 50%" class="column3">NetU1_91 contains IO Pin and Output Port objects (Port ADC_SCL)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">[2]_FPGA.SchDoc</td>
+<td style="width: 50%" class="column3">NetU1_93 contains IO Pin and Input Port objects (Port ADC_INT)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">[4]_Connectors_&amp;_IO.SchDoc</td>
+<td style="width: 50%" class="column3">NetU1_93 contains IO Pin and Output Pin objects (Pin U1-93)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">[2]_FPGA.SchDoc</td>
+<td style="width: 50%" class="column3">NetU1_95 contains IO Pin and Output Port objects (Port LED0)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">[2]_FPGA.SchDoc</td>
+<td style="width: 50%" class="column3">NetU1_96 contains IO Pin and Output Port objects (Port LED1)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">[2]_FPGA.SchDoc</td>
+<td style="width: 50%" class="column3">NetU1_97 contains IO Pin and Output Port objects (Port LED2)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">[2]_FPGA.SchDoc</td>
+<td style="width: 50%" class="column3">NetU1_98 contains IO Pin and Output Port objects (Port LED3)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">[2]_FPGA.SchDoc</td>
+<td style="width: 50%" class="column3">NetU1_99 contains IO Pin and Output Port objects (Port LED4)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">[2]_FPGA.SchDoc</td>
+<td style="width: 50%" class="column3">NetU1_101 contains IO Pin and Output Port objects (Port LED5)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">[2]_FPGA.SchDoc</td>
+<td style="width: 50%" class="column3">NetU1_102 contains IO Pin and Output Port objects (Port LED6)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">[2]_FPGA.SchDoc</td>
+<td style="width: 50%" class="column3">NetU1_104 contains IO Pin and Output Port objects (Port LED7)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">[3]_USB_Interface.SchDoc</td>
+<td style="width: 50%" class="column3">NetU3_38 contains IO Pin and Output Port objects (Port FT_TX)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">[3]_USB_Interface.SchDoc</td>
+<td style="width: 50%" class="column3">NetU3_39 contains IO Pin and Input Port objects (Port FT_RX)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">[3]_USB_Interface.SchDoc</td>
+<td style="width: 50%" class="column3">NetU3_40 contains IO Pin and Output Port objects (Port \FT_RTS)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">[3]_USB_Interface.SchDoc</td>
+<td style="width: 50%" class="column3">NetU3_41 contains IO Pin and Input Port objects (Port \FT_CTS)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">[3]_USB_Interface.SchDoc</td>
+<td style="width: 50%" class="column3">NetU3_43 contains IO Pin and Output Port objects (Port \FT_DTR)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">[3]_USB_Interface.SchDoc</td>
+<td style="width: 50%" class="column3">NetU3_44 contains IO Pin and Input Port objects (Port \FT_DSR)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">[3]_USB_Interface.SchDoc</td>
+<td style="width: 50%" class="column3">NetU3_45 contains IO Pin and Input Port objects (Port \FT_DCD)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">[3]_USB_Interface.SchDoc</td>
+<td style="width: 50%" class="column3">SPI_DI contains IO Pin and Input Port objects (Port ICE_MISO)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">[2]_FPGA.SchDoc</td>
+<td style="width: 50%" class="column3">SPI_DI contains IO Pin and Output Pin objects (Pin U3-18,Pin U1-68)</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">[3]_USB_Interface.SchDoc</td>
+<td style="width: 50%" class="column3">SPI_DO contains IO Pin and Output Port objects (Port ICE_MOSI)</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td style="width: 15%" class="column1">Warning</td>
+<td style="width: 35%" class="column2">[3]_USB_Interface.SchDoc</td>
+<td style="width: 50%" class="column3">SPI_SK contains IO Pin and Output Port objects (Port ICE_SCK)</td>
+</tr>
+</table></a><a href="#top">Back to top</a><br><br></body>
+</html>
