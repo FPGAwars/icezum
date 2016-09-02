@@ -30,7 +30,7 @@ Arduino/zum compatible **Open FPGA** electronic board.  Synthesize hardware easi
 
 ## History
 
-### Icezum Alhambra releases and tools used over time
+### Icezum Alhambra releases and EDA tools used over time
 
 ![](https://github.com/FPGAwars/icezum/raw/master/wiki/Icezum-alhambra-releases-tools-diagram.png)
 
