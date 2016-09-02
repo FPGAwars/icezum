@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="Diagrama-icezum-kicad-altium.svg"
+   sodipodi:docname="Icezum-alhambra-releases-tools-diagram.svg"
    inkscape:export-filename="/home/obijuan/Desktop/icezum-alhambra-altium-kicad.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
@@ -106,7 +106,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="273.82787"
+     inkscape:cx="297.70123"
      inkscape:cy="649.51115"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -140,7 +140,8 @@
        x="147.85715"
        y="295.21933"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="/home/obijuan/develop/icezum/wiki/Icezum-alhambra-releases-tools-diagram.png" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:17.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
@@ -149,7 +150,8 @@
        id="text4136"
        sodipodi:linespacing="125%"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="/home/obijuan/develop/icezum/wiki/Icezum-alhambra-releases-tools-diagram.png"><tspan
          sodipodi:role="line"
          id="tspan4138"
          x="163.57143"
@@ -162,7 +164,8 @@
        id="text4136-3"
        sodipodi:linespacing="125%"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="/home/obijuan/develop/icezum/wiki/Icezum-alhambra-releases-tools-diagram.png"><tspan
          sodipodi:role="line"
          id="tspan4138-6"
          x="169.28571"
@@ -174,20 +177,22 @@
        cy="348.79077"
        r="9.2857141"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="/home/obijuan/develop/icezum/wiki/Icezum-alhambra-releases-tools-diagram.png" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:17.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       style="font-style:normal;font-weight:normal;font-size:17.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="227.85715"
        y="330.21933"
        id="text4160"
        sodipodi:linespacing="125%"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="/home/obijuan/develop/icezum/wiki/Icezum-alhambra-releases-tools-diagram.png"><tspan
          sodipodi:role="line"
          id="tspan4162"
          x="227.85715"
-         y="330.21933">1.0</tspan></text>
+         y="330.21933">V1.0</tspan></text>
     <circle
        style="opacity:1;fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="path4158-7"
@@ -195,27 +200,30 @@
        cy="348.79077"
        r="9.2857141"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="/home/obijuan/develop/icezum/wiki/Icezum-alhambra-releases-tools-diagram.png" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:17.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       style="font-style:normal;font-weight:normal;font-size:17.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="319.28571"
        y="330.21933"
        id="text4160-5"
        sodipodi:linespacing="125%"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="/home/obijuan/develop/icezum/wiki/Icezum-alhambra-releases-tools-diagram.png"><tspan
          sodipodi:role="line"
          id="tspan4162-3"
          x="319.28571"
-         y="330.21933">1.1</tspan></text>
+         y="330.21933">V1.1</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
        d="m 256.57875,348.28588 61.11423,0"
        id="path4197"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="/home/obijuan/develop/icezum/wiki/Icezum-alhambra-releases-tools-diagram.png" />
     <circle
        style="opacity:1;fill:#0000ff;fill-opacity:1;stroke:#0000ff;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="path4158-5"
@@ -223,27 +231,30 @@
        cy="392.73242"
        r="9.2857141"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="/home/obijuan/develop/icezum/wiki/Icezum-alhambra-releases-tools-diagram.png" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:17.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       style="font-style:normal;font-weight:normal;font-size:17.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="265.23279"
        y="421.13306"
        id="text4160-6"
        sodipodi:linespacing="125%"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="/home/obijuan/develop/icezum/wiki/Icezum-alhambra-releases-tools-diagram.png"><tspan
          sodipodi:role="line"
          id="tspan4162-2"
          x="265.23279"
-         y="421.13306">1.0K</tspan></text>
+         y="421.13306">V1.0K</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker4520)"
        d="m 247.48737,360.91279 22.72844,22.72843"
        id="path4512"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="/home/obijuan/develop/icezum/wiki/Icezum-alhambra-releases-tools-diagram.png" />
     <circle
        style="opacity:1;fill:#0000ff;fill-opacity:1;stroke:#0000ff;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="path4158-5-9"
@@ -251,41 +262,46 @@
        cy="392.73242"
        r="9.2857141"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="/home/obijuan/develop/icezum/wiki/Icezum-alhambra-releases-tools-diagram.png" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend-1)"
        d="m 293.44932,393.74274 61.11423,0"
        id="path4197-7"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="/home/obijuan/develop/icezum/wiki/Icezum-alhambra-releases-tools-diagram.png" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker4520-0)"
        d="m 339.91633,359.39756 22.72844,22.72843"
        id="path4512-3"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="/home/obijuan/develop/icezum/wiki/Icezum-alhambra-releases-tools-diagram.png" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend-1-6)"
        d="m 384.86813,393.74274 61.11423,0"
        id="path4197-7-6"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="/home/obijuan/develop/icezum/wiki/Icezum-alhambra-releases-tools-diagram.png" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:17.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       style="font-style:normal;font-weight:normal;font-size:17.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="350.59067"
        y="421.13306"
        id="text4160-6-2"
        sodipodi:linespacing="125%"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="/home/obijuan/develop/icezum/wiki/Icezum-alhambra-releases-tools-diagram.png"><tspan
          sodipodi:role="line"
          id="tspan4162-2-6"
          x="350.59067"
-         y="421.13306">1.1K</tspan></text>
+         y="421.13306">V1.1K</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:17.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
@@ -294,7 +310,8 @@
        id="text5586"
        sodipodi:linespacing="125%"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="/home/obijuan/develop/icezum/wiki/Icezum-alhambra-releases-tools-diagram.png"><tspan
          sodipodi:role="line"
          id="tspan5588"
          x="400"
