@@ -71,7 +71,7 @@ Arduino/zum compatible **Open FPGA** electronic board.  Synthesize hardware easi
 
 ## Authors
 
-* **V1.0**: Eladio Delgado Mingorance. Sponsored by [BQ](https://www.bq.com/es/)
+* **V1.0**: [Eladio Delgado Mingorance](https://twitter.com/EladioDM). Sponsored by [BQ](https://www.bq.com/es/)
 * **V1.0K**: Migrated to Kicad by Juan González (Obijuan). 3D models designed with FreeCAD. Everything is generated using only opensource tools (schematics, pcb, 3D models, pinout, BOM...). This version belongs to our T**echnological Heritage**
 
 ## Credits
