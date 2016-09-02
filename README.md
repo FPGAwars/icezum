@@ -41,7 +41,7 @@ Arduino/zum compatible **Open FPGA** electronic board.  Synthesize hardware easi
 
 *  **2016-02-29**: The board was renamed to **Icezum Alhambra** because Eladio lives in a small town in Granada. The name was suggested by **Sebastián Gallardo** in [this post in the FPGAwars community](https://groups.google.com/d/msg/fpga-wars-explorando-el-lado-libre/f1W0Vtt5NdE/LEDRSXudGwAJ) (In Spanish)
 
-* **2016-03-05**: The first prototype is build and a bitstream is successfully upload into the board! [Images](https://github.com/FPGAwars/icezum/raw/master/doc/2016-03-04-Mounting-first-prototype/icezum-alhambra-mounting-15.jpg) 10 PCBs were manufactured in total. 5 Prototypes were mounted (by hand) by Eladio and his sister María. 5 more were mounted one mounth later
+* **2016-03-05**: The first prototype is built and a bitstream is successfully upload into the board! [Images](https://github.com/FPGAwars/icezum/raw/master/doc/2016-03-04-Mounting-first-prototype/icezum-alhambra-mounting-15.jpg) 10 PCBs were manufactured in total. 5 Prototypes were mounted (by hand) by Eladio and his sister María. 5 more were mounted one mounth later
 
 * **2016-04-14**: BQlabs was disolved and this proyect was stopped. Many thanks to BQ  for all its help during this period. Thanks for sponsoring the Icezum board
 
