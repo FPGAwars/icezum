@@ -53,7 +53,7 @@ Arduino/zum compatible **Open FPGA** electronic board.  Synthesize hardware easi
 
 * **2016/05/18**: After two weeks, we already have the commitment of the people for paying the money for building the boards ([Board funded!](https://groups.google.com/d/msg/fpga-wars-explorando-el-lado-libre/oLFzYPqCOcQ/luBcnXpBBwAJ))
 
-* **2016/05/30**: The icesum Alhambra is being migrated to Kicad by Juan Gonzalez (Obijuan). Also the 3D models are going to be designed with FreeCAD, so that the Icezum Alhambra will not only be an openhardware board, but also a board designed with opensource tools. This way, anyone in the world can easily have access to all the designs, to study them, modify them and creating new boards from them. This version will be called V1.0K (K stands for kicad). It is not going to be manufactured, but rather a starting point for the future versions
+* **2016/05/30**: The icezum Alhambra is being **migrated to Kicad** by Juan Gonzalez (Obijuan). Also the 3D models were designed with FreeCAD, so that the Icezum Alhambra is not only an openhardware board, but also a board **designed with opensource tools**. This way, anyone in the world can easily have access to all the designs, to study them, modify them and creating new boards from them. This version will be called V1.0K (K stands for kicad). It is not going to be manufactured, but rather a starting point for the future versions
 
 * **2016/07/03**: All the money (6500€ in total) is received from the backers! Thanks a lot!!! ([Backers list](https://docs.google.com/spreadsheets/d/1yngU6kfMr5JWJYXrxBMJ7l1Cai2iuucMDoND4NpgU5Y))
 
