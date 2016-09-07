@@ -178,6 +178,10 @@ Variation15=Designator=C53|UniqueId=\KFWEELYU|Kind=1|AlternatePart=
 Variation16=Designator=C58|UniqueId=\JYIRGDIW|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for IceZUM_Core_HX1K\Design Rule Check - IceZUM_Core_HX1K.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Default Configuration
 ParameterCount=0
