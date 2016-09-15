@@ -14,11 +14,17 @@ Find more information on the [Icezum github wiki](https://github.com/FPGAwars/ic
 
 ## v1.1-RC1
 
-* PCB top
+### PCB top
 
-[[https://github.com/FPGAwars/icezum/raw/v1.1-altium/wiki/v1.1-RC1/PCB-Icezum-Alhambra-v1.1-RC1-top.jpg|width=300px]]  
+![](https://github.com/FPGAwars/icezum/raw/v1.1-altium/wiki/v1.1-RC1/PCB-Icezum-Alhambra-v1.1-RC1-top.jpg)  
 
-* PCB bottom
+### PCB bottom
+
+![](https://github.com/FPGAwars/icezum/raw/v1.1-altium/wiki/v1.1-RC1/PCB-Icezum-Alhambra-v1.1-RC1-bottom.jpg)
+
+### PCBs and stencil
+
+![](https://github.com/FPGAwars/icezum/raw/v1.1-altium/wiki/v1.1-RC1/PCB-Icezum-Alhambra-v1.1-RC1-PCBs-stencil.jpg)
 
 # Author
 * [Eladio Delgado Mingorance](https://twitter.com/EladioDM)
