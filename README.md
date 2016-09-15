@@ -7,6 +7,19 @@ This branch contains the *source files* for the **Icezum Alhambra V1.1**
 
 Icezum Alhambra v1.1 was designed in Altium, but it will be migrated to Kicad as V1.1K
 
+# Documentantion and more information
+Find more information on the [Icezum github wiki](https://github.com/FPGAwars/icezum/wiki)
+
+# Pictures
+
+## v1.1-RC1
+
+* PCB top
+
+[[https://github.com/FPGAwars/icezum/raw/v1.1-altium/wiki/v1.1-RC1/PCB-Icezum-Alhambra-v1.1-RC1-top.jpg|width=300px]]  
+
+* PCB bottom
+
 # Author
 * [Eladio Delgado Mingorance](https://twitter.com/EladioDM)
 
