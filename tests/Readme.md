@@ -7,3 +7,4 @@ Tools:  Apio 0.1.6.2  / Icestudio 0.2.1
 * **Test 03**: Testing the RTS and DTR signals coming from the PC. They are shown in the leds led0 and led7 respectively
 * **Test 04**: Testing the serial communication at 115200 bauds. All the received characters are echoed back to the PC, and shown in the leds
 * **Test 05**: Testing the external IR sensors on D13 and D12 inputs
+* **Test 06**: Testing a servo connected to D13. The position is changed when the SW1 button is pressed
