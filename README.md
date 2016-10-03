@@ -28,6 +28,18 @@ Find more information on the [Icezum github wiki](https://github.com/FPGAwars/ic
 
 ![](https://github.com/FPGAwars/icezum/raw/v1.1-altium/wiki/v1.1-RC1/PCB-Icezum-Alhambra-v1.1-RC1-PCBs-stencil.jpg)
 
+### Final prototype
+
+![](https://github.com/FPGAwars/icezum/raw/v1.1-altium/wiki/v1.1-RC1/PCB-Icezum-Alhambra-v1.1-RC1-final-prototype.jpg)
+
+### The three prototypes hand mounted
+
+![](https://github.com/FPGAwars/icezum/raw/v1.1-altium/wiki/v1.1-RC1/PCB-Icezum-Alhambra-v1.1-RC1-Three-prototypes-hand-mounted.jpg)
+
+### The first prototype working!
+
+![](https://github.com/FPGAwars/icezum/raw/v1.1-altium/wiki/v1.1-RC1/PCB-Icezum-Alhambra-v1.1-RC1-working-prototype.jpg)
+
 # Author
 * [Eladio Delgado Mingorance](https://twitter.com/EladioDM)
 
