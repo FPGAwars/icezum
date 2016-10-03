@@ -40,6 +40,12 @@ Find more information on the [Icezum github wiki](https://github.com/FPGAwars/ic
 
 ![](https://github.com/FPGAwars/icezum/raw/v1.1-altium/wiki/v1.1-RC1/PCB-Icezum-Alhambra-v1.1-RC1-working-prototype.jpg)
 
+# Log
+
+* **2016/09/14**: The **10 PCBs** (**V1.1-RC1**) from PCBway has arrived to Pinos del valle (Granada, Spain)!  
+* **2016/09/02**: V1.1-RC1 is ready. It is sent to [pcbway](http://www.pcbway.com/) for manufactoring 10 PCBs for testing
+
+
 # Author
 * [Eladio Delgado Mingorance](https://twitter.com/EladioDM)
 
