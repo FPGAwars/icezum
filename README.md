@@ -42,6 +42,16 @@ Find more information on the [Icezum github wiki](https://github.com/FPGAwars/ic
 
 # Log
 
+* **2016/09/26**: The Icezum Alhambra v1.1 design is sent to [Surtel](http://www.surtel.es) (Located in Jaen, Spain) for manufacturing a batch of 110 boards!. The boards should be ready (pcb + smd mounting) by Nov-11th.
+
+* **2016/09/24**: Talk about Opensource FPGAs at the Madrid Mini maker faire (in spanish). The icezum Alhambra v1.1-RC1 is shown ([More information](https://github.com/Obijuan/myslides/wiki/2016_09_24-Madrid-Maker-faire:FPGAwars-explorando-el-lado-libre)) ([Pictures](https://goo.gl/photos/6FATTo7BATbypyBV9))
+
+* **2016/09/23**: The Icezum Alhambra v1.1-RC1 is shown for the first time in Granada University. Demos are performed during the talk: "FPGAs libres"(in spanish) ([More information](https://github.com/Obijuan/myslides/wiki/2016_09_23-Granada-Geek-FPGAs-Libres)) ([Pictures](https://goo.gl/photos/tQLoQrpZGNPAuqMD9))
+
+* **2016/09/22**: Three Icezum Alhambra V1.1-RC1 are hand mounted and tested. They work ok!  
+([Picture](https://github.com/FPGAwars/icezum/raw/v1.1-altium/wiki/v1.1-RC1/PCB-Icezum-Alhambra-v1.1-RC1-Three-prototypes-hand-mounted.jpg))
+([More images](https://goo.gl/photos/LNhoHUZJssGUk7si8))
+
 * **2016/09/14**: The **10 PCBs** (**V1.1-RC1**) from PCBway has arrived to Pinos del valle (Granada, Spain)!  
 * **2016/09/02**: V1.1-RC1 is ready. It is sent to [pcbway](http://www.pcbway.com/) for manufactoring 10 PCBs for testing
 
