@@ -14,6 +14,8 @@ Find more information on the [Icezum github wiki](https://github.com/FPGAwars/ic
 
 ## v1.1-RC1
 
+[V1.1-RC1 photo album](https://goo.gl/photos/LNhoHUZJssGUk7si8)
+
 ### PCB top
 
 ![](https://github.com/FPGAwars/icezum/raw/v1.1-altium/wiki/v1.1-RC1/PCB-Icezum-Alhambra-v1.1-RC1-top.jpg)  
