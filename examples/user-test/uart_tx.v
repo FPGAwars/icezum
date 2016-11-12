@@ -1,7 +1,7 @@
 //----------------------------------------------------------------------------
 //-- Asynchronous serial transmitter Unit
 //------------------------------------------
-//-- (C) BQ. December 2015. Written by Juan Gonzalez (Obijuan)
+//-- Juan Gonzalez (Obijuan)
 //-- GPL license
 //----------------------------------------------------------------------------
 //-- Tested at all the standard baudrates:
