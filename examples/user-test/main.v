@@ -8,6 +8,8 @@
 //-- Template for the top entity
 module top(input wire CLK,
            input wire SW1,
+           input wire SW2,
+           output wire TX,
            output wire LED0, LED1, LED2, LED3,
                        LED4, LED5, LED6, LED7);
 
@@ -15,7 +17,7 @@ module top(input wire CLK,
 //-- Test circuit 1
 wire [7:0] led_ct1;
 
-pwm_led CTO1 (
+pwm_led CT0 (
     .clk(CLK),
     .ledb(led_ct1)
   );
@@ -23,20 +25,29 @@ pwm_led CTO1 (
 //-- Test circuit 2
 wire [7:0] led_ct2;
 
-kitt CTO2 (
+kitt CT1 (
   .clk(CLK),
   .ledb(led_ct2)
   );
 
+//-- Test circuit 3
+wire [7:0] led_ct3 = 8'hAA;
+
+txstr CT2 (
+        .clk(CLK),
+        .go(sw2),
+        .tx(TX)
+);
+
 //-- Multiplexer for accessing the leds
 wire [7:0] ledb;
-reg [1:0] sel_cto = 0;
+reg [1:0] sel_cto = 2;
 
 always @ ( * ) begin
   case (sel_cto)
     0: ledb = led_ct1;
     1: ledb = led_ct2;
-    2: ledb = 8'hAA;
+    2: ledb = led_ct3;
     3: ledb = 8'h55;
     default: ledb = 0;
   endcase
@@ -57,8 +68,23 @@ debounce_pulse deb1 (
   .sw_out(sw1)
   );
 
+//-- Button 2
+wire sw2;
+debounce_pulse deb2 (
+  .clk(CLK),
+  .sw_in(SW2),
+  .sw_out(sw2)
+  );
+
+//-- Test buttons (DEBUG)
+reg sw2_ff = 0;
+always @ (posedge CLK) begin
+  if (sw2)
+    sw2_ff <= ~sw2_ff;
+end
+
+
   assign {LED7, LED6, LED5, LED4, LED3, LED2, LED1, LED0} = ledb;
-  //assign LED0 = SW1;
 
 endmodule
 
