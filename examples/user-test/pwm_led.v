@@ -17,6 +17,7 @@ prescaler
        #(.N(18))
        T1S (
          .clk_in(clk),
+         .ena(1'b1),
          .clk_out(clk_1s)
          );
 
@@ -25,6 +26,7 @@ prescaler
        #(.N(6))
        T1MS (
          .clk_in(clk),
+         .ena(1'b1),
          .clk_out(clk_1ms)
          );
 

@@ -1,9 +1,9 @@
 
 //-- Simple Parametric prescaler
 
-module prescaler(input clk_in, output clk_out);
-wire clk_in;
-wire clk_out;
+module prescaler(input clk_in,
+                 input wire ena,
+                 output clk_out);
 
 //-- Number of bits
 parameter N = 22;
@@ -16,7 +16,11 @@ assign clk_out = count[N-1];
 
 //-- Counter
 always @(posedge(clk_in)) begin
-  count <= count + 1;
+  if (!ena)
+    count <= 0;
+  else
+    count <= count + 1;
+
 end
 
 endmodule
