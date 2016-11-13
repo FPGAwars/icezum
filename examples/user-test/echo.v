@@ -23,35 +23,19 @@ wire rcv;
 //-- Received data
 wire [7:0] data;
 
-//-- Reset signal
-reg rstn = 0;
-
 //-- Transmitter ready signal
 wire ready;
 
-//-- Initialization
-always @(posedge clk)
-  rstn <= 1;
+assign tx = rx;
 
 assign ledb = data;
 
 //-- Receiver unit instantation
 uart_rx #(.BAUDRATE(BAUDRATE))
   RX0 (.clk(clk),
-       .rstn(rstn),
        .rx(rx),
        .rcv(rcv),
        .data(data)
       );
-
-//-- Transmitter unit instantation
-uart_tx #(.BAUDRATE(BAUDRATE))
-  TX0 ( .clk(clk),
-         .start(rcv),
-         .data(data),
-         .tx(tx),
-         .ready(ready)
-       );
-
 
 endmodule

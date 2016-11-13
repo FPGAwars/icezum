@@ -35,7 +35,6 @@
 module baudgen_rx #(
          parameter BAUDRATE = `B115200  //-- Default baudrate
 )(
-         input wire rstn,         //-- Reset (active low)
          input wire clk,          //-- System clock
          input wire clk_ena,      //-- Clock enable
          output wire clk_out      //-- Bitrate Clock output
@@ -53,11 +52,7 @@ reg [N-1:0] divcounter = 0;
 
 //-- Contador módulo M
 always @(posedge clk)
-
-  if (!rstn)
-    divcounter <= 0;
-
-  else if (clk_ena)
+  if (clk_ena)
     //-- Normal working: counting. When the maximum count is reached, it starts from 0
     divcounter <= (divcounter == BAUDRATE - 1) ? 0 : divcounter + 1;
   else

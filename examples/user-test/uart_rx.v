@@ -22,7 +22,6 @@ module uart_rx #(
          parameter BAUDRATE = `B115200   //-- Default baudrate
 )(
          input wire clk,         //-- System clock (12MHz in the ICEstick)
-         input wire rstn,        //-- Reset (Active low)
          input wire rx,          //-- Serial data input
          output reg rcv,         //-- Data is available (1)
          output reg [7:0] data   //-- Data received
@@ -51,7 +50,6 @@ always @(posedge clk)
 //-- Baud generator
 baudgen_rx #(BAUDRATE)
   baudgen0 (
-    .rstn(rstn),
     .clk(clk),
     .clk_ena(bauden),
     .clk_out(clk_baud)
@@ -76,9 +74,7 @@ always @(posedge clk)
 
 //-- Data register. Store the character received
 always @(posedge clk)
-  if (rstn == 0)
-    data <= 0;
-  else if (load)
+  if (load)
     data <= raw_data[8:1];
 
 //-------------------------------------------
@@ -92,14 +88,11 @@ localparam LOAD = 2'd2;  //-- Storing the character received
 localparam DAV = 2'd3;   //-- Data is available
 
 //-- fsm states
-reg [1:0] state;
+reg [1:0] state = IDLE;
 reg [1:0] next_state;
 
 //-- Transition between states
 always @(posedge clk)
-  if (!rstn)
-    state <= IDLE;
-  else
     state <= next_state;
 
 //-- Control signal generation and next states
