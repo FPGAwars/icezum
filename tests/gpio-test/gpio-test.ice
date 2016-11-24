@@ -2,10 +2,10 @@
   "image": "",
   "state": {
     "pan": {
-      "x": 19.562518040592977,
-      "y": -22.285641216769385
+      "x": -140.95241505404678,
+      "y": -51.29465292639993
     },
-    "zoom": 0.5436974193054879
+    "zoom": 0.6331665569804485
   },
   "board": "icezum",
   "graph": {
@@ -16,8 +16,8 @@
         "data": {
           "label": "led0",
           "pin": {
-            "name": "LED0",
-            "value": "95"
+            "name": "GP0",
+            "value": "37"
           }
         },
         "position": {
@@ -40,8 +40,8 @@
         "data": {
           "label": "led1",
           "pin": {
-            "name": "LED1",
-            "value": "96"
+            "name": "GP1",
+            "value": "38"
           }
         },
         "position": {
@@ -55,8 +55,8 @@
         "data": {
           "label": "led2",
           "pin": {
-            "name": "LED2",
-            "value": "97"
+            "name": "GP2",
+            "value": "39"
           }
         },
         "position": {
@@ -70,8 +70,8 @@
         "data": {
           "label": "led3",
           "pin": {
-            "name": "LED3",
-            "value": "98"
+            "name": "GP3",
+            "value": "41"
           }
         },
         "position": {
@@ -85,8 +85,8 @@
         "data": {
           "label": "led4",
           "pin": {
-            "name": "LED4",
-            "value": "99"
+            "name": "GP4",
+            "value": "42"
           }
         },
         "position": {
@@ -100,8 +100,8 @@
         "data": {
           "label": "led5",
           "pin": {
-            "name": "LED5",
-            "value": "101"
+            "name": "GP5",
+            "value": "43"
           }
         },
         "position": {
@@ -115,8 +115,8 @@
         "data": {
           "label": "led6",
           "pin": {
-            "name": "LED6",
-            "value": "102"
+            "name": "GP6",
+            "value": "49"
           }
         },
         "position": {
@@ -137,17 +137,6 @@
         "position": {
           "x": 1728,
           "y": 744
-        }
-      },
-      {
-        "id": "635a258c-48d6-435c-b5ef-cbb81d3540d7",
-        "type": "basic.info",
-        "data": {
-          "info": "Frecuencia: 50ms como máximo en barrer \nlos 28 pines\n"
-        },
-        "position": {
-          "x": 264,
-          "y": 816
         }
       },
       {
@@ -439,7 +428,7 @@
         "id": "4bb4987f-953b-46cb-9ddc-bf9a93b00361",
         "type": "basic.code",
         "data": {
-          "code": "reg [4:0] count = 0;\n\nalways @(posedge clk)\n  count <= count + 1;\n  ",
+          "code": "reg [4:0] count = 0;\n\nalways @(posedge clk)\n  count <= count + 1;\n  \nassign {d4,d3,d2,d1,d0} = count;  ",
           "ports": {
             "in": [
               "clk"
@@ -623,7 +612,7 @@
           }
         },
         "position": {
-          "x": 280,
+          "x": 312,
           "y": 96
         }
       },
@@ -1514,6 +1503,10 @@
           "port": "clk"
         },
         "vertices": [
+          {
+            "x": 784,
+            "y": 232
+          },
           {
             "x": 408,
             "y": 408
