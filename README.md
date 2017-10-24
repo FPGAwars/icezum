@@ -65,7 +65,7 @@ Arduino/zum compatible **Open FPGA** electronic board.  Synthesize hardware easi
  
  * **2016/09/22**: Three Icezum Alhambra V1.1-RC1 are hand mounted and tested. They work ok!. The PCBs were manufactured in pcbway. The design is validated
 
- * **2016/010/03**: [Icezum Alhambra v1.1-RC1 is released](https://github.com/FPGAwars/icezum/releases/tag/v1.1-RC1)
+ * **2016/10/03**: [Icezum Alhambra v1.1-RC1 is released](https://github.com/FPGAwars/icezum/releases/tag/v1.1-RC1)
  
 ### V1.1K
  
