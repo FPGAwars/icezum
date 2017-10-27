@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/amr/Documentos/KiCad/icezum/src-kicad/icezum.sch)
-    (date "sáb 28 oct 2017 00:55:13 CEST")
+    (date "sáb 28 oct 2017 01:24:23 CEST")
     (tool "Eeschema no-vcs-found-fc5e8e5~60~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1327,7 +1327,7 @@
       (tstamp 574C8B4A))
     (comp (ref F1)
       (value 0,5A)
-      (footprint Icezum:F_1812)
+      (footprint Icezum:F_0805)
       (libsource (lib icezum) (part PTC_Fuse))
       (sheetpath (names "/USB communications/") (tstamps /574C0DEC/))
       (tstamp 574CA53C))
