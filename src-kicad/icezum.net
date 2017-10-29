@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/amr/Documentos/KiCad/icezum/src-kicad/icezum.sch)
-    (date "sáb 28 oct 2017 01:24:23 CEST")
+    (date "sáb 28 oct 2017 23:07:09 CEST")
     (tool "Eeschema no-vcs-found-fc5e8e5~60~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -686,7 +686,7 @@
       (tstamp 57454547))
     (comp (ref L4)
       (value Ferrite_Bead)
-      (footprint Icezum:L_0603)
+      (footprint Icezum:L_0805)
       (fields
         (field (name OrderingCode) FBMH2016HM121NT))
       (libsource (lib icezum) (part Ferrite_Bead))
