@@ -1826,7 +1826,7 @@ U 1 1 59F223AC
 P 3850 1200
 F 0 "TP8" H 3800 1450 47  0000 L CNN
 F 1 "TestPoint_Small" H 3850 1100 60  0001 C CNN
-F 2 "Icezum:Test_point" H 3850 1200 60  0001 C CNN
+F 2 "Icezum:Via_Test_point" H 3850 1200 60  0001 C CNN
 F 3 "" H 3850 1200 60  0000 C CNN
 	1    3850 1200
 	1    0    0    -1  

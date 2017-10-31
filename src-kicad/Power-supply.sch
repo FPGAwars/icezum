@@ -1873,7 +1873,7 @@ U 1 1 59F0F7D5
 P 8150 1350
 F 0 "TP3" H 8100 1600 47  0000 L CNN
 F 1 "TestPoint_Small" H 8150 1250 60  0001 C CNN
-F 2 "Icezum:Test_point" H 8150 1350 60  0001 C CNN
+F 2 "Icezum:Via_Test_point" H 8150 1350 60  0001 C CNN
 F 3 "" H 8150 1350 60  0000 C CNN
 	1    8150 1350
 	1    0    0    -1  
@@ -1886,7 +1886,7 @@ U 1 1 59F0FB8D
 P 7450 1350
 F 0 "TP4" H 7400 1600 47  0000 L CNN
 F 1 "TestPoint_Small" H 7450 1250 60  0001 C CNN
-F 2 "Icezum:Test_point" H 7450 1350 60  0001 C CNN
+F 2 "Icezum:Via_Test_point" H 7450 1350 60  0001 C CNN
 F 3 "" H 7450 1350 60  0000 C CNN
 	1    7450 1350
 	1    0    0    -1  
@@ -1899,7 +1899,7 @@ U 1 1 59F0FF89
 P 3600 1250
 F 0 "TP2" H 3550 1500 47  0000 L CNN
 F 1 "TestPoint_Small" H 3600 1150 60  0001 C CNN
-F 2 "Icezum:Test_point" H 3600 1250 60  0001 C CNN
+F 2 "Icezum:Via_Test_point" H 3600 1250 60  0001 C CNN
 F 3 "" H 3600 1250 60  0000 C CNN
 	1    3600 1250
 	1    0    0    -1  
@@ -1962,7 +1962,7 @@ U 1 1 59F1FC60
 P 4350 2950
 F 0 "TP6" H 4300 3200 47  0000 L CNN
 F 1 "TestPoint_Small" H 4350 2850 60  0001 C CNN
-F 2 "Icezum:Test_point" H 4350 2950 60  0001 C CNN
+F 2 "Icezum:Via_Test_point" H 4350 2950 60  0001 C CNN
 F 3 "" H 4350 2950 60  0000 C CNN
 	1    4350 2950
 	1    0    0    -1  
@@ -1973,7 +1973,7 @@ U 1 1 59F1FD3E
 P 6350 2950
 F 0 "TP7" H 6300 3200 47  0000 L CNN
 F 1 "TestPoint_Small" H 6350 2850 60  0001 C CNN
-F 2 "Icezum:Test_point" H 6350 2950 60  0001 C CNN
+F 2 "Icezum:Via_Test_point" H 6350 2950 60  0001 C CNN
 F 3 "" H 6350 2950 60  0000 C CNN
 	1    6350 2950
 	1    0    0    -1  
@@ -1984,7 +1984,7 @@ U 1 1 59F1FE6C
 P 5250 5850
 F 0 "TP1" H 5200 6100 47  0000 L CNN
 F 1 "TestPoint_Small" H 5250 5750 60  0001 C CNN
-F 2 "Icezum:Test_point" H 5250 5850 60  0001 C CNN
+F 2 "Icezum:Via_Test_point" H 5250 5850 60  0001 C CNN
 F 3 "" H 5250 5850 60  0000 C CNN
 	1    5250 5850
 	1    0    0    -1  
@@ -1995,7 +1995,7 @@ U 1 1 59F1FF4A
 P 7050 5850
 F 0 "TP5" H 7000 6100 47  0000 L CNN
 F 1 "TestPoint_Small" H 7050 5750 60  0001 C CNN
-F 2 "Icezum:Test_point" H 7050 5850 60  0001 C CNN
+F 2 "Icezum:Via_Test_point" H 7050 5850 60  0001 C CNN
 F 3 "" H 7050 5850 60  0000 C CNN
 	1    7050 5850
 	1    0    0    -1  
