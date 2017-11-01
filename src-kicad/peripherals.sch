@@ -1,5 +1,7 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 3
+LIBS:icezum-rescue
 LIBS:icezum
+LIBS:icezum-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -31,7 +33,7 @@ U 1 1 5748BFE4
 P 8250 2550
 F 0 "U7" H 8470 2680 60  0000 L BNN
 F 1 "ADS7924" H 9130 2680 60  0000 L BNN
-F 2 "Icezum:QFN16" H 8470 2660 60  0001 C CNN
+F 2 "Icezum:QFN16_VIATP" H 8470 2660 60  0001 C CNN
 F 3 "" H 8470 2660 60  0000 C CNN
 	1    8250 2550
 	1    0    0    -1  
@@ -1442,9 +1444,11 @@ F 3 "" H 5400 1150 50  0000 C CNN
 $EndComp
 Connection ~ 5400 1350
 $Comp
-L Switch_4p SW1
+L Switch_4p-RESCUE-icezum SW1
 U 1 1 59FA1B7A
 P 4600 1350
+AR Path="/59FA1B7A" Ref="SW1"  Part="1" 
+AR Path="/57489FE9/59FA1B7A" Ref="SW1"  Part="1" 
 F 0 "SW1" H 4975 1543 60  0000 C CNN
 F 1 "Switch_4p" H 4975 1543 60  0001 C CNN
 F 2 "Icezum:WE_434331013822_push_switch" H 4975 1543 60  0001 C CNN
@@ -1453,9 +1457,11 @@ F 3 "" H 4600 1350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch_4p SW2
+L Switch_4p-RESCUE-icezum SW2
 U 1 1 59FA1F8B
 P 4600 2250
+AR Path="/59FA1F8B" Ref="SW2"  Part="1" 
+AR Path="/57489FE9/59FA1F8B" Ref="SW2"  Part="1" 
 F 0 "SW2" H 4975 2443 60  0000 C CNN
 F 1 "Switch_4p" H 4975 2443 60  0001 C CNN
 F 2 "Icezum:WE_434331013822_push_switch" H 4975 2443 60  0001 C CNN
