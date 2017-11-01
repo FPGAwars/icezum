@@ -20,7 +20,7 @@ F http://www.diodes.com/_files/datasheets/AP7361.pdf
 $ENDCMP
 #
 $CMP APX810
-D power supplies supervisory circuit monitor  
+D power supplies supervisory circuit monitor
 $ENDCMP
 #
 $CMP DSC1001

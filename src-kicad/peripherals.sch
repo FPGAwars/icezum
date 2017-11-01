@@ -1,6 +1,5 @@
-EESchema Schematic File Version 3
+EESchema Schematic File Version 2
 LIBS:icezum
-LIBS:icezum-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1360,31 +1359,9 @@ F 3 "" H 1700 3860 50  0000 C CNN
 	1    1700 4000
 	0    1    1    0   
 $EndComp
-$Comp
-L Switch_4p SW1
-U 1 1 59F1BB8D
-P 4600 1350
-F 0 "SW1" H 5000 1550 60  0000 C CNN
-F 1 "Switch" H 5000 1250 60  0000 C CNN
-F 2 "Icezum:WE_434331013822_push_switch" H 4600 1350 60  0001 C CNN
-F 3 "" H 4600 1350 60  0000 C CNN
-	1    4600 1350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5350 1450 5400 1450
 Connection ~ 5400 1450
-$Comp
-L Switch_4p SW2
-U 1 1 59F1C092
-P 4600 2250
-F 0 "SW2" H 5000 2450 60  0000 C CNN
-F 1 "Switch" H 5000 2150 60  0000 C CNN
-F 2 "Icezum:WE_434331013822_push_switch" H 4600 2250 60  0001 C CNN
-F 3 "" H 4600 2250 60  0000 C CNN
-	1    4600 2250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5400 2350 5350 2350
 Connection ~ 5400 2250
@@ -1464,4 +1441,26 @@ F 3 "" H 5400 1150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 5400 1350
+$Comp
+L Switch_4p SW1
+U 1 1 59FA1B7A
+P 4600 1350
+F 0 "SW1" H 4975 1543 60  0000 C CNN
+F 1 "Switch_4p" H 4975 1543 60  0001 C CNN
+F 2 "Icezum:WE_434331013822_push_switch" H 4975 1543 60  0001 C CNN
+F 3 "" H 4600 1350 60  0000 C CNN
+	1    4600 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch_4p SW2
+U 1 1 59FA1F8B
+P 4600 2250
+F 0 "SW2" H 4975 2443 60  0000 C CNN
+F 1 "Switch_4p" H 4975 2443 60  0001 C CNN
+F 2 "Icezum:WE_434331013822_push_switch" H 4975 2443 60  0001 C CNN
+F 3 "" H 4600 2250 60  0000 C CNN
+	1    4600 2250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

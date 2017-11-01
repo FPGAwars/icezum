@@ -1,6 +1,5 @@
-EESchema Schematic File Version 3
+EESchema Schematic File Version 2
 LIBS:icezum
-LIBS:icezum-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
