@@ -1,4 +1,4 @@
-(module WE_434331013822_push_switch (layer F.Cu) (tedit 59F3B8C0)
+(module WE_434331013822_push_switch (layer F.Cu) (tedit 59FA23D8)
   (tags "push switch")
   (fp_text reference REF** (at 0 -3.28) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -21,4 +21,6 @@
   (pad 3 smd rect (at -1.9 0.7) (size 1.6 1) (layers F.Cu F.Paste F.Mask))
   (pad 4 smd rect (at 1.9 0.7) (size 1.6 1) (layers F.Cu F.Paste F.Mask))
   (pad 4 thru_hole circle (at 2.025 0.8) (size 1 1) (drill 0.65) (layers *.Mask B.Cu))
+  (pad 3 thru_hole circle (at -2.025 0.8) (size 0.8 0.8) (drill 0.65) (layers *.Cu *.Mask))
+  (pad 4 thru_hole circle (at 2.025 0.8) (size 0.8 0.8) (drill 0.65) (layers *.Cu *.Mask))
 )
