@@ -1,4 +1,5 @@
 EESchema Schematic File Version 3
+LIBS:icezum-rescue
 LIBS:icezum
 LIBS:icezum-cache
 EELAYER 26 0
