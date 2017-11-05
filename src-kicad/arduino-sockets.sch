@@ -1,5 +1,4 @@
 EESchema Schematic File Version 3
-LIBS:icezum-rescue
 LIBS:icezum
 LIBS:icezum-cache
 EELAYER 26 0
@@ -8,7 +7,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 7
 Title "IceZUM Alhambra FPGA board"
-Date "2017-10-26"
+Date "2017-11-06"
 Rev "V1.1K"
 Comp "FPGAwars"
 Comment1 "Derived from BQ icezum V1.0"
@@ -24,6 +23,11 @@ F 0 "U9" H 1300 6350 60  0000 C CNN
 F 1 "TXB0108" H 1650 6350 60  0000 C CNN
 F 2 "Icezum:VQFN20_VIATP" H 1500 6300 60  0001 C CNN
 F 3 "" H 1500 6300 60  0000 C CNN
+F 4 "TXB0108RGYR" H 1500 6300 60  0001 C CNN "Ordering_Code"
+F 5 "Texas Instruments" H 1500 6300 60  0001 C CNN "Manufacturer"
+F 6 "~" H 1500 6300 60  0001 C CNN "Ordering_Code2"
+F 7 "~" H 1500 6300 60  0001 C CNN "Manufacturer2"
+F 8 "~" H 1500 6300 60  0001 C CNN "Supplier"
 	1    1050 6200
 	1    0    0    -1  
 $EndComp
@@ -37,6 +41,10 @@ F 2 "Icezum:C_0402" H 1338 5600 50  0001 C CNN
 F 3 "" H 1300 5750 50  0000 C CNN
 F 4 "X7R" V 1370 5620 50  0000 C CNN "Class"
 F 5 "16V" V 1450 5610 50  0000 C CNN "Voltage"
+F 6 "C0603C104K3RAC" H 1300 5750 60  0001 C CNN "Ordering_Code"
+F 7 "Kemet" H 1300 5750 60  0001 C CNN "Manufacturer"
+F 8 "~" H 1300 5750 60  0001 C CNN "Ordering_Code2"
+F 9 "~" H 1300 5750 60  0001 C CNN "Supplier"
 	1    1300 5750
 	0    1    1    0   
 $EndComp
@@ -50,6 +58,10 @@ F 2 "Icezum:C_0402" H 1988 5600 50  0001 C CNN
 F 3 "" H 1950 5750 50  0000 C CNN
 F 4 "X7R" V 2020 5620 50  0000 C CNN "Class"
 F 5 "16V" V 2100 5610 50  0000 C CNN "Voltage"
+F 6 "C0603C104K3RAC" H 2100 5610 60  0001 C CNN "Ordering_Code"
+F 7 "Kemet" H 2100 5610 60  0001 C CNN "Manufacturer"
+F 8 "~" H 2100 5610 60  0001 C CNN "Ordering_Code2"
+F 9 "~" H 2100 5610 60  0001 C CNN "Supplier"
 	1    1950 5750
 	0    1    1    0   
 $EndComp
@@ -161,6 +173,10 @@ F 2 "Icezum:C_0402" H 2338 7250 50  0001 C CNN
 F 3 "" H 2300 7400 50  0000 C CNN
 F 4 "X7R" H 2400 7300 50  0000 C CNN "Class"
 F 5 "16V" H 2390 7230 50  0000 C CNN "Voltage"
+F 6 "C0402C101K4RAC" H 2390 7230 60  0001 C CNN "Ordering_Code"
+F 7 "Kemet" H 2390 7230 60  0001 C CNN "Manufacturer"
+F 8 "~" H 2390 7230 60  0001 C CNN "Ordering_Code2"
+F 9 "~" H 2390 7230 60  0001 C CNN "Supplier"
 	1    2300 7400
 	1    0    0    -1  
 $EndComp
@@ -193,6 +209,10 @@ F 2 "Icezum:C_0402" H 2638 7250 50  0001 C CNN
 F 3 "" H 2600 7400 50  0000 C CNN
 F 4 "X7R" H 2700 7300 50  0000 C CNN "Class"
 F 5 "16V" H 2690 7230 50  0000 C CNN "Voltage"
+F 6 "C0402C101K4RAC" H 2390 7230 60  0001 C CNN "Ordering_Code"
+F 7 "Kemet" H 2390 7230 60  0001 C CNN "Manufacturer"
+F 8 "~" H 2390 7230 60  0001 C CNN "Ordering_Code2"
+F 9 "~" H 2390 7230 60  0001 C CNN "Supplier"
 	1    2600 7400
 	1    0    0    -1  
 $EndComp
@@ -223,6 +243,10 @@ F 2 "Icezum:C_0402" H 2938 7050 50  0001 C CNN
 F 3 "" H 2900 7200 50  0000 C CNN
 F 4 "X7R" H 3000 7100 50  0000 C CNN "Class"
 F 5 "16V" H 2990 7030 50  0000 C CNN "Voltage"
+F 6 "C0402C101K4RAC" H 2990 7030 60  0001 C CNN "Ordering_Code"
+F 7 "Kemet" H 2990 7030 60  0001 C CNN "Manufacturer"
+F 8 "~" H 2990 7030 60  0001 C CNN "Ordering_Code2"
+F 9 "~" H 2990 7030 60  0001 C CNN "Supplier"
 	1    2900 7200
 	1    0    0    -1  
 $EndComp
@@ -257,6 +281,10 @@ F 2 "Icezum:C_0402" H 3238 7250 50  0001 C CNN
 F 3 "" H 3200 7400 50  0000 C CNN
 F 4 "X7R" H 3300 7300 50  0000 C CNN "Class"
 F 5 "16V" H 3290 7230 50  0000 C CNN "Voltage"
+F 6 "C0402C101K4RAC" H 3290 7230 60  0001 C CNN "Ordering_Code"
+F 7 "Kemet" H 3290 7230 60  0001 C CNN "Manufacturer"
+F 8 "~" H 3290 7230 60  0001 C CNN "Ordering_Code2"
+F 9 "~" H 3290 7230 60  0001 C CNN "Supplier"
 	1    3200 7400
 	1    0    0    -1  
 $EndComp
@@ -287,6 +315,10 @@ F 2 "Icezum:C_0402" H 3538 6950 50  0001 C CNN
 F 3 "" H 3500 7100 50  0000 C CNN
 F 4 "X7R" H 3600 7000 50  0000 C CNN "Class"
 F 5 "16V" H 3590 6930 50  0000 C CNN "Voltage"
+F 6 "C0402C101K4RAC" H 3590 6930 60  0001 C CNN "Ordering_Code"
+F 7 "Kemet" H 3590 6930 60  0001 C CNN "Manufacturer"
+F 8 "~" H 3590 6930 60  0001 C CNN "Ordering_Code2"
+F 9 "~" H 3590 6930 60  0001 C CNN "Supplier"
 	1    3500 7100
 	1    0    0    -1  
 $EndComp
@@ -317,6 +349,10 @@ F 2 "Icezum:C_0402" H 3838 7250 50  0001 C CNN
 F 3 "" H 3800 7400 50  0000 C CNN
 F 4 "X7R" H 3900 7300 50  0000 C CNN "Class"
 F 5 "16V" H 3890 7230 50  0000 C CNN "Voltage"
+F 6 "C0402C101K4RAC" H 3890 7230 60  0001 C CNN "Ordering_Code"
+F 7 "Kemet" H 3890 7230 60  0001 C CNN "Manufacturer"
+F 8 "~" H 3890 7230 60  0001 C CNN "Ordering_Code2"
+F 9 "~" H 3890 7230 60  0001 C CNN "Supplier"
 	1    3800 7400
 	1    0    0    -1  
 $EndComp
@@ -330,6 +366,10 @@ F 2 "Icezum:C_0402" H 4138 6950 50  0001 C CNN
 F 3 "" H 4100 7100 50  0000 C CNN
 F 4 "X7R" H 4200 7000 50  0000 C CNN "Class"
 F 5 "16V" H 4190 6930 50  0000 C CNN "Voltage"
+F 6 "C0402C101K4RAC" H 4190 6930 60  0001 C CNN "Ordering_Code"
+F 7 "Kemet" H 4190 6930 60  0001 C CNN "Manufacturer"
+F 8 "~" H 4190 6930 60  0001 C CNN "Ordering_Code2"
+F 9 "~" H 4190 6930 60  0001 C CNN "Supplier"
 	1    4100 7100
 	1    0    0    -1  
 $EndComp
@@ -343,6 +383,10 @@ F 2 "Icezum:C_0402" H 4438 7250 50  0001 C CNN
 F 3 "" H 4400 7400 50  0000 C CNN
 F 4 "X7R" H 4500 7300 50  0000 C CNN "Class"
 F 5 "16V" H 4490 7230 50  0000 C CNN "Voltage"
+F 6 "C0402C101K4RAC" H 4490 7230 60  0001 C CNN "Ordering_Code"
+F 7 "Kemet" H 4490 7230 60  0001 C CNN "Manufacturer"
+F 8 "~" H 4490 7230 60  0001 C CNN "Ordering_Code2"
+F 9 "~" H 4490 7230 60  0001 C CNN "Supplier"
 	1    4400 7400
 	1    0    0    -1  
 $EndComp
@@ -445,6 +489,11 @@ F 0 "J10" V 9400 2000 60  0000 C CNN
 F 1 "1x8_female_pin_Header_2.54mm" H 9600 850 60  0001 C CNN
 F 2 "Icezum:1x8_Socket_header_2.54mm" H 9250 1600 60  0001 C CNN
 F 3 "" H 9250 1600 60  0000 C CNN
+F 4 "SSW-108-01-T-S" H 9250 1600 60  0001 C CNN "Ordering_Code"
+F 5 "Samtec" H 9250 1600 60  0001 C CNN "Manufacturer"
+F 6 "~" H 9250 1600 60  0001 C CNN "Ordering_Code2"
+F 7 "~" H 9250 1600 60  0001 C CNN "Manufacturer2"
+F 8 "~" H 9250 1600 60  0001 C CNN "Supplier"
 	1    9250 1050
 	0    -1   -1   0   
 $EndComp
@@ -496,6 +545,11 @@ F 0 "J8" V 9100 2250 60  0000 C CNN
 F 1 "1x8_male_pin_Header_2.54mm" H 9000 1150 60  0001 C CNN
 F 2 "Icezum:1x8_pin_header_2.54mm" H 9250 1900 60  0001 C CNN
 F 3 "" H 9250 1900 60  0000 C CNN
+F 4 "TSW-108-07-T-S" H 9250 1600 60  0001 C CNN "Ordering_Code"
+F 5 "Samtec" H 9250 1600 60  0001 C CNN "Manufacturer"
+F 6 "~" H 9250 1600 60  0001 C CNN "Ordering_Code2"
+F 7 "~" H 9250 1600 60  0001 C CNN "Manufacturer2"
+F 8 "~" H 9250 1600 60  0001 C CNN "Supplier"
 	1    9250 1350
 	0    -1   -1   0   
 $EndComp
@@ -551,6 +605,11 @@ F 0 "J7" V 9100 2850 60  0000 C CNN
 F 1 "1x8_male_pin_Header_2.54mm" H 9140 1760 60  0001 C CNN
 F 2 "Icezum:1x8_pin_header_2.54mm" H 9250 2500 60  0001 C CNN
 F 3 "" H 9250 2500 60  0000 C CNN
+F 4 "TSW-108-07-T-S-RED" H 9250 2500 60  0001 C CNN "Ordering_Code"
+F 5 "Samtec" H 9250 2500 60  0001 C CNN "Manufacturer"
+F 6 "~" H 9250 2500 60  0001 C CNN "Ordering_Code2"
+F 7 "~" H 9250 2500 60  0001 C CNN "Manufacturer2"
+F 8 "~" H 9250 2500 60  0001 C CNN "Supplier"
 	1    9250 1950
 	0    -1   -1   0   
 $EndComp
@@ -593,6 +652,11 @@ F 0 "J9" V 9100 3450 60  0000 C CNN
 F 1 "1x8_male_pin_Header_2.54mm" H 9140 2360 60  0001 C CNN
 F 2 "Icezum:1x8_pin_header_2.54mm" H 9250 3100 60  0001 C CNN
 F 3 "" H 9250 3100 60  0000 C CNN
+F 4 "TSW-108-07-T-S-NATURAL" H 9250 3100 60  0001 C CNN "Ordering_Code"
+F 5 "Samtec" H 9250 3100 60  0001 C CNN "Manufacturer"
+F 6 "~" H 9250 3100 60  0001 C CNN "Ordering_Code2"
+F 7 "~" H 9250 3100 60  0001 C CNN "Manufacturer2"
+F 8 "~" H 9250 3100 60  0001 C CNN "Supplier"
 	1    9250 2550
 	0    -1   -1   0   
 $EndComp
@@ -632,6 +696,11 @@ F 0 "doc1" H 10400 980 60  0001 C CNN
 F 1 "1x8_pin_female_header_DOC" H 10400 1550 60  0001 C CNN
 F 2 "Icezum:None" H 9800 1750 60  0001 C CNN
 F 3 "" H 9800 1750 60  0000 C CNN
+F 4 "~" H 9800 1750 60  0001 C CNN "Ordering_Code"
+F 5 "~" H 9800 1750 60  0001 C CNN "Manufacturer"
+F 6 "~" H 9800 1750 60  0001 C CNN "Ordering_Code2"
+F 7 "~" H 9800 1750 60  0001 C CNN "Manufacturer2"
+F 8 "~" H 9800 1750 60  0001 C CNN "Supplier"
 	1    9950 1050
 	1    0    0    -1  
 $EndComp
@@ -643,6 +712,11 @@ F 0 "doc2" H 10380 2110 60  0001 C CNN
 F 1 "3x8_pin_male_header_DOC" H 10470 2770 60  0001 C CNN
 F 2 "Icezum:None" H 9800 2900 60  0001 C CNN
 F 3 "" H 9800 2900 60  0000 C CNN
+F 4 "~" H 9800 2900 60  0001 C CNN "Ordering_Code"
+F 5 "~" H 9800 2900 60  0001 C CNN "Manufacturer"
+F 6 "~" H 9800 2900 60  0001 C CNN "Ordering_Code2"
+F 7 "~" H 9800 2900 60  0001 C CNN "Manufacturer2"
+F 8 "~" H 9800 2900 60  0001 C CNN "Supplier"
 	1    9950 2200
 	1    0    0    -1  
 $EndComp
@@ -731,6 +805,11 @@ F 0 "J4" V 6200 2150 60  0000 C CNN
 F 1 "1x10_female_pin_Header_2.54mm" H 6220 860 60  0001 C CNN
 F 2 "Icezum:1x10_socket-header-2.54mm" H 6050 1600 60  0001 C CNN
 F 3 "" H 6050 1600 60  0000 C CNN
+F 4 "SSW-110-01-T-S" H 6050 1600 60  0001 C CNN "Ordering_Code"
+F 5 "Samtec" H 6050 1600 60  0001 C CNN "Manufacturer"
+F 6 "~" H 6050 1600 60  0001 C CNN "Ordering_Code2"
+F 7 "~" H 6050 1600 60  0001 C CNN "Manufacturer2"
+F 8 "~" H 6050 1600 60  0001 C CNN "Supplier"
 	1    6050 1050
 	0    -1   -1   0   
 $EndComp
@@ -773,6 +852,11 @@ F 0 "J3" V 5850 2050 60  0000 C CNN
 F 1 "1x6_male_pin_Header_2.54mm" H 5940 1160 60  0001 C CNN
 F 2 "Icezum:1x6-pin-header-2.54mm" H 6050 1900 60  0001 C CNN
 F 3 "" H 6050 1900 60  0000 C CNN
+F 4 "TSW-106-07-T-S" H 6050 1900 60  0001 C CNN "Ordering_Code"
+F 5 "Samtec" H 6050 1900 60  0001 C CNN "Manufacturer"
+F 6 "~" H 6050 1900 60  0001 C CNN "Ordering_Code2"
+F 7 "~" H 6050 1900 60  0001 C CNN "Manufacturer2"
+F 8 "~" H 6050 1900 60  0001 C CNN "Supplier"
 	1    6050 1350
 	0    -1   -1   0   
 $EndComp
@@ -859,6 +943,11 @@ F 0 "J2" V 5850 2650 60  0000 C CNN
 F 1 "1x6_male_pin_Header_2.54mm" H 5940 1760 60  0001 C CNN
 F 2 "Icezum:1x6-pin-header-2.54mm" H 6050 2500 60  0001 C CNN
 F 3 "" H 6050 2500 60  0000 C CNN
+F 4 "TSW-106-07-T-S-RED" H 6050 2500 60  0001 C CNN "Ordering_Code"
+F 5 "Samtec" H 6050 2500 60  0001 C CNN "Manufacturer"
+F 6 "~" H 6050 2500 60  0001 C CNN "Ordering_Code2"
+F 7 "~" H 6050 2500 60  0001 C CNN "Manufacturer2"
+F 8 "~" H 6050 2500 60  0001 C CNN "Supplier"
 	1    6050 1950
 	0    -1   -1   0   
 $EndComp
@@ -904,6 +993,11 @@ F 0 "J6" V 5850 3250 60  0000 C CNN
 F 1 "1x6_male_pin_Header_2.54mm" H 5940 2360 60  0001 C CNN
 F 2 "Icezum:1x6-pin-header-2.54mm" H 6050 3100 60  0001 C CNN
 F 3 "" H 6050 3100 60  0000 C CNN
+F 4 "TSW-106-07-T-S-NATURAL" H 6050 3100 60  0001 C CNN "Ordering_Code"
+F 5 "Samtec" H 6050 3100 60  0001 C CNN "Manufacturer"
+F 6 "~" H 6050 3100 60  0001 C CNN "Ordering_Code2"
+F 7 "~" H 6050 3100 60  0001 C CNN "Manufacturer2"
+F 8 "~" H 6050 3100 60  0001 C CNN "Supplier"
 	1    6050 2550
 	0    -1   -1   0   
 $EndComp
@@ -945,6 +1039,11 @@ F 0 "doc4" H 7430 2100 60  0001 C CNN
 F 1 "3x6_pin_male_header_DOC" H 7520 2760 60  0001 C CNN
 F 2 "Icezum:None" H 6850 2890 60  0001 C CNN
 F 3 "" H 6850 2890 60  0000 C CNN
+F 4 "~" H 6850 2890 60  0001 C CNN "Ordering_Code"
+F 5 "~" H 6850 2890 60  0001 C CNN "Manufacturer"
+F 6 "~" H 6850 2890 60  0001 C CNN "Ordering_Code2"
+F 7 "~" H 6850 2890 60  0001 C CNN "Manufacturer2"
+F 8 "~" H 6850 2890 60  0001 C CNN "Supplier"
 	1    7000 2200
 	1    0    0    -1  
 $EndComp
@@ -1006,6 +1105,11 @@ F 0 "U6" H 1400 3950 60  0000 C CNN
 F 1 "TXB0106" H 1750 3950 60  0000 C CNN
 F 2 "Icezum:VQFN16_VIATP" H 1600 3900 60  0001 C CNN
 F 3 "" H 1600 3900 60  0000 C CNN
+F 4 "TXB0106RGYR" H 1600 3900 60  0001 C CNN "Ordering_Code"
+F 5 "Texas Instruments" H 1600 3900 60  0001 C CNN "Manufacturer"
+F 6 "~" H 1600 3900 60  0001 C CNN "Ordering_Code2"
+F 7 "~" H 1600 3900 60  0001 C CNN "Manufacturer2"
+F 8 "~" H 1600 3900 60  0001 C CNN "Supplier"
 	1    1150 3800
 	1    0    0    -1  
 $EndComp
@@ -1019,6 +1123,10 @@ F 2 "Icezum:C_0402" H 1388 3200 50  0001 C CNN
 F 3 "" H 1350 3350 50  0000 C CNN
 F 4 "X7R" V 1420 3220 50  0000 C CNN "Class"
 F 5 "16V" V 1500 3210 50  0000 C CNN "Voltage"
+F 6 "C0603C104K3RAC" H 1500 3210 60  0001 C CNN "Ordering_Code"
+F 7 "Kemet" H 1500 3210 60  0001 C CNN "Manufacturer"
+F 8 "~" H 1500 3210 60  0001 C CNN "Ordering_Code2"
+F 9 "~" H 1500 3210 60  0001 C CNN "Supplier"
 	1    1350 3350
 	0    1    1    0   
 $EndComp
@@ -1032,6 +1140,10 @@ F 2 "Icezum:C_0402" H 2038 3200 50  0001 C CNN
 F 3 "" H 2000 3350 50  0000 C CNN
 F 4 "X7R" V 2070 3220 50  0000 C CNN "Class"
 F 5 "16V" V 2150 3210 50  0000 C CNN "Voltage"
+F 6 "C0603C104K3RAC" H 2150 3210 60  0001 C CNN "Ordering_Code"
+F 7 "Kemet" H 2150 3210 60  0001 C CNN "Manufacturer"
+F 8 "~" H 2150 3210 60  0001 C CNN "Ordering_Code2"
+F 9 "~" H 2150 3210 60  0001 C CNN "Supplier"
 	1    2000 3350
 	0    1    1    0   
 $EndComp
@@ -1110,6 +1222,10 @@ F 2 "Icezum:C_0402" H 2438 4650 50  0001 C CNN
 F 3 "" H 2400 4800 50  0000 C CNN
 F 4 "X7R" H 2500 4700 50  0000 C CNN "Class"
 F 5 "16V" H 2490 4630 50  0000 C CNN "Voltage"
+F 6 "C0402C101K4RAC" H 2150 3210 60  0001 C CNN "Ordering_Code"
+F 7 "Kemet" H 2150 3210 60  0001 C CNN "Manufacturer"
+F 8 "~" H 2150 3210 60  0001 C CNN "Ordering_Code2"
+F 9 "~" H 2150 3210 60  0001 C CNN "Supplier"
 	1    2400 4800
 	1    0    0    -1  
 $EndComp
@@ -1138,6 +1254,10 @@ F 2 "Icezum:C_0402" H 2738 4650 50  0001 C CNN
 F 3 "" H 2700 4800 50  0000 C CNN
 F 4 "X7R" H 2800 4700 50  0000 C CNN "Class"
 F 5 "16V" H 2790 4630 50  0000 C CNN "Voltage"
+F 6 "C0402C101K4RAC" H 2150 3210 60  0001 C CNN "Ordering_Code"
+F 7 "Kemet" H 2150 3210 60  0001 C CNN "Manufacturer"
+F 8 "~" H 2150 3210 60  0001 C CNN "Ordering_Code2"
+F 9 "~" H 2150 3210 60  0001 C CNN "Supplier"
 	1    2700 4800
 	1    0    0    -1  
 $EndComp
@@ -1170,6 +1290,10 @@ F 2 "Icezum:C_0402" H 3038 4400 50  0001 C CNN
 F 3 "" H 3000 4550 50  0000 C CNN
 F 4 "X7R" H 3100 4450 50  0000 C CNN "Class"
 F 5 "16V" H 3090 4380 50  0000 C CNN "Voltage"
+F 6 "C0402C101K4RAC" H 2150 3210 60  0001 C CNN "Ordering_Code"
+F 7 "Kemet" H 2150 3210 60  0001 C CNN "Manufacturer"
+F 8 "~" H 2150 3210 60  0001 C CNN "Ordering_Code2"
+F 9 "~" H 2150 3210 60  0001 C CNN "Supplier"
 	1    3000 4550
 	1    0    0    -1  
 $EndComp
@@ -1198,6 +1322,10 @@ F 2 "Icezum:C_0402" H 3338 4650 50  0001 C CNN
 F 3 "" H 3300 4800 50  0000 C CNN
 F 4 "X7R" H 3400 4700 50  0000 C CNN "Class"
 F 5 "16V" H 3390 4630 50  0000 C CNN "Voltage"
+F 6 "C0402C101K4RAC" H 2150 3210 60  0001 C CNN "Ordering_Code"
+F 7 "Kemet" H 2150 3210 60  0001 C CNN "Manufacturer"
+F 8 "~" H 2150 3210 60  0001 C CNN "Ordering_Code2"
+F 9 "~" H 2150 3210 60  0001 C CNN "Supplier"
 	1    3300 4800
 	1    0    0    -1  
 $EndComp
@@ -1211,6 +1339,10 @@ F 2 "Icezum:C_0402" H 3638 4400 50  0001 C CNN
 F 3 "" H 3600 4550 50  0000 C CNN
 F 4 "X7R" H 3700 4450 50  0000 C CNN "Class"
 F 5 "16V" H 3690 4380 50  0000 C CNN "Voltage"
+F 6 "C0402C101K4RAC" H 2150 3210 60  0001 C CNN "Ordering_Code"
+F 7 "Kemet" H 2150 3210 60  0001 C CNN "Manufacturer"
+F 8 "~" H 2150 3210 60  0001 C CNN "Ordering_Code2"
+F 9 "~" H 2150 3210 60  0001 C CNN "Supplier"
 	1    3600 4550
 	1    0    0    -1  
 $EndComp
@@ -1224,6 +1356,10 @@ F 2 "Icezum:C_0402" H 3938 4650 50  0001 C CNN
 F 3 "" H 3900 4800 50  0000 C CNN
 F 4 "X7R" H 4000 4700 50  0000 C CNN "Class"
 F 5 "16V" H 3990 4630 50  0000 C CNN "Voltage"
+F 6 "C0402C101K4RAC" H 2150 3210 60  0001 C CNN "Ordering_Code"
+F 7 "Kemet" H 2150 3210 60  0001 C CNN "Manufacturer"
+F 8 "~" H 2150 3210 60  0001 C CNN "Ordering_Code2"
+F 9 "~" H 2150 3210 60  0001 C CNN "Supplier"
 	1    3900 4800
 	1    0    0    -1  
 $EndComp
@@ -1325,6 +1461,11 @@ F 0 "U8" H 1400 1550 60  0000 C CNN
 F 1 "TXS0108" H 1750 1550 60  0000 C CNN
 F 2 "Icezum:VQFN20_VIATP" H 1600 1500 60  0001 C CNN
 F 3 "" H 1600 1500 60  0000 C CNN
+F 4 "TXS0108ERGYR" H 2150 3210 60  0001 C CNN "Ordering_Code"
+F 5 "Texas Instruments" H 2150 3210 60  0001 C CNN "Manufacturer"
+F 6 "~" H 2150 3210 60  0001 C CNN "Ordering_Code2"
+F 7 "~" H 2150 3210 60  0001 C CNN "Manufacturer2"
+F 8 "~" H 2150 3210 60  0001 C CNN "Supplier"
 	1    1150 1400
 	1    0    0    -1  
 $EndComp
@@ -1338,6 +1479,10 @@ F 2 "Icezum:C_0402" H 1438 800 50  0001 C CNN
 F 3 "" H 1400 950 50  0000 C CNN
 F 4 "X7R" V 1470 820 50  0000 C CNN "Class"
 F 5 "16V" V 1550 810 50  0000 C CNN "Voltage"
+F 6 "C0603C104K3RAC" H 2150 3210 60  0001 C CNN "Ordering_Code"
+F 7 "Kemet" H 2150 3210 60  0001 C CNN "Manufacturer"
+F 8 "~" H 2150 3210 60  0001 C CNN "Ordering_Code2"
+F 9 "~" H 2150 3210 60  0001 C CNN "Supplier"
 	1    1400 950 
 	0    1    1    0   
 $EndComp
@@ -1351,6 +1496,10 @@ F 2 "Icezum:C_0402" H 2088 800 50  0001 C CNN
 F 3 "" H 2050 950 50  0000 C CNN
 F 4 "X7R" V 2120 820 50  0000 C CNN "Class"
 F 5 "16V" V 2200 810 50  0000 C CNN "Voltage"
+F 6 "C0603C104K3RAC" H 2150 3210 60  0001 C CNN "Ordering_Code"
+F 7 "Kemet" H 2150 3210 60  0001 C CNN "Manufacturer"
+F 8 "~" H 2150 3210 60  0001 C CNN "Ordering_Code2"
+F 9 "~" H 2150 3210 60  0001 C CNN "Supplier"
 	1    2050 950 
 	0    1    1    0   
 $EndComp
@@ -1460,6 +1609,11 @@ F 0 "R22" H 2480 1290 50  0000 C CNN
 F 1 "4K7±5% 0.063w" V 2670 1350 39  0000 C CNN
 F 2 "Icezum:R_0402" V 2530 1450 50  0001 C CNN
 F 3 "" H 2600 1450 50  0000 C CNN
+F 4 "CRCW04024K70JN" H 2150 3210 60  0001 C CNN "Ordering_Code"
+F 5 "Vishay" H 2150 3210 60  0001 C CNN "Manufacturer"
+F 6 "~" H 2150 3210 60  0001 C CNN "Ordering_Code2"
+F 7 "~" H 2150 3210 60  0001 C CNN "Manufacturer2"
+F 8 "~" H 2150 3210 60  0001 C CNN "Supplier"
 	1    2600 1450
 	-1   0    0    1   
 $EndComp
@@ -1471,6 +1625,11 @@ F 0 "R23" H 2880 1290 50  0000 C CNN
 F 1 "4K7±5% 0.063w" V 3070 1350 39  0000 C CNN
 F 2 "Icezum:R_0402" V 2930 1450 50  0001 C CNN
 F 3 "" H 3000 1450 50  0000 C CNN
+F 4 "CRCW04024K70JN" H 2150 3210 60  0001 C CNN "Ordering_Code"
+F 5 "Vishay" H 2150 3210 60  0001 C CNN "Manufacturer"
+F 6 "~" H 2150 3210 60  0001 C CNN "Ordering_Code2"
+F 7 "~" H 2150 3210 60  0001 C CNN "Manufacturer2"
+F 8 "~" H 2150 3210 60  0001 C CNN "Supplier"
 	1    3000 1450
 	-1   0    0    1   
 $EndComp
@@ -1587,6 +1746,11 @@ F 0 "J12" V 8600 4250 60  0000 C CNN
 F 1 "1x6_male_pin_Header_2.54mm" H 8640 4260 60  0001 C CNN
 F 2 "Icezum:1x6-pin-header-2.54mm" H 8750 5000 60  0001 C CNN
 F 3 "" H 8750 5000 60  0000 C CNN
+F 4 "TSW-106-07-T-S-NATURAL" H 2150 3210 60  0001 C CNN "Ordering_Code"
+F 5 "Samtec" H 2150 3210 60  0001 C CNN "Manufacturer"
+F 6 "~" H 2150 3210 60  0001 C CNN "Ordering_Code2"
+F 7 "~" H 2150 3210 60  0001 C CNN "Manufacturer2"
+F 8 "~" H 2150 3210 60  0001 C CNN "Supplier"
 	1    8750 4450
 	0    1    -1   0   
 $EndComp
@@ -1624,6 +1788,11 @@ F 0 "J13" V 8550 4850 60  0000 C CNN
 F 1 "1x6_male_pin_Header_2.54mm" H 8640 4860 60  0001 C CNN
 F 2 "Icezum:1x6-pin-header-2.54mm" H 8750 5600 60  0001 C CNN
 F 3 "" H 8750 5600 60  0000 C CNN
+F 4 "TSW-106-07-T-S-RED" H 2150 3210 60  0001 C CNN "Ordering_Code"
+F 5 "Samtec" H 2150 3210 60  0001 C CNN "Manufacturer"
+F 6 "~" H 2150 3210 60  0001 C CNN "Ordering_Code2"
+F 7 "~" H 2150 3210 60  0001 C CNN "Manufacturer2"
+F 8 "~" H 2150 3210 60  0001 C CNN "Supplier"
 	1    8750 5050
 	0    1    -1   0   
 $EndComp
@@ -1671,6 +1840,11 @@ F 0 "J14" V 8550 5350 60  0000 C CNN
 F 1 "1x6_male_pin_Header_2.54mm" H 8640 5360 60  0001 C CNN
 F 2 "Icezum:1x6-pin-header-2.54mm" H 8750 6100 60  0001 C CNN
 F 3 "" H 8750 6100 60  0000 C CNN
+F 4 "TSW-106-07-T-S" H 2150 3210 60  0001 C CNN "Ordering_Code"
+F 5 "Samtec" H 2150 3210 60  0001 C CNN "Manufacturer"
+F 6 "~" H 2150 3210 60  0001 C CNN "Ordering_Code2"
+F 7 "~" H 2150 3210 60  0001 C CNN "Manufacturer2"
+F 8 "~" H 2150 3210 60  0001 C CNN "Supplier"
 	1    8750 5550
 	0    1    -1   0   
 $EndComp
@@ -1720,6 +1894,11 @@ F 0 "doc7" H 10580 5250 60  0001 C CNN
 F 1 "3x6_pin_male_header_DOC" H 10670 5910 60  0001 C CNN
 F 2 "Icezum:None" H 10000 6040 60  0001 C CNN
 F 3 "" H 10000 6040 60  0000 C CNN
+F 4 "~" H 2150 3210 60  0001 C CNN "Ordering_Code"
+F 5 "~" H 2150 3210 60  0001 C CNN "Manufacturer"
+F 6 "~" H 2150 3210 60  0001 C CNN "Ordering_Code2"
+F 7 "~" H 2150 3210 60  0001 C CNN "Manufacturer2"
+F 8 "~" H 2150 3210 60  0001 C CNN "Supplier"
 	1    10150 5350
 	1    0    0    -1  
 $EndComp
@@ -1775,6 +1954,11 @@ F 0 "J11" V 8950 5950 60  0000 C CNN
 F 1 "1x6_female_pin_Header_2.54mm" H 8920 5960 60  0001 C CNN
 F 2 "Icezum:1x6-Socket-header-2.54mm" H 8750 6700 60  0001 C CNN
 F 3 "" H 8750 6700 60  0000 C CNN
+F 4 "SSW-106-01-T-S" H 2150 3210 60  0001 C CNN "Ordering_Code"
+F 5 "Samtec" H 2150 3210 60  0001 C CNN "Manufacturer"
+F 6 "~" H 2150 3210 60  0001 C CNN "Ordering_Code2"
+F 7 "~" H 2150 3210 60  0001 C CNN "Manufacturer2"
+F 8 "~" H 2150 3210 60  0001 C CNN "Supplier"
 	1    8750 6150
 	0    1    1    0   
 $EndComp
@@ -1812,6 +1996,11 @@ F 0 "doc8" H 10600 6280 60  0001 C CNN
 F 1 "1x6_pin_female_header_DOC" H 10600 6850 60  0001 C CNN
 F 2 "Icezum:None" H 10000 7050 60  0001 C CNN
 F 3 "" H 10000 7050 60  0000 C CNN
+F 4 "~" H 2150 3210 60  0001 C CNN "Ordering_Code"
+F 5 "~" H 2150 3210 60  0001 C CNN "Manufacturer"
+F 6 "~" H 2150 3210 60  0001 C CNN "Ordering_Code2"
+F 7 "~" H 2150 3210 60  0001 C CNN "Manufacturer2"
+F 8 "~" H 2150 3210 60  0001 C CNN "Supplier"
 	1    10150 6350
 	1    0    0    -1  
 $EndComp
@@ -1835,6 +2024,11 @@ F 0 "J5" V 5550 6700 60  0000 C CNN
 F 1 "1x8_female_pin_Header_2.54mm" H 5750 5600 60  0001 C CNN
 F 2 "Icezum:1x8_Socket_header_2.54mm" H 5400 6350 60  0001 C CNN
 F 3 "" H 5400 6350 60  0000 C CNN
+F 4 "SSW-108-01-T-S" H 2150 3210 60  0001 C CNN "Ordering_Code"
+F 5 "Samtec" H 2150 3210 60  0001 C CNN "Manufacturer"
+F 6 "~" H 2150 3210 60  0001 C CNN "Ordering_Code2"
+F 7 "~" H 2150 3210 60  0001 C CNN "Manufacturer2"
+F 8 "~" H 2150 3210 60  0001 C CNN "Supplier"
 	1    5400 5800
 	0    1    1    0   
 $EndComp
@@ -1922,6 +2116,11 @@ F 0 "doc6" H 7200 5880 60  0001 C CNN
 F 1 "1x8_pin_female_header_DOC" H 7200 6450 60  0001 C CNN
 F 2 "Icezum:None" H 6600 6650 60  0001 C CNN
 F 3 "" H 6600 6650 60  0000 C CNN
+F 4 "~" H 2150 3210 60  0001 C CNN "Ordering_Code"
+F 5 "~" H 2150 3210 60  0001 C CNN "Manufacturer"
+F 6 "~" H 2150 3210 60  0001 C CNN "Ordering_Code2"
+F 7 "~" H 2150 3210 60  0001 C CNN "Manufacturer2"
+F 8 "~" H 2150 3210 60  0001 C CNN "Supplier"
 	1    6750 5950
 	1    0    0    -1  
 $EndComp
@@ -1947,6 +2146,11 @@ F 0 "J19" V 5300 4350 60  0000 C CNN
 F 1 "2x4_male_pin_Header_2.54mm" H 5350 3690 60  0001 C CNN
 F 2 "Icezum:2x04-pin-header-2.54mm" H 4900 4200 60  0001 C CNN
 F 3 "" H 4900 4200 60  0000 C CNN
+F 4 "TSW-104-07-T-D" H 2150 3210 60  0001 C CNN "Ordering_Code"
+F 5 "Samtec" H 2150 3210 60  0001 C CNN "Manufacturer"
+F 6 "~" H 2150 3210 60  0001 C CNN "Ordering_Code2"
+F 7 "~" H 2150 3210 60  0001 C CNN "Manufacturer2"
+F 8 "~" H 2150 3210 60  0001 C CNN "Supplier"
 	1    5050 4150
 	0    -1   -1   0   
 $EndComp
@@ -1998,6 +2202,11 @@ F 0 "doc5" H 5950 4060 60  0001 C CNN
 F 1 "2x4_pin_male_header_DOC" H 5970 4650 60  0001 C CNN
 F 2 "Icezum:None" H 5550 4840 60  0001 C CNN
 F 3 "" H 5550 4840 60  0000 C CNN
+F 4 "~" H 2150 3210 60  0001 C CNN "Ordering_Code"
+F 5 "~" H 2150 3210 60  0001 C CNN "Manufacturer"
+F 6 "~" H 2150 3210 60  0001 C CNN "Ordering_Code2"
+F 7 "~" H 2150 3210 60  0001 C CNN "Manufacturer2"
+F 8 "~" H 2150 3210 60  0001 C CNN "Supplier"
 	1    5700 4150
 	1    0    0    -1  
 $EndComp
@@ -2009,6 +2218,11 @@ F 0 "DOC1" H 7100 5350 39  0001 C CNN
 F 1 "icezum-headers-doc" H 7350 4150 39  0001 C CNN
 F 2 "Icezum:None" H 7290 4690 39  0001 C CNN
 F 3 "" H 7290 4690 39  0000 C CNN
+F 4 "~" H 2150 3210 60  0001 C CNN "Ordering_Code"
+F 5 "~" H 2150 3210 60  0001 C CNN "Manufacturer"
+F 6 "~" H 2150 3210 60  0001 C CNN "Ordering_Code2"
+F 7 "~" H 2150 3210 60  0001 C CNN "Manufacturer2"
+F 8 "~" H 2150 3210 60  0001 C CNN "Supplier"
 	1    7050 4200
 	1    0    0    -1  
 $EndComp

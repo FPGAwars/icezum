@@ -1,5 +1,4 @@
 EESchema Schematic File Version 3
-LIBS:icezum-rescue
 LIBS:icezum
 LIBS:icezum-cache
 EELAYER 26 0
@@ -8,7 +7,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 7
 Title "IceZUM Alhambra FPGA board"
-Date "2017-10-26"
+Date "2017-11-06"
 Rev "V1.1K"
 Comp "FPGAwars"
 Comment1 "Derived from BQ icezum V1.0"
