@@ -1,5 +1,4 @@
 EESchema Schematic File Version 3
-LIBS:icezum-rescue
 LIBS:icezum
 LIBS:icezum-cache
 EELAYER 26 0
@@ -8,7 +7,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 7
 Title "IceZUM Alhambra FPGA board"
-Date "2017-10-26"
+Date "2017-11-06"
 Rev "V1.1K"
 Comp "FPGAwars"
 Comment1 "Derived from BQ icezum V1.0"
@@ -24,6 +23,11 @@ F 0 "DOC3" H 3590 7800 39  0001 C CNN
 F 1 "icezum-headers-doc" H 4520 7800 39  0001 C CNN
 F 2 "Icezum:None" H 2860 7600 39  0001 C CNN
 F 3 "" H 2860 7600 39  0000 C CNN
+F 4 "~" H 2150 3210 60  0001 C CNN "Ordering_Code"
+F 5 "~" H 2150 3210 60  0001 C CNN "Manufacturer"
+F 6 "~" H 2150 3210 60  0001 C CNN "Ordering_Code2"
+F 7 "~" H 2150 3210 60  0001 C CNN "Manufacturer2"
+F 8 "~" H 2150 3210 60  0001 C CNN "Supplier"
 	1    3500 6650
 	1    0    0    -1  
 $EndComp
@@ -35,6 +39,11 @@ F 0 "U7" H 8470 2680 60  0000 L BNN
 F 1 "ADS7924" H 9130 2680 60  0000 L BNN
 F 2 "Icezum:QFN16_VIATP" H 8470 2660 60  0001 C CNN
 F 3 "" H 8470 2660 60  0000 C CNN
+F 4 "ADS7924IRTER" H 2150 3210 60  0001 C CNN "Ordering_Code"
+F 5 "Texas Instruments" H 2150 3210 60  0001 C CNN "Manufacturer"
+F 6 "~" H 2150 3210 60  0001 C CNN "Ordering_Code2"
+F 7 "~" H 2150 3210 60  0001 C CNN "Manufacturer2"
+F 8 "~" H 2150 3210 60  0001 C CNN "Supplier"
 	1    8250 2550
 	1    0    0    -1  
 $EndComp
@@ -46,6 +55,11 @@ F 0 "JP1" V 7250 1850 60  0000 L BNN
 F 1 "Jumper_3pin" V 7150 1750 60  0000 L BNN
 F 2 "Icezum:1x03-pin-header-2.54mm" H 7250 1550 60  0001 C CNN
 F 3 "" H 7250 1550 60  0000 C CNN
+F 4 "613 003 111 21609 002 136 21" H 2150 3210 60  0001 C CNN "Ordering_Code"
+F 5 "Würth" H 2150 3210 60  0001 C CNN "Manufacturer"
+F 6 "~" H 2150 3210 60  0001 C CNN "Ordering_Code2"
+F 7 "~" H 2150 3210 60  0001 C CNN "Manufacturer2"
+F 8 "~" H 2150 3210 60  0001 C CNN "Supplier"
 	1    7350 1550
 	0    1    -1   0   
 $EndComp
@@ -72,6 +86,10 @@ F 2 "Icezum:C_0603" H 8638 1500 50  0001 C CNN
 F 3 "" H 8600 1650 50  0000 C CNN
 F 4 "X5R" V 8660 1770 50  0000 C CNN "Class"
 F 5 "16V" V 8660 1530 50  0000 C CNN "Voltage"
+F 6 "C1608X5R1C475K080AC" H 2150 3210 60  0001 C CNN "Ordering_Code"
+F 7 "Kemet" H 2150 3210 60  0001 C CNN "Manufacturer"
+F 8 "~" H 2150 3210 60  0001 C CNN "Ordering_Code2"
+F 9 "~" H 2150 3210 60  0001 C CNN "Supplier"
 	1    8600 1650
 	0    1    1    0   
 $EndComp
@@ -83,6 +101,11 @@ F 0 "R19" V 7830 1890 50  0000 C CNN
 F 1 "10R±5% 0.063w" V 7970 1950 39  0000 C CNN
 F 2 "Icezum:R_0402" V 7830 2050 50  0001 C CNN
 F 3 "" H 7900 2050 50  0000 C CNN
+F 4 "CRCW040210R0JN" H 2150 3210 60  0001 C CNN "Ordering_Code"
+F 5 "Vishay" H 2150 3210 60  0001 C CNN "Manufacturer"
+F 6 "~" H 2150 3210 60  0001 C CNN "Ordering_Code2"
+F 7 "~" H 2150 3210 60  0001 C CNN "Manufacturer2"
+F 8 "~" H 2150 3210 60  0001 C CNN "Supplier"
 	1    7900 2050
 	0    1    1    0   
 $EndComp
@@ -96,6 +119,10 @@ F 2 "Icezum:C_0402" H 8638 1900 50  0001 C CNN
 F 3 "" H 8600 2050 50  0000 C CNN
 F 4 "X7R" V 8660 2170 50  0000 C CNN "Class"
 F 5 "16V" V 8660 1930 50  0000 C CNN "Voltage"
+F 6 "C0603C104K3RAC" H 2150 3210 60  0001 C CNN "Ordering_Code"
+F 7 "Kemet" H 2150 3210 60  0001 C CNN "Manufacturer"
+F 8 "~" H 2150 3210 60  0001 C CNN "Ordering_Code2"
+F 9 "~" H 2150 3210 60  0001 C CNN "Supplier"
 	1    8600 2050
 	0    1    1    0   
 $EndComp
@@ -120,6 +147,10 @@ F 2 "Icezum:C_0402" H 9438 1900 50  0001 C CNN
 F 3 "" H 9400 2050 50  0000 C CNN
 F 4 "X7R" V 9460 2170 50  0000 C CNN "Class"
 F 5 "16V" V 9460 1930 50  0000 C CNN "Voltage"
+F 6 "C0603C104K3RAC" H 2150 3210 60  0001 C CNN "Ordering_Code"
+F 7 "Kemet" H 2150 3210 60  0001 C CNN "Manufacturer"
+F 8 "~" H 2150 3210 60  0001 C CNN "Ordering_Code2"
+F 9 "~" H 2150 3210 60  0001 C CNN "Supplier"
 	1    9400 2050
 	0    1    1    0   
 $EndComp
@@ -142,6 +173,11 @@ F 0 "R20" V 9980 2340 50  0000 C CNN
 F 1 "10k±5% 0.063w" V 10120 2400 39  0000 C CNN
 F 2 "Icezum:R_0402" V 9980 2500 50  0001 C CNN
 F 3 "" H 10050 2500 50  0000 C CNN
+F 4 "CRCW040210K0JN" H 2150 3210 60  0001 C CNN "Ordering_Code"
+F 5 "Vishay" H 2150 3210 60  0001 C CNN "Manufacturer"
+F 6 "~" H 2150 3210 60  0001 C CNN "Ordering_Code2"
+F 7 "~" H 2150 3210 60  0001 C CNN "Manufacturer2"
+F 8 "~" H 2150 3210 60  0001 C CNN "Supplier"
 	1    10050 2500
 	-1   0    0    1   
 $EndComp
@@ -153,6 +189,11 @@ F 0 "R21" V 10230 2340 50  0000 C CNN
 F 1 "10k±5% 0.063w" V 10370 2400 39  0000 C CNN
 F 2 "Icezum:R_0402" V 10230 2500 50  0001 C CNN
 F 3 "" H 10300 2500 50  0000 C CNN
+F 4 "CRCW040210K0JN" H 2150 3210 60  0001 C CNN "Ordering_Code"
+F 5 "Vishay" H 2150 3210 60  0001 C CNN "Manufacturer"
+F 6 "~" H 2150 3210 60  0001 C CNN "Ordering_Code2"
+F 7 "~" H 2150 3210 60  0001 C CNN "Manufacturer2"
+F 8 "~" H 2150 3210 60  0001 C CNN "Supplier"
 	1    10300 2500
 	-1   0    0    1   
 $EndComp
@@ -193,6 +234,11 @@ F 0 "J17" H 7750 2950 60  0000 C CNN
 F 1 "1x4_male_pin_Header_2.54mm" H 7790 2910 60  0001 C CNN
 F 2 "Icezum:1x04-pin-header-2.54mm" H 7900 3650 60  0001 C CNN
 F 3 "" H 7900 3650 60  0000 C CNN
+F 4 "TSW-104-07-T-S-BLUE" H 2150 3210 60  0001 C CNN "Ordering_Code"
+F 5 "Samtec" H 2150 3210 60  0001 C CNN "Manufacturer"
+F 6 "~" H 2150 3210 60  0001 C CNN "Ordering_Code2"
+F 7 "~" H 2150 3210 60  0001 C CNN "Manufacturer2"
+F 8 "~" H 2150 3210 60  0001 C CNN "Supplier"
 	1    7900 3100
 	1    0    0    1   
 $EndComp
@@ -212,6 +258,11 @@ F 0 "doc9" H 7690 4590 60  0001 C CNN
 F 1 "3x4_pin_male_header_DOC" H 7710 4500 60  0001 C CNN
 F 2 "Icezum:None" H 7080 5340 60  0001 C CNN
 F 3 "" H 7080 5340 60  0000 C CNN
+F 4 "~" H 2150 3210 60  0001 C CNN "Ordering_Code"
+F 5 "~" H 2150 3210 60  0001 C CNN "Manufacturer"
+F 6 "~" H 2150 3210 60  0001 C CNN "Ordering_Code2"
+F 7 "~" H 2150 3210 60  0001 C CNN "Manufacturer2"
+F 8 "~" H 2150 3210 60  0001 C CNN "Supplier"
 	1    7550 4650
 	1    0    0    -1  
 $EndComp
@@ -223,6 +274,11 @@ F 0 "J15" H 7200 2950 60  0000 C CNN
 F 1 "1x4_male_pin_Header_2.54mm" H 7240 2910 60  0001 C CNN
 F 2 "Icezum:1x04-pin-header-2.54mm" H 7350 3650 60  0001 C CNN
 F 3 "" H 7350 3650 60  0000 C CNN
+F 4 "TSW-104-07-T-S-RED" H 2150 3210 60  0001 C CNN "Ordering_Code"
+F 5 "Samtec" H 2150 3210 60  0001 C CNN "Manufacturer"
+F 6 "~" H 2150 3210 60  0001 C CNN "Ordering_Code2"
+F 7 "~" H 2150 3210 60  0001 C CNN "Manufacturer2"
+F 8 "~" H 2150 3210 60  0001 C CNN "Supplier"
 	1    7350 3100
 	1    0    0    1   
 $EndComp
@@ -261,6 +317,11 @@ F 0 "J16" H 6700 2950 60  0000 C CNN
 F 1 "1x4_male_pin_Header_2.54mm" H 6740 2910 60  0001 C CNN
 F 2 "Icezum:1x04-pin-header-2.54mm" H 6850 3650 60  0001 C CNN
 F 3 "" H 6850 3650 60  0000 C CNN
+F 4 "TSW-104-07-T-S" H 2150 3210 60  0001 C CNN "Ordering_Code"
+F 5 "Samtec" H 2150 3210 60  0001 C CNN "Manufacturer"
+F 6 "~" H 2150 3210 60  0001 C CNN "Ordering_Code2"
+F 7 "~" H 2150 3210 60  0001 C CNN "Manufacturer2"
+F 8 "~" H 2150 3210 60  0001 C CNN "Supplier"
 	1    6850 3100
 	1    0    0    1   
 $EndComp
@@ -289,6 +350,11 @@ F 0 "JPM1" H 7450 1260 60  0000 L BNN
 F 1 "Jumper_1x2_Mech" H 7210 900 60  0000 L BNN
 F 2 "Icezum:None" H 7450 1000 60  0001 C CNN
 F 3 "" H 7450 1000 60  0000 C CNN
+F 4 "609 002 136 21" H 2150 3210 60  0001 C CNN "Ordering_Code"
+F 5 "Würth" H 2150 3210 60  0001 C CNN "Manufacturer"
+F 6 "~" H 2150 3210 60  0001 C CNN "Ordering_Code2"
+F 7 "~" H 2150 3210 60  0001 C CNN "Manufacturer2"
+F 8 "~" H 2150 3210 60  0001 C CNN "Supplier"
 	1    7450 1000
 	1    0    0    -1  
 $EndComp
@@ -300,6 +366,11 @@ F 0 "doc10" H 8310 1050 60  0001 C CNN
 F 1 "1x3_pin_male_header_v_DOC" H 8350 960 60  0001 C CNN
 F 2 "Icezum:None" H 7560 1790 60  0001 C CNN
 F 3 "" H 7560 1790 60  0000 C CNN
+F 4 "~" H 2150 3210 60  0001 C CNN "Ordering_Code"
+F 5 "~" H 2150 3210 60  0001 C CNN "Manufacturer"
+F 6 "~" H 2150 3210 60  0001 C CNN "Ordering_Code2"
+F 7 "~" H 2150 3210 60  0001 C CNN "Manufacturer2"
+F 8 "~" H 2150 3210 60  0001 C CNN "Supplier"
 	1    8250 1100
 	1    0    0    -1  
 $EndComp
@@ -317,6 +388,11 @@ F 0 "LD0" H 2440 1300 47  0000 L BNN
 F 1 "Green" H 2450 1210 47  0000 L BNN
 F 2 "Icezum:LED_0603" H 1950 1200 60  0001 C CNN
 F 3 "" H 1950 1200 60  0000 C CNN
+F 4 "LG Q396-PS-35" H 2150 3210 60  0001 C CNN "Ordering_Code"
+F 5 "OSRAM Opto" H 2150 3210 60  0001 C CNN "Manufacturer"
+F 6 "~" H 2150 3210 60  0001 C CNN "Ordering_Code2"
+F 7 "~" H 2150 3210 60  0001 C CNN "Manufacturer2"
+F 8 "~" H 2150 3210 60  0001 C CNN "Supplier"
 	1    1950 1200
 	1    0    0    -1  
 $EndComp
@@ -330,6 +406,11 @@ F 0 "LD1" H 2440 1700 47  0000 L BNN
 F 1 "Green" H 2450 1610 47  0000 L BNN
 F 2 "Icezum:LED_0603" H 1950 1600 60  0001 C CNN
 F 3 "" H 1950 1600 60  0000 C CNN
+F 4 "LG Q396-PS-35" H 2150 3210 60  0001 C CNN "Ordering_Code"
+F 5 "OSRAM Opto" H 2150 3210 60  0001 C CNN "Manufacturer"
+F 6 "~" H 2150 3210 60  0001 C CNN "Ordering_Code2"
+F 7 "~" H 2150 3210 60  0001 C CNN "Manufacturer2"
+F 8 "~" H 2150 3210 60  0001 C CNN "Supplier"
 	1    1950 1600
 	1    0    0    -1  
 $EndComp
@@ -343,6 +424,11 @@ F 0 "LD2" H 2440 2100 47  0000 L BNN
 F 1 "Green" H 2450 2010 47  0000 L BNN
 F 2 "Icezum:LED_0603" H 1950 2000 60  0001 C CNN
 F 3 "" H 1950 2000 60  0000 C CNN
+F 4 "LG Q396-PS-35" H 2150 3210 60  0001 C CNN "Ordering_Code"
+F 5 "OSRAM Opto" H 2150 3210 60  0001 C CNN "Manufacturer"
+F 6 "~" H 2150 3210 60  0001 C CNN "Ordering_Code2"
+F 7 "~" H 2150 3210 60  0001 C CNN "Manufacturer2"
+F 8 "~" H 2150 3210 60  0001 C CNN "Supplier"
 	1    1950 2000
 	1    0    0    -1  
 $EndComp
@@ -356,6 +442,11 @@ F 0 "LD3" H 2440 2500 47  0000 L BNN
 F 1 "Green" H 2450 2410 47  0000 L BNN
 F 2 "Icezum:LED_0603" H 1950 2400 60  0001 C CNN
 F 3 "" H 1950 2400 60  0000 C CNN
+F 4 "LG Q396-PS-35" H 2150 3210 60  0001 C CNN "Ordering_Code"
+F 5 "OSRAM Opto" H 2150 3210 60  0001 C CNN "Manufacturer"
+F 6 "~" H 2150 3210 60  0001 C CNN "Ordering_Code2"
+F 7 "~" H 2150 3210 60  0001 C CNN "Manufacturer2"
+F 8 "~" H 2150 3210 60  0001 C CNN "Supplier"
 	1    1950 2400
 	1    0    0    -1  
 $EndComp
@@ -369,6 +460,11 @@ F 0 "LD4" H 2440 2900 47  0000 L BNN
 F 1 "Green" H 2450 2810 47  0000 L BNN
 F 2 "Icezum:LED_0603" H 1950 2800 60  0001 C CNN
 F 3 "" H 1950 2800 60  0000 C CNN
+F 4 "LG Q396-PS-35" H 2150 3210 60  0001 C CNN "Ordering_Code"
+F 5 "OSRAM Opto" H 2150 3210 60  0001 C CNN "Manufacturer"
+F 6 "~" H 2150 3210 60  0001 C CNN "Ordering_Code2"
+F 7 "~" H 2150 3210 60  0001 C CNN "Manufacturer2"
+F 8 "~" H 2150 3210 60  0001 C CNN "Supplier"
 	1    1950 2800
 	1    0    0    -1  
 $EndComp
@@ -382,6 +478,11 @@ F 0 "LD5" H 2440 3300 47  0000 L BNN
 F 1 "Green" H 2450 3210 47  0000 L BNN
 F 2 "Icezum:LED_0603" H 1950 3200 60  0001 C CNN
 F 3 "" H 1950 3200 60  0000 C CNN
+F 4 "LG Q396-PS-35" H 2150 3210 60  0001 C CNN "Ordering_Code"
+F 5 "OSRAM Opto" H 2150 3210 60  0001 C CNN "Manufacturer"
+F 6 "~" H 2150 3210 60  0001 C CNN "Ordering_Code2"
+F 7 "~" H 2150 3210 60  0001 C CNN "Manufacturer2"
+F 8 "~" H 2150 3210 60  0001 C CNN "Supplier"
 	1    1950 3200
 	1    0    0    -1  
 $EndComp
@@ -395,6 +496,11 @@ F 0 "LD6" H 2440 3700 47  0000 L BNN
 F 1 "Green" H 2450 3610 47  0000 L BNN
 F 2 "Icezum:LED_0603" H 1950 3600 60  0001 C CNN
 F 3 "" H 1950 3600 60  0000 C CNN
+F 4 "LG Q396-PS-35" H 2150 3210 60  0001 C CNN "Ordering_Code"
+F 5 "OSRAM Opto" H 2150 3210 60  0001 C CNN "Manufacturer"
+F 6 "~" H 2150 3210 60  0001 C CNN "Ordering_Code2"
+F 7 "~" H 2150 3210 60  0001 C CNN "Manufacturer2"
+F 8 "~" H 2150 3210 60  0001 C CNN "Supplier"
 	1    1950 3600
 	1    0    0    -1  
 $EndComp
@@ -408,6 +514,11 @@ F 0 "LD7" H 2440 4100 47  0000 L BNN
 F 1 "Green" H 2450 4010 47  0000 L BNN
 F 2 "Icezum:LED_0603" H 1950 4000 60  0001 C CNN
 F 3 "" H 1950 4000 60  0000 C CNN
+F 4 "LG Q396-PS-35" H 2150 3210 60  0001 C CNN "Ordering_Code"
+F 5 "OSRAM Opto" H 2150 3210 60  0001 C CNN "Manufacturer"
+F 6 "~" H 2150 3210 60  0001 C CNN "Ordering_Code2"
+F 7 "~" H 2150 3210 60  0001 C CNN "Manufacturer2"
+F 8 "~" H 2150 3210 60  0001 C CNN "Supplier"
 	1    1950 4000
 	1    0    0    -1  
 $EndComp
@@ -625,6 +736,10 @@ F 2 "Icezum:C_0402" H 3988 1450 50  0001 C CNN
 F 3 "" H 3950 1600 50  0000 C CNN
 F 4 "X7R" H 3770 1590 50  0000 C CNN "Class"
 F 5 "16V" H 3780 1660 50  0000 C CNN "Voltage"
+F 6 "C0603C104K3RAC" H 2150 3210 60  0001 C CNN "Ordering_Code"
+F 7 "Kemet" H 2150 3210 60  0001 C CNN "Manufacturer"
+F 8 "~" H 2150 3210 60  0001 C CNN "Ordering_Code2"
+F 9 "~" H 2150 3210 60  0001 C CNN "Supplier"
 	1    3950 1600
 	-1   0    0    1   
 $EndComp
@@ -640,6 +755,11 @@ F 0 "#PWR0119" H 3950 1550 50  0001 C CNN
 F 1 "GNDREF" H 3950 1650 50  0001 C CNN
 F 2 "" H 3950 1800 50  0000 C CNN
 F 3 "" H 3950 1800 50  0000 C CNN
+F 4 "~" H 2150 3210 60  0001 C CNN "Ordering_Code"
+F 5 "~" H 2150 3210 60  0001 C CNN "Manufacturer"
+F 6 "~" H 2150 3210 60  0001 C CNN "Ordering_Code2"
+F 7 "~" H 2150 3210 60  0001 C CNN "Manufacturer2"
+F 8 "~" H 2150 3210 60  0001 C CNN "Supplier"
 	1    3950 1800
 	1    0    0    -1  
 $EndComp
@@ -664,6 +784,10 @@ F 2 "Icezum:C_0402" H 3988 2350 50  0001 C CNN
 F 3 "" H 3950 2500 50  0000 C CNN
 F 4 "X7R" H 3770 2490 50  0000 C CNN "Class"
 F 5 "16V" H 3780 2560 50  0000 C CNN "Voltage"
+F 6 "C0603C104K3RAC" H 2150 3210 60  0001 C CNN "Ordering_Code"
+F 7 "Kemet" H 2150 3210 60  0001 C CNN "Manufacturer"
+F 8 "~" H 2150 3210 60  0001 C CNN "Ordering_Code2"
+F 9 "~" H 2150 3210 60  0001 C CNN "Supplier"
 	1    3950 2500
 	-1   0    0    1   
 $EndComp
@@ -1281,6 +1405,11 @@ F 0 "R18" V 1505 1450 50  0000 C CNN
 F 1 "2k2±5% 0.063w" V 1596 1450 50  0000 C CNN
 F 2 "Icezum:R_0402" V 1630 1460 50  0001 C CNN
 F 3 "" H 1700 1460 50  0000 C CNN
+F 4 "CRCW04022K20JN" H 2150 3210 60  0001 C CNN "Ordering_Code"
+F 5 "Vishay" H 2150 3210 60  0001 C CNN "Manufacturer"
+F 6 "~" H 2150 3210 60  0001 C CNN "Ordering_Code2"
+F 7 "~" H 2150 3210 60  0001 C CNN "Manufacturer2"
+F 8 "~" H 2150 3210 60  0001 C CNN "Supplier"
 	1    1700 1600
 	0    1    1    0   
 $EndComp
@@ -1292,6 +1421,11 @@ F 0 "R17" V 1505 1050 50  0000 C CNN
 F 1 "2k2±5% 0.063w" V 1596 1050 50  0000 C CNN
 F 2 "Icezum:R_0402" V 1630 1060 50  0001 C CNN
 F 3 "" H 1700 1060 50  0000 C CNN
+F 4 "CRCW04022K20JN" H 2150 3210 60  0001 C CNN "Ordering_Code"
+F 5 "Vishay" H 2150 3210 60  0001 C CNN "Manufacturer"
+F 6 "~" H 2150 3210 60  0001 C CNN "Ordering_Code2"
+F 7 "~" H 2150 3210 60  0001 C CNN "Manufacturer2"
+F 8 "~" H 2150 3210 60  0001 C CNN "Supplier"
 	1    1700 1200
 	0    1    1    0   
 $EndComp
@@ -1303,6 +1437,11 @@ F 0 "R40" V 1505 1850 50  0000 C CNN
 F 1 "2k2±5% 0.063w" V 1596 1850 50  0000 C CNN
 F 2 "Icezum:R_0402" V 1630 1860 50  0001 C CNN
 F 3 "" H 1700 1860 50  0000 C CNN
+F 4 "CRCW04022K20JN" H 2150 3210 60  0001 C CNN "Ordering_Code"
+F 5 "Vishay" H 2150 3210 60  0001 C CNN "Manufacturer"
+F 6 "~" H 2150 3210 60  0001 C CNN "Ordering_Code2"
+F 7 "~" H 2150 3210 60  0001 C CNN "Manufacturer2"
+F 8 "~" H 2150 3210 60  0001 C CNN "Supplier"
 	1    1700 2000
 	0    1    1    0   
 $EndComp
@@ -1314,6 +1453,11 @@ F 0 "R41" V 1505 2250 50  0000 C CNN
 F 1 "2k2±5% 0.063w" V 1596 2250 50  0000 C CNN
 F 2 "Icezum:R_0402" V 1630 2260 50  0001 C CNN
 F 3 "" H 1700 2260 50  0000 C CNN
+F 4 "CRCW04022K20JN" H 2150 3210 60  0001 C CNN "Ordering_Code"
+F 5 "Vishay" H 2150 3210 60  0001 C CNN "Manufacturer"
+F 6 "~" H 2150 3210 60  0001 C CNN "Ordering_Code2"
+F 7 "~" H 2150 3210 60  0001 C CNN "Manufacturer2"
+F 8 "~" H 2150 3210 60  0001 C CNN "Supplier"
 	1    1700 2400
 	0    1    1    0   
 $EndComp
@@ -1325,6 +1469,11 @@ F 0 "R42" V 1505 2650 50  0000 C CNN
 F 1 "2k2±5% 0.063w" V 1596 2650 50  0000 C CNN
 F 2 "Icezum:R_0402" V 1630 2660 50  0001 C CNN
 F 3 "" H 1700 2660 50  0000 C CNN
+F 4 "CRCW04022K20JN" H 2150 3210 60  0001 C CNN "Ordering_Code"
+F 5 "Vishay" H 2150 3210 60  0001 C CNN "Manufacturer"
+F 6 "~" H 2150 3210 60  0001 C CNN "Ordering_Code2"
+F 7 "~" H 2150 3210 60  0001 C CNN "Manufacturer2"
+F 8 "~" H 2150 3210 60  0001 C CNN "Supplier"
 	1    1700 2800
 	0    1    1    0   
 $EndComp
@@ -1336,6 +1485,11 @@ F 0 "R43" V 1505 3050 50  0000 C CNN
 F 1 "2k2±5% 0.063w" V 1596 3050 50  0000 C CNN
 F 2 "Icezum:R_0402" V 1630 3060 50  0001 C CNN
 F 3 "" H 1700 3060 50  0000 C CNN
+F 4 "CRCW04022K20JN" H 2150 3210 60  0001 C CNN "Ordering_Code"
+F 5 "Vishay" H 2150 3210 60  0001 C CNN "Manufacturer"
+F 6 "~" H 2150 3210 60  0001 C CNN "Ordering_Code2"
+F 7 "~" H 2150 3210 60  0001 C CNN "Manufacturer2"
+F 8 "~" H 2150 3210 60  0001 C CNN "Supplier"
 	1    1700 3200
 	0    1    1    0   
 $EndComp
@@ -1347,6 +1501,11 @@ F 0 "R44" V 1505 3450 50  0000 C CNN
 F 1 "2k2±5% 0.063w" V 1596 3450 50  0000 C CNN
 F 2 "Icezum:R_0402" V 1630 3460 50  0001 C CNN
 F 3 "" H 1700 3460 50  0000 C CNN
+F 4 "CRCW04022K20JN" H 2150 3210 60  0001 C CNN "Ordering_Code"
+F 5 "Vishay" H 2150 3210 60  0001 C CNN "Manufacturer"
+F 6 "~" H 2150 3210 60  0001 C CNN "Ordering_Code2"
+F 7 "~" H 2150 3210 60  0001 C CNN "Manufacturer2"
+F 8 "~" H 2150 3210 60  0001 C CNN "Supplier"
 	1    1700 3600
 	0    1    1    0   
 $EndComp
@@ -1358,6 +1517,11 @@ F 0 "R45" V 1505 3850 50  0000 C CNN
 F 1 "2k2±5% 0.063w" V 1596 3850 50  0000 C CNN
 F 2 "Icezum:R_0402" V 1630 3860 50  0001 C CNN
 F 3 "" H 1700 3860 50  0000 C CNN
+F 4 "CRCW04022K20JN" H 2150 3210 60  0001 C CNN "Ordering_Code"
+F 5 "Vishay" H 2150 3210 60  0001 C CNN "Manufacturer"
+F 6 "~" H 2150 3210 60  0001 C CNN "Ordering_Code2"
+F 7 "~" H 2150 3210 60  0001 C CNN "Manufacturer2"
+F 8 "~" H 2150 3210 60  0001 C CNN "Supplier"
 	1    1700 4000
 	0    1    1    0   
 $EndComp
@@ -1382,9 +1546,14 @@ L R R31
 U 1 1 59F1CA9F
 P 4350 1700
 F 0 "R31" V 4150 1650 50  0000 C CNN
-F 1 "10k±5% 0.0625w" V 4250 1700 50  0000 C CNN
+F 1 "10k±5% 0.063w" V 4250 1700 50  0000 C CNN
 F 2 "Icezum:R_0402" V 4280 1560 50  0001 C CNN
 F 3 "" H 4350 1560 50  0000 C CNN
+F 4 "CRCW040210K0JN" H 2150 3210 60  0001 C CNN "Ordering_Code"
+F 5 "Vishay" H 2150 3210 60  0001 C CNN "Manufacturer"
+F 6 "~" H 2150 3210 60  0001 C CNN "Ordering_Code2"
+F 7 "~" H 2150 3210 60  0001 C CNN "Manufacturer2"
+F 8 "~" H 2150 3210 60  0001 C CNN "Supplier"
 	1    4350 1700
 	-1   0    0    1   
 $EndComp
@@ -1409,9 +1578,14 @@ L R R32
 U 1 1 59F1D353
 P 4350 2600
 F 0 "R32" V 4150 2550 50  0000 C CNN
-F 1 "10k±5% 0.0625w" V 4250 2600 50  0000 C CNN
+F 1 "10k±5% 0.063w" V 4250 2600 50  0000 C CNN
 F 2 "Icezum:R_0402" V 4280 2460 50  0001 C CNN
 F 3 "" H 4350 2460 50  0000 C CNN
+F 4 "CRCW040210K0JN" H 2150 3210 60  0001 C CNN "Ordering_Code"
+F 5 "Vishay" H 2150 3210 60  0001 C CNN "Manufacturer"
+F 6 "~" H 2150 3210 60  0001 C CNN "Ordering_Code2"
+F 7 "~" H 2150 3210 60  0001 C CNN "Manufacturer2"
+F 8 "~" H 2150 3210 60  0001 C CNN "Supplier"
 	1    4350 2600
 	-1   0    0    1   
 $EndComp
@@ -1453,6 +1627,11 @@ F 0 "SW1" H 4975 1543 60  0000 C CNN
 F 1 "Switch_4p" H 4975 1543 60  0001 C CNN
 F 2 "Icezum:WE_434331013822" H 4975 1543 60  0001 C CNN
 F 3 "" H 4600 1350 60  0000 C CNN
+F 4 "434331013822" H 2150 3210 60  0001 C CNN "Ordering_Code"
+F 5 "Würth" H 2150 3210 60  0001 C CNN "Manufacturer"
+F 6 "~" H 2150 3210 60  0001 C CNN "Ordering_Code2"
+F 7 "~" H 2150 3210 60  0001 C CNN "Manufacturer2"
+F 8 "~" H 2150 3210 60  0001 C CNN "Supplier"
 	1    4600 1350
 	1    0    0    -1  
 $EndComp
@@ -1466,6 +1645,11 @@ F 0 "SW2" H 4975 2443 60  0000 C CNN
 F 1 "Switch_4p" H 4975 2443 60  0001 C CNN
 F 2 "Icezum:WE_434331013822" H 4975 2443 60  0001 C CNN
 F 3 "" H 4600 2250 60  0000 C CNN
+F 4 "434331013822" H 2150 3210 60  0001 C CNN "Ordering_Code"
+F 5 "Würth" H 2150 3210 60  0001 C CNN "Manufacturer"
+F 6 "~" H 2150 3210 60  0001 C CNN "Ordering_Code2"
+F 7 "~" H 2150 3210 60  0001 C CNN "Manufacturer2"
+F 8 "~" H 2150 3210 60  0001 C CNN "Supplier"
 	1    4600 2250
 	1    0    0    -1  
 $EndComp
