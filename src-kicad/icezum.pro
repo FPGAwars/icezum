@@ -1,14 +1,9 @@
-update=mié 27 jul 2016 08:25:10 CEST
+update=jue 30 nov 2017 12:24:26 CET
 version=1
 last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
-[eeschema]
-version=1
-LibDir=
-[eeschema/libraries]
-LibName1=library/icezum
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -40,3 +35,6 @@ BoardOutlineThickness=0.09999999999999999
 ModuleOutlineThickness=0.15
 [general]
 version=1
+[eeschema]
+version=1
+LibDir=

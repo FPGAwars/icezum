@@ -1,6 +1,4 @@
-EESchema Schematic File Version 3
-LIBS:icezum-rescue
-LIBS:icezum
+EESchema Schematic File Version 4
 LIBS:icezum-cache
 EELAYER 26 0
 EELAYER END
@@ -17,7 +15,7 @@ Comment3 "Author:  Eladio Delagado Mingorance"
 Comment4 "License: Creative commons Attribution ShareAlike "
 $EndDescr
 $Comp
-L icezum-headers-doc DOC3
+L icezum:icezum-headers-doc DOC3
 U 1 1 5748B0A8
 P 3500 6650
 F 0 "DOC3" H 3590 7800 39  0001 C CNN
@@ -28,7 +26,7 @@ F 3 "" H 2860 7600 39  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ADS7924 U7
+L icezum:ADS7924 U7
 U 1 1 5748BFE4
 P 8250 2550
 F 0 "U7" H 8470 2680 60  0000 L BNN
@@ -39,7 +37,7 @@ F 3 "" H 8470 2660 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper_3pin JP1
+L icezum:Jumper_3pin JP1
 U 1 1 5748CA2F
 P 7350 1550
 F 0 "JP1" V 7250 1850 60  0000 L BNN
@@ -50,7 +48,7 @@ F 3 "" H 7250 1550 60  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L +5V #PWR0111
+L icezum:+5V #PWR0111
 U 1 1 5748CB4A
 P 7350 1450
 F 0 "#PWR0111" H 7350 1300 50  0001 C CNN
@@ -63,7 +61,7 @@ $EndComp
 Text GLabel 7650 1450 2    60   Input ~ 0
 AREF
 $Comp
-L C C41
+L icezum:C C41
 U 1 1 5748E340
 P 8600 1650
 F 0 "C41" V 8470 1570 50  0000 L CNN
@@ -76,7 +74,7 @@ F 5 "16V" V 8660 1530 50  0000 C CNN "Voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R19
+L icezum:R R19
 U 1 1 5748E354
 P 7900 2050
 F 0 "R19" V 7830 1890 50  0000 C CNN
@@ -87,7 +85,7 @@ F 3 "" H 7900 2050 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C46
+L icezum:C C46
 U 1 1 574908C6
 P 8600 2050
 F 0 "C46" V 8470 1970 50  0000 L CNN
@@ -100,7 +98,7 @@ F 5 "16V" V 8660 1930 50  0000 C CNN "Voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L GNDREF #PWR0112
+L icezum:GNDREF #PWR0112
 U 1 1 57491733
 P 9000 2150
 F 0 "#PWR0112" H 9000 1900 50  0001 C CNN
@@ -111,7 +109,7 @@ F 3 "" H 9000 2150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C45
+L icezum:C C45
 U 1 1 57491D8E
 P 9400 2050
 F 0 "C45" V 9270 1970 50  0000 L CNN
@@ -124,7 +122,7 @@ F 5 "16V" V 9460 1930 50  0000 C CNN "Voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L +3V3 #PWR0113
+L icezum:+3V3 #PWR0113
 U 1 1 574923BF
 P 9850 1650
 F 0 "#PWR0113" H 9850 1500 50  0001 C CNN
@@ -135,7 +133,7 @@ F 3 "" H 9850 1650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R20
+L icezum:R R20
 U 1 1 5749366D
 P 10050 2500
 F 0 "R20" V 9980 2340 50  0000 C CNN
@@ -146,7 +144,7 @@ F 3 "" H 10050 2500 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R21
+L icezum:R R21
 U 1 1 57493DA0
 P 10300 2500
 F 0 "R21" V 10230 2340 50  0000 C CNN
@@ -164,7 +162,7 @@ Text GLabel 10500 3250 2    47   Output ~ 0
 ADC_INT
 NoConn ~ 9800 3350
 $Comp
-L GNDREF #PWR0114
+L icezum:GNDREF #PWR0114
 U 1 1 5749574F
 P 9900 3750
 F 0 "#PWR0114" H 9900 3500 50  0001 C CNN
@@ -175,7 +173,7 @@ F 3 "" H 9900 3750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDREF #PWR0115
+L icezum:GNDREF #PWR0115
 U 1 1 57495E07
 P 8200 3750
 F 0 "#PWR0115" H 8200 3500 50  0001 C CNN
@@ -186,7 +184,7 @@ F 3 "" H 8200 3750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 1x4_male_pin_Header_2.54mm J17
+L icezum:1x4_male_pin_Header_2.54mm J17
 U 1 1 57497491
 P 7900 3100
 F 0 "J17" H 7750 2950 60  0000 C CNN
@@ -205,7 +203,7 @@ A2
 Text Label 8000 3400 0    60   ~ 0
 A3
 $Comp
-L 3x4_pin_male_header_DOC doc9
+L icezum:3x4_pin_male_header_DOC doc9
 U 1 1 5749A2B2
 P 7550 4650
 F 0 "doc9" H 7690 4590 60  0001 C CNN
@@ -216,7 +214,7 @@ F 3 "" H 7080 5340 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 1x4_male_pin_Header_2.54mm J15
+L icezum:1x4_male_pin_Header_2.54mm J15
 U 1 1 5749B012
 P 7350 3100
 F 0 "J15" H 7200 2950 60  0000 C CNN
@@ -227,7 +225,7 @@ F 3 "" H 7350 3650 60  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L +5V_P #PWR0116
+L icezum:+5V_P #PWR0116
 U 1 1 5749B123
 P 7400 2850
 F 0 "#PWR0116" H 7400 2700 50  0001 C CNN
@@ -254,7 +252,7 @@ A1
 Text Notes 8090 4510 0    39   ~ 0
 A0
 $Comp
-L 1x4_male_pin_Header_2.54mm J16
+L icezum:1x4_male_pin_Header_2.54mm J16
 U 1 1 5749ECA7
 P 6850 3100
 F 0 "J16" H 6700 2950 60  0000 C CNN
@@ -267,7 +265,7 @@ $EndComp
 Text Notes 7100 3700 1    47   ~ 0
 1x4 male pin header 2.54mm
 $Comp
-L GNDREF #PWR0117
+L icezum:GNDREF #PWR0117
 U 1 1 5749ED8F
 P 6900 3550
 F 0 "#PWR0117" H 6900 3300 50  0001 C CNN
@@ -282,7 +280,7 @@ Text Notes 6600 3650 1    47   ~ 0
 Text Notes 8800 4550 0    79   ~ 16
 4-Channel I2C ADC
 $Comp
-L Jumper_1x2_Mech JPM1
+L icezum:Jumper_1x2_Mech JPM1
 U 1 1 574A0E14
 P 7450 1000
 F 0 "JPM1" H 7450 1260 60  0000 L BNN
@@ -293,7 +291,7 @@ F 3 "" H 7450 1000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 1x3_pin_male_header_v_DOC doc10
+L icezum:1x3_pin_male_header_v_DOC doc10
 U 1 1 574A23B9
 P 8250 1100
 F 0 "doc10" H 8310 1050 60  0001 C CNN
@@ -310,7 +308,7 @@ REF
 Text Notes 8510 1010 0    39   ~ 0
 AREF
 $Comp
-L LED LD0
+L icezum:LED LD0
 U 1 1 574A356F
 P 1950 1200
 F 0 "LD0" H 2440 1300 47  0000 L BNN
@@ -323,7 +321,7 @@ $EndComp
 Text GLabel 1050 1200 0    47   Input ~ 0
 LED0
 $Comp
-L LED LD1
+L icezum:LED LD1
 U 1 1 574A6DB7
 P 1950 1600
 F 0 "LD1" H 2440 1700 47  0000 L BNN
@@ -336,7 +334,7 @@ $EndComp
 Text GLabel 1050 1600 0    47   Input ~ 0
 LED1
 $Comp
-L LED LD2
+L icezum:LED LD2
 U 1 1 574A7937
 P 1950 2000
 F 0 "LD2" H 2440 2100 47  0000 L BNN
@@ -349,7 +347,7 @@ $EndComp
 Text GLabel 1050 2000 0    47   Input ~ 0
 LED2
 $Comp
-L LED LD3
+L icezum:LED LD3
 U 1 1 574A81AF
 P 1950 2400
 F 0 "LD3" H 2440 2500 47  0000 L BNN
@@ -362,7 +360,7 @@ $EndComp
 Text GLabel 1050 2400 0    47   Input ~ 0
 LED3
 $Comp
-L LED LD4
+L icezum:LED LD4
 U 1 1 574A8C2D
 P 1950 2800
 F 0 "LD4" H 2440 2900 47  0000 L BNN
@@ -375,7 +373,7 @@ $EndComp
 Text GLabel 1050 2800 0    47   Input ~ 0
 LED4
 $Comp
-L LED LD5
+L icezum:LED LD5
 U 1 1 574A8C3C
 P 1950 3200
 F 0 "LD5" H 2440 3300 47  0000 L BNN
@@ -388,7 +386,7 @@ $EndComp
 Text GLabel 1050 3200 0    47   Input ~ 0
 LED5
 $Comp
-L LED LD6
+L icezum:LED LD6
 U 1 1 574A8C4B
 P 1950 3600
 F 0 "LD6" H 2440 3700 47  0000 L BNN
@@ -401,7 +399,7 @@ $EndComp
 Text GLabel 1050 3600 0    47   Input ~ 0
 LED6
 $Comp
-L LED LD7
+L icezum:LED LD7
 U 1 1 574A8C5A
 P 1950 4000
 F 0 "LD7" H 2440 4100 47  0000 L BNN
@@ -414,7 +412,7 @@ $EndComp
 Text GLabel 1050 4000 0    47   Input ~ 0
 LED7
 $Comp
-L GNDREF #PWR0118
+L icezum:GNDREF #PWR0118
 U 1 1 574AA29A
 P 2750 4200
 F 0 "#PWR0118" H 2750 3950 50  0001 C CNN
@@ -616,7 +614,7 @@ Wire Notes Line
 Wire Notes Line
 	3300 4500 3300 500 
 $Comp
-L C C34
+L icezum:C C34
 U 1 1 574AD7AC
 P 3950 1600
 F 0 "C34" H 3700 1520 50  0000 L CNN
@@ -633,7 +631,7 @@ Wire Wire Line
 Wire Wire Line
 	3950 1350 3950 1450
 $Comp
-L GNDREF #PWR0119
+L icezum:GNDREF #PWR0119
 U 1 1 574AFC1C
 P 3950 1800
 F 0 "#PWR0119" H 3950 1550 50  0001 C CNN
@@ -655,7 +653,7 @@ Connection ~ 3950 1350
 Text Notes 4500 800  0    79   ~ 16
 User Switches
 $Comp
-L C C35
+L icezum:C C35
 U 1 1 574B168A
 P 3950 2500
 F 0 "C35" H 3700 2420 50  0000 L CNN
@@ -672,7 +670,7 @@ Wire Wire Line
 Wire Wire Line
 	3950 2250 3950 2350
 $Comp
-L GNDREF #PWR0121
+L icezum:GNDREF #PWR0121
 U 1 1 574B1692
 P 3950 2700
 F 0 "#PWR0121" H 3950 2450 50  0001 C CNN
@@ -690,7 +688,7 @@ Text GLabel 3800 2250 0    47   Output ~ 0
 U_SW2
 Connection ~ 3950 2250
 $Comp
-L switch_DOC DOC4
+L icezum:switch_DOC DOC4
 U 1 1 574B2283
 P 5650 1450
 F 0 "DOC4" H 5660 1670 47  0001 C CNN
@@ -701,7 +699,7 @@ F 3 "" H 5650 1450 47  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L switch_DOC DOC5
+L icezum:switch_DOC DOC5
 U 1 1 574B2315
 P 5650 2350
 F 0 "DOC5" H 5660 2570 47  0001 C CNN
@@ -1263,7 +1261,7 @@ F3 F0 1D 79 17 0B BC D0 AE 96 03 B8 3F 0C 6D B8 A2 A8 0B 16 2C 58 B0 60 C1 82 05
 EndData
 $EndBitmap
 $Comp
-L GNDREF #PWR0123
+L icezum:GNDREF #PWR0123
 U 1 1 57802053
 P 9000 3950
 F 0 "#PWR0123" H 9000 3700 50  0001 C CNN
@@ -1274,7 +1272,7 @@ F 3 "" H 9000 3950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R18
+L icezum:R R18
 U 1 1 59F17BE6
 P 1700 1600
 F 0 "R18" V 1505 1450 50  0000 C CNN
@@ -1285,7 +1283,7 @@ F 3 "" H 1700 1460 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R17
+L icezum:R R17
 U 1 1 59F17E30
 P 1700 1200
 F 0 "R17" V 1505 1050 50  0000 C CNN
@@ -1296,7 +1294,7 @@ F 3 "" H 1700 1060 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R40
+L icezum:R R40
 U 1 1 59F18019
 P 1700 2000
 F 0 "R40" V 1505 1850 50  0000 C CNN
@@ -1307,7 +1305,7 @@ F 3 "" H 1700 1860 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R41
+L icezum:R R41
 U 1 1 59F1806F
 P 1700 2400
 F 0 "R41" V 1505 2250 50  0000 C CNN
@@ -1318,7 +1316,7 @@ F 3 "" H 1700 2260 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R42
+L icezum:R R42
 U 1 1 59F180C7
 P 1700 2800
 F 0 "R42" V 1505 2650 50  0000 C CNN
@@ -1329,7 +1327,7 @@ F 3 "" H 1700 2660 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R43
+L icezum:R R43
 U 1 1 59F18121
 P 1700 3200
 F 0 "R43" V 1505 3050 50  0000 C CNN
@@ -1340,7 +1338,7 @@ F 3 "" H 1700 3060 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R44
+L icezum:R R44
 U 1 1 59F181DC
 P 1700 3600
 F 0 "R44" V 1505 3450 50  0000 C CNN
@@ -1351,7 +1349,7 @@ F 3 "" H 1700 3460 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R45
+L icezum:R R45
 U 1 1 59F18236
 P 1700 4000
 F 0 "R45" V 1505 3850 50  0000 C CNN
@@ -1378,7 +1376,7 @@ Wire Wire Line
 	4550 2350 4600 2350
 Connection ~ 4550 2250
 $Comp
-L R R31
+L icezum:R R31
 U 1 1 59F1CA9F
 P 4350 1700
 F 0 "R31" V 4150 1650 50  0000 C CNN
@@ -1389,7 +1387,7 @@ F 3 "" H 4350 1560 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GNDREF #PWR099
+L icezum:GNDREF #PWR099
 U 1 1 59F1CE1A
 P 4350 1800
 F 0 "#PWR099" H 4350 1550 50  0001 C CNN
@@ -1405,7 +1403,7 @@ Wire Wire Line
 	4350 1400 4350 1350
 Connection ~ 4350 1350
 $Comp
-L R R32
+L icezum:R R32
 U 1 1 59F1D353
 P 4350 2600
 F 0 "R32" V 4150 2550 50  0000 C CNN
@@ -1416,7 +1414,7 @@ F 3 "" H 4350 2460 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GNDREF #PWR0105
+L icezum:GNDREF #PWR0105
 U 1 1 59F1D35A
 P 4350 2700
 F 0 "#PWR0105" H 4350 2450 50  0001 C CNN
@@ -1432,7 +1430,7 @@ Wire Wire Line
 	4350 2300 4350 2250
 Connection ~ 4350 2250
 $Comp
-L +3V3 #PWR0120
+L icezum:+3V3 #PWR0120
 U 1 1 59F1D584
 P 5400 1150
 F 0 "#PWR0120" H 5400 1000 50  0001 C CNN

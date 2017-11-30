@@ -1,6 +1,4 @@
-EESchema Schematic File Version 3
-LIBS:icezum-rescue
-LIBS:icezum
+EESchema Schematic File Version 4
 LIBS:icezum-cache
 EELAYER 26 0
 EELAYER END
@@ -17,7 +15,7 @@ Comment3 "Author:  Eladio Delagado Mingorance"
 Comment4 "License: Creative commons Attribution ShareAlike "
 $EndDescr
 $Comp
-L TXB0108 U9
+L icezum:TXB0108 U9
 U 1 1 57458C38
 P 1050 6200
 F 0 "U9" H 1300 6350 60  0000 C CNN
@@ -28,7 +26,7 @@ F 3 "" H 1500 6300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C49
+L icezum:C C49
 U 1 1 57459A5D
 P 1300 5750
 F 0 "C49" V 1050 5650 50  0000 L CNN
@@ -41,7 +39,7 @@ F 5 "16V" V 1450 5610 50  0000 C CNN "Voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L C C50
+L icezum:C C50
 U 1 1 57459DAF
 P 1950 5750
 F 0 "C50" V 1700 5650 50  0000 L CNN
@@ -54,7 +52,7 @@ F 5 "16V" V 2100 5610 50  0000 C CNN "Voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L GNDREF #PWR026
+L icezum:GNDREF #PWR026
 U 1 1 57459E01
 P 1550 5850
 F 0 "#PWR026" H 1550 5600 50  0001 C CNN
@@ -70,7 +68,7 @@ Wire Wire Line
 	1550 5850 1550 5750
 Connection ~ 1550 5750
 $Comp
-L +3.3V #PWR027
+L icezum:+3.3V #PWR027
 U 1 1 5745A08C
 P 950 5650
 F 0 "#PWR027" H 950 5500 50  0001 C CNN
@@ -83,7 +81,7 @@ $EndComp
 Wire Wire Line
 	950  5650 950  6400
 $Comp
-L +5V #PWR028
+L icezum:+5V #PWR028
 U 1 1 5745A23C
 P 2250 5650
 F 0 "#PWR028" H 2250 5500 50  0001 C CNN
@@ -105,7 +103,7 @@ Wire Wire Line
 	950  6400 1050 6400
 Connection ~ 950  6200
 $Comp
-L GNDREF #PWR029
+L icezum:GNDREF #PWR029
 U 1 1 5745A683
 P 1500 7500
 F 0 "#PWR029" H 1500 7250 50  0001 C CNN
@@ -152,7 +150,7 @@ Wire Wire Line
 Wire Wire Line
 	1000 7200 1050 7200
 $Comp
-L C C54
+L icezum:C C54
 U 1 1 5745C126
 P 2300 7400
 F 0 "C54" H 2310 7550 50  0000 L CNN
@@ -169,7 +167,7 @@ Wire Wire Line
 Wire Wire Line
 	2300 7200 2300 7250
 $Comp
-L GNDREF #PWR030
+L icezum:GNDREF #PWR030
 U 1 1 5745C821
 P 2300 7600
 F 0 "#PWR030" H 2300 7350 50  0001 C CNN
@@ -184,7 +182,7 @@ Wire Wire Line
 Text Label 2100 7200 0    50   ~ 0
 D0
 $Comp
-L C C55
+L icezum:C C55
 U 1 1 5745CB71
 P 2600 7400
 F 0 "C55" H 2610 7550 50  0000 L CNN
@@ -201,7 +199,7 @@ Wire Wire Line
 Wire Wire Line
 	2600 7100 2600 7250
 $Comp
-L GNDREF #PWR031
+L icezum:GNDREF #PWR031
 U 1 1 5745CCE1
 P 2600 7600
 F 0 "#PWR031" H 2600 7350 50  0001 C CNN
@@ -214,7 +212,7 @@ $EndComp
 Wire Wire Line
 	2600 7550 2600 7600
 $Comp
-L C C51
+L icezum:C C51
 U 1 1 5745D036
 P 2900 7200
 F 0 "C51" H 2910 7350 50  0000 L CNN
@@ -231,7 +229,7 @@ Wire Wire Line
 Wire Wire Line
 	2900 7000 2900 7050
 $Comp
-L GNDREF #PWR032
+L icezum:GNDREF #PWR032
 U 1 1 5745D093
 P 2900 7450
 F 0 "#PWR032" H 2900 7200 50  0001 C CNN
@@ -248,7 +246,7 @@ D1
 Text Label 2100 7000 0    50   ~ 0
 D2
 $Comp
-L C C56
+L icezum:C C56
 U 1 1 5745D560
 P 3200 7400
 F 0 "C56" H 3210 7550 50  0000 L CNN
@@ -261,7 +259,7 @@ F 5 "16V" H 3290 7230 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDREF #PWR033
+L icezum:GNDREF #PWR033
 U 1 1 5745D59B
 P 3200 7600
 F 0 "#PWR033" H 3200 7350 50  0001 C CNN
@@ -278,7 +276,7 @@ Wire Wire Line
 Wire Wire Line
 	3200 6900 2050 6900
 $Comp
-L C C52
+L icezum:C C52
 U 1 1 5745D63A
 P 3500 7100
 F 0 "C52" H 3510 7250 50  0000 L CNN
@@ -291,7 +289,7 @@ F 5 "16V" H 3590 6930 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDREF #PWR034
+L icezum:GNDREF #PWR034
 U 1 1 5745D678
 P 3500 7450
 F 0 "#PWR034" H 3500 7200 50  0001 C CNN
@@ -308,7 +306,7 @@ Wire Wire Line
 Wire Wire Line
 	3500 6800 2050 6800
 $Comp
-L C C57
+L icezum:C C57
 U 1 1 5745DA03
 P 3800 7400
 F 0 "C57" H 3810 7550 50  0000 L CNN
@@ -321,7 +319,7 @@ F 5 "16V" H 3890 7230 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C53
+L icezum:C C53
 U 1 1 5745DA46
 P 4100 7100
 F 0 "C53" H 4110 7250 50  0000 L CNN
@@ -334,7 +332,7 @@ F 5 "16V" H 4190 6930 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C58
+L icezum:C C58
 U 1 1 5745DA90
 P 4400 7400
 F 0 "C58" H 4410 7550 50  0000 L CNN
@@ -347,7 +345,7 @@ F 5 "16V" H 4490 7230 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDREF #PWR035
+L icezum:GNDREF #PWR035
 U 1 1 5745DAE2
 P 3800 7600
 F 0 "#PWR035" H 3800 7350 50  0001 C CNN
@@ -358,7 +356,7 @@ F 3 "" H 3800 7600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDREF #PWR036
+L icezum:GNDREF #PWR036
 U 1 1 5745DB0E
 P 4400 7600
 F 0 "#PWR036" H 4400 7350 50  0001 C CNN
@@ -369,7 +367,7 @@ F 3 "" H 4400 7600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDREF #PWR037
+L icezum:GNDREF #PWR037
 U 1 1 5745DB3A
 P 4100 7450
 F 0 "#PWR037" H 4100 7200 50  0001 C CNN
@@ -438,7 +436,7 @@ Wire Notes Line
 Wire Notes Line
 	600  7550 1150 7550
 $Comp
-L 1x8_female_pin_Header_2.54mm J10
+L icezum:1x8_female_pin_Header_2.54mm J10
 U 1 1 5745F398
 P 9250 1050
 F 0 "J10" V 9400 2000 60  0000 C CNN
@@ -489,7 +487,7 @@ Wire Notes Line
 Wire Notes Line
 	9910 1850 9890 1870
 $Comp
-L 1x8_male_pin_Header_2.54mm J8
+L icezum:1x8_male_pin_Header_2.54mm J8
 U 1 1 57474AD5
 P 9250 1350
 F 0 "J8" V 9100 2250 60  0000 C CNN
@@ -525,7 +523,7 @@ Wire Wire Line
 	8550 1350 8550 1300
 Connection ~ 8550 1300
 $Comp
-L GNDREF #PWR038
+L icezum:GNDREF #PWR038
 U 1 1 574750DE
 P 8150 1400
 F 0 "#PWR038" H 8150 1150 50  0001 C CNN
@@ -544,7 +542,7 @@ Text Notes 8200 1700 0    50   ~ 0
 Text Notes 9400 1500 0    50   ~ 0
 GND Row
 $Comp
-L 1x8_male_pin_Header_2.54mm J7
+L icezum:1x8_male_pin_Header_2.54mm J7
 U 1 1 57478068
 P 9250 1950
 F 0 "J7" V 9100 2850 60  0000 C CNN
@@ -586,7 +584,7 @@ VCC Row
 Text Notes 8200 2300 0    50   ~ 0
 1x8 male pin Header 2.54mm
 $Comp
-L 1x8_male_pin_Header_2.54mm J9
+L icezum:1x8_male_pin_Header_2.54mm J9
 U 1 1 574794C1
 P 9250 2550
 F 0 "J9" V 9100 3450 60  0000 C CNN
@@ -605,11 +603,11 @@ GPIO Row
 Wire Notes Line
 	9500 1500 9500 1750
 Wire Notes Line
-	9500 1750 9900 1750
+	9500 1750 10030 1750
 Wire Notes Line
 	9500 2000 9500 1800
 Wire Notes Line
-	9500 1800 9900 1800
+	9500 1800 9970 1800
 Wire Notes Line
 	9800 1850 9800 2650
 Wire Notes Line
@@ -618,14 +616,10 @@ Wire Notes Line
 	10030 1750 10010 1730
 Wire Notes Line
 	10030 1750 10010 1770
-Wire Notes Line
-	9890 1800 9970 1800
-Wire Notes Line
-	9890 1750 10030 1750
 Text Notes 8200 2900 0    50   ~ 0
 1x8 male pin Header 2.54mm
 $Comp
-L 1x8_pin_female_header_DOC doc1
+L icezum:1x8_pin_female_header_DOC doc1
 U 1 1 5747B28F
 P 9950 1050
 F 0 "doc1" H 10400 980 60  0001 C CNN
@@ -636,7 +630,7 @@ F 3 "" H 9800 1750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 3x8_pin_male_header_DOC doc2
+L icezum:3x8_pin_male_header_DOC doc2
 U 1 1 5747B380
 P 9950 2200
 F 0 "doc2" H 10380 2110 60  0001 C CNN
@@ -707,7 +701,7 @@ D6
 Text Label 8550 2400 3    39   ~ 0
 D7
 $Comp
-L +5V_P #PWR039
+L icezum:+5V_P #PWR039
 U 1 1 574628F5
 P 8150 1850
 F 0 "#PWR039" H 8150 1700 50  0001 C CNN
@@ -724,7 +718,7 @@ VCC
 Text Notes 10900 2230 0    39   ~ 0
 GPIO
 $Comp
-L 1x10_female_pin_Header_2.54mm J4
+L icezum:1x10_female_pin_Header_2.54mm J4
 U 1 1 5746E26D
 P 6050 1050
 F 0 "J4" V 6200 2150 60  0000 C CNN
@@ -735,7 +729,7 @@ F 3 "" H 6050 1600 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 1x10_pin_female_header_DOC doc3
+L icezum:1x10_pin_female_header_DOC doc3
 U 1 1 5746F4AC
 P 6500 1050
 F 0 "doc3" H 6950 980 60  0001 C CNN
@@ -766,7 +760,7 @@ SDA
 Text Notes 6490 1120 0    39   ~ 0
 SCL
 $Comp
-L 1x6_male_pin_Header_2.54mm J3
+L icezum:1x6_male_pin_Header_2.54mm J3
 U 1 1 57470B3B
 P 6050 1350
 F 0 "J3" V 5850 2050 60  0000 C CNN
@@ -781,7 +775,7 @@ Text Notes 4900 750  0    49   ~ 0
 Text Notes 5100 1700 0    50   ~ 0
 1x6 male pin Header 2.54mm
 $Comp
-L GNDREF #PWR040
+L icezum:GNDREF #PWR040
 U 1 1 57471DF8
 P 5300 1350
 F 0 "#PWR040" H 5300 1100 50  0001 C CNN
@@ -852,7 +846,7 @@ DD5
 Text Notes 6200 1500 0    50   ~ 0
 GND Row
 $Comp
-L 1x6_male_pin_Header_2.54mm J2
+L icezum:1x6_male_pin_Header_2.54mm J2
 U 1 1 574749C5
 P 6050 1950
 F 0 "J2" V 5850 2650 60  0000 C CNN
@@ -863,7 +857,7 @@ F 3 "" H 6050 2500 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +5V_P #PWR041
+L icezum:+5V_P #PWR041
 U 1 1 57474AD1
 P 5000 1850
 F 0 "#PWR041" H 5000 1700 50  0001 C CNN
@@ -897,7 +891,7 @@ Connection ~ 5550 1900
 Text Notes 6200 2100 0    50   ~ 0
 VCC Row
 $Comp
-L 1x6_male_pin_Header_2.54mm J6
+L icezum:1x6_male_pin_Header_2.54mm J6
 U 1 1 574759E7
 P 6050 2550
 F 0 "J6" V 5850 3250 60  0000 C CNN
@@ -938,7 +932,7 @@ D12
 Text Label 5550 2400 3    39   ~ 0
 D13
 $Comp
-L 3x6_pin_male_header_DOC doc4
+L icezum:3x6_pin_male_header_DOC doc4
 U 1 1 57478113
 P 7000 2200
 F 0 "doc4" H 7430 2100 60  0001 C CNN
@@ -999,7 +993,7 @@ Wire Notes Line
 Wire Notes Line
 	850  7350 850  7250
 $Comp
-L TXB0106 U6
+L icezum:TXB0106 U6
 U 1 1 5747CB80
 P 1150 3800
 F 0 "U6" H 1400 3950 60  0000 C CNN
@@ -1010,7 +1004,7 @@ F 3 "" H 1600 3900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C36
+L icezum:C C36
 U 1 1 5747E4B0
 P 1350 3350
 F 0 "C36" V 1100 3300 50  0000 L CNN
@@ -1023,7 +1017,7 @@ F 5 "16V" V 1500 3210 50  0000 C CNN "Voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L C C37
+L icezum:C C37
 U 1 1 5747E4B8
 P 2000 3350
 F 0 "C37" V 1750 3250 50  0000 L CNN
@@ -1036,7 +1030,7 @@ F 5 "16V" V 2150 3210 50  0000 C CNN "Voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L GNDREF #PWR042
+L icezum:GNDREF #PWR042
 U 1 1 5747E4BE
 P 1650 3450
 F 0 "#PWR042" H 1650 3200 50  0001 C CNN
@@ -1052,7 +1046,7 @@ Wire Wire Line
 	1650 3450 1650 3350
 Connection ~ 1650 3350
 $Comp
-L +3.3V #PWR043
+L icezum:+3.3V #PWR043
 U 1 1 5747E4C8
 P 1000 3300
 F 0 "#PWR043" H 1000 3150 50  0001 C CNN
@@ -1065,7 +1059,7 @@ $EndComp
 Wire Wire Line
 	1000 3300 1000 4000
 $Comp
-L +5V #PWR044
+L icezum:+5V #PWR044
 U 1 1 5747E4D0
 P 2300 3250
 F 0 "#PWR044" H 2300 3100 50  0001 C CNN
@@ -1088,7 +1082,7 @@ Wire Wire Line
 Wire Wire Line
 	2300 3800 2150 3800
 $Comp
-L GNDREF #PWR045
+L icezum:GNDREF #PWR045
 U 1 1 5747F2F0
 P 1600 4950
 F 0 "#PWR045" H 1600 4700 50  0001 C CNN
@@ -1101,7 +1095,7 @@ $EndComp
 Wire Wire Line
 	1600 4950 1600 4900
 $Comp
-L C C40
+L icezum:C C40
 U 1 1 5747F647
 P 2400 4800
 F 0 "C40" H 2410 4950 50  0000 L CNN
@@ -1114,7 +1108,7 @@ F 5 "16V" H 2490 4630 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDREF #PWR046
+L icezum:GNDREF #PWR046
 U 1 1 5747F64D
 P 2400 5000
 F 0 "#PWR046" H 2400 4750 50  0001 C CNN
@@ -1129,7 +1123,7 @@ Wire Wire Line
 Wire Wire Line
 	2150 4600 2400 4600
 $Comp
-L C C42
+L icezum:C C42
 U 1 1 5747FB49
 P 2700 4800
 F 0 "C42" H 2710 4950 50  0000 L CNN
@@ -1142,7 +1136,7 @@ F 5 "16V" H 2790 4630 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDREF #PWR047
+L icezum:GNDREF #PWR047
 U 1 1 57480208
 P 2700 5000
 F 0 "#PWR047" H 2700 4750 50  0001 C CNN
@@ -1161,7 +1155,7 @@ Wire Wire Line
 Wire Wire Line
 	2700 4500 2150 4500
 $Comp
-L C C38
+L icezum:C C38
 U 1 1 57480A5C
 P 3000 4550
 F 0 "C38" H 3010 4700 50  0000 L CNN
@@ -1176,7 +1170,7 @@ $EndComp
 Wire Wire Line
 	2150 4400 3000 4400
 $Comp
-L GNDREF #PWR048
+L icezum:GNDREF #PWR048
 U 1 1 5748140D
 P 3000 4800
 F 0 "#PWR048" H 3000 4550 50  0001 C CNN
@@ -1189,7 +1183,7 @@ $EndComp
 Wire Wire Line
 	3000 4700 3000 4800
 $Comp
-L C C43
+L icezum:C C43
 U 1 1 57481BDB
 P 3300 4800
 F 0 "C43" H 3310 4950 50  0000 L CNN
@@ -1202,7 +1196,7 @@ F 5 "16V" H 3390 4630 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C39
+L icezum:C C39
 U 1 1 57481C57
 P 3600 4550
 F 0 "C39" H 3610 4700 50  0000 L CNN
@@ -1215,7 +1209,7 @@ F 5 "16V" H 3690 4380 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C44
+L icezum:C C44
 U 1 1 57481CD4
 P 3900 4800
 F 0 "C44" H 3910 4950 50  0000 L CNN
@@ -1240,7 +1234,7 @@ Wire Wire Line
 Wire Wire Line
 	3900 4100 2150 4100
 $Comp
-L GNDREF #PWR049
+L icezum:GNDREF #PWR049
 U 1 1 57482EC3
 P 3300 5000
 F 0 "#PWR049" H 3300 4750 50  0001 C CNN
@@ -1251,7 +1245,7 @@ F 3 "" H 3300 5000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDREF #PWR050
+L icezum:GNDREF #PWR050
 U 1 1 57482F22
 P 3900 5000
 F 0 "#PWR050" H 3900 4750 50  0001 C CNN
@@ -1262,7 +1256,7 @@ F 3 "" H 3900 5000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDREF #PWR051
+L icezum:GNDREF #PWR051
 U 1 1 57482F81
 P 3600 4800
 F 0 "#PWR051" H 3600 4550 50  0001 C CNN
@@ -1318,7 +1312,7 @@ Wire Wire Line
 Wire Wire Line
 	1100 4500 1150 4500
 $Comp
-L TXB0108 U8
+L icezum:TXB0108 U8
 U 1 1 5748A3FF
 P 1150 1400
 F 0 "U8" H 1400 1550 60  0000 C CNN
@@ -1329,7 +1323,7 @@ F 3 "" H 1600 1500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C47
+L icezum:C C47
 U 1 1 5748A407
 P 1400 950
 F 0 "C47" V 1150 850 50  0000 L CNN
@@ -1342,7 +1336,7 @@ F 5 "16V" V 1550 810 50  0000 C CNN "Voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L C C48
+L icezum:C C48
 U 1 1 5748A40F
 P 2050 950
 F 0 "C48" V 1800 850 50  0000 L CNN
@@ -1355,7 +1349,7 @@ F 5 "16V" V 2200 810 50  0000 C CNN "Voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L GNDREF #PWR052
+L icezum:GNDREF #PWR052
 U 1 1 5748A415
 P 1650 1000
 F 0 "#PWR052" H 1650 750 50  0001 C CNN
@@ -1371,7 +1365,7 @@ Wire Wire Line
 	1650 1000 1650 950 
 Connection ~ 1650 950 
 $Comp
-L +3.3V #PWR053
+L icezum:+3.3V #PWR053
 U 1 1 5748A41E
 P 1050 850
 F 0 "#PWR053" H 1050 700 50  0001 C CNN
@@ -1384,7 +1378,7 @@ $EndComp
 Wire Wire Line
 	1050 850  1050 1600
 $Comp
-L +5V #PWR054
+L icezum:+5V #PWR054
 U 1 1 5748A425
 P 2350 850
 F 0 "#PWR054" H 2350 700 50  0001 C CNN
@@ -1406,7 +1400,7 @@ Wire Wire Line
 	1050 1600 1150 1600
 Connection ~ 1050 1400
 $Comp
-L GNDREF #PWR055
+L icezum:GNDREF #PWR055
 U 1 1 5748A432
 P 1600 2700
 F 0 "#PWR055" H 1600 2450 50  0001 C CNN
@@ -1453,7 +1447,7 @@ NoConn ~ 2150 1800
 NoConn ~ 1100 1700
 NoConn ~ 1100 1800
 $Comp
-L R R22
+L icezum:R R22
 U 1 1 5748F817
 P 2600 1450
 F 0 "R22" H 2480 1290 50  0000 C CNN
@@ -1464,7 +1458,7 @@ F 3 "" H 2600 1450 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R23
+L icezum:R R23
 U 1 1 5748FC3F
 P 3000 1450
 F 0 "R23" H 2880 1290 50  0000 C CNN
@@ -1580,7 +1574,7 @@ Wire Notes Line
 Wire Notes Line
 	3250 1550 3250 1750
 $Comp
-L 1x6_male_pin_Header_2.54mm J12
+L icezum:1x6_male_pin_Header_2.54mm J12
 U 1 1 5749783E
 P 8750 4450
 F 0 "J12" V 8600 4250 60  0000 C CNN
@@ -1617,7 +1611,7 @@ DD4
 Text Label 9250 4300 3    39   ~ 0
 DD5
 $Comp
-L 1x6_male_pin_Header_2.54mm J13
+L icezum:1x6_male_pin_Header_2.54mm J13
 U 1 1 574997FB
 P 8750 5050
 F 0 "J13" V 8550 4850 60  0000 C CNN
@@ -1632,7 +1626,7 @@ Wire Wire Line
 Wire Wire Line
 	8350 5000 9250 5000
 $Comp
-L +5V_P #PWR056
+L icezum:+5V_P #PWR056
 U 1 1 5749A38E
 P 8350 4950
 F 0 "#PWR056" H 8350 4800 50  0001 C CNN
@@ -1664,7 +1658,7 @@ GPIO Row
 Text Notes 9400 5250 0    50   ~ 0
 VCC Row
 $Comp
-L 1x6_male_pin_Header_2.54mm J14
+L icezum:1x6_male_pin_Header_2.54mm J14
 U 1 1 5749C74D
 P 8750 5550
 F 0 "J14" V 8550 5350 60  0000 C CNN
@@ -1696,7 +1690,7 @@ Wire Wire Line
 	8750 5550 8750 5500
 Connection ~ 8750 5500
 $Comp
-L GNDREF #PWR057
+L icezum:GNDREF #PWR057
 U 1 1 5749D92C
 P 8350 5600
 F 0 "#PWR057" H 8350 5350 50  0001 C CNN
@@ -1713,7 +1707,7 @@ Text Notes 8200 5400 0    50   ~ 0
 Text Notes 8200 5900 0    50   ~ 0
 1x6 male pin Header 2.54mm
 $Comp
-L 3x6_pin_male_header_DOC doc7
+L icezum:3x6_pin_male_header_DOC doc7
 U 1 1 5749E956
 P 10150 5350
 F 0 "doc7" H 10580 5250 60  0001 C CNN
@@ -1768,7 +1762,7 @@ Wire Notes Line
 Wire Notes Line
 	9550 4900 10200 4900
 $Comp
-L 1x6_female_pin_Header_2.54mm J11
+L icezum:1x6_female_pin_Header_2.54mm J11
 U 1 1 574A1B89
 P 8750 6150
 F 0 "J11" V 8950 5950 60  0000 C CNN
@@ -1805,7 +1799,7 @@ DD1
 Text Label 8750 6000 3    39   ~ 0
 DD0
 $Comp
-L 1x6_pin_female_header_DOC doc8
+L icezum:1x6_pin_female_header_DOC doc8
 U 1 1 574A45E5
 P 10150 6350
 F 0 "doc8" H 10600 6280 60  0001 C CNN
@@ -1828,7 +1822,7 @@ DD1
 Text Notes 10150 6430 0    35   ~ 0
 DD0
 $Comp
-L 1x8_female_pin_Header_2.54mm J5
+L icezum:1x8_female_pin_Header_2.54mm J5
 U 1 1 574A52DA
 P 5400 5800
 F 0 "J5" V 5550 6700 60  0000 C CNN
@@ -1842,7 +1836,7 @@ Text Notes 5050 6150 0    49   ~ 0
 1x8 female pin Header 2.54mm
 NoConn ~ 5400 5800
 $Comp
-L +5V #PWR058
+L icezum:+5V #PWR058
 U 1 1 574A6429
 P 5500 5750
 F 0 "#PWR058" H 5500 5600 50  0001 C CNN
@@ -1861,7 +1855,7 @@ Wire Wire Line
 Text GLabel 5400 5500 0    39   Input ~ 0
 SYS_RESET
 $Comp
-L +3V3_AUX #PWR059
+L icezum:+3V3_AUX #PWR059
 U 1 1 574A74E7
 P 5700 5500
 F 0 "#PWR059" H 5700 5350 50  0001 C CNN
@@ -1874,7 +1868,7 @@ $EndComp
 Wire Wire Line
 	5700 5800 5700 5500
 $Comp
-L +5V_P #PWR060
+L icezum:+5V_P #PWR060
 U 1 1 574A7C93
 P 6050 5450
 F 0 "#PWR060" H 6050 5300 50  0001 C CNN
@@ -1899,7 +1893,7 @@ Wire Wire Line
 Wire Wire Line
 	6000 5550 6000 5600
 $Comp
-L GNDREF #PWR061
+L icezum:GNDREF #PWR061
 U 1 1 574A8D14
 P 6000 5600
 F 0 "#PWR061" H 6000 5350 50  0001 C CNN
@@ -1915,7 +1909,7 @@ Wire Wire Line
 Wire Wire Line
 	6100 5700 6250 5700
 $Comp
-L 1x8_pin_female_header_DOC doc6
+L icezum:1x8_pin_female_header_DOC doc6
 U 1 1 574A9732
 P 6750 5950
 F 0 "doc6" H 7200 5880 60  0001 C CNN
@@ -1940,7 +1934,7 @@ Text Notes 7230 6030 0    39   ~ 0
 Text Notes 7470 6030 0    39   ~ 0
 Gnd
 $Comp
-L 2x4_male_pin_Header_2.54mm J19
+L icezum:2x4_male_pin_Header_2.54mm J19
 U 1 1 574AB405
 P 5050 4150
 F 0 "J19" V 5300 4350 60  0000 C CNN
@@ -1991,7 +1985,7 @@ Wire Notes Line
 Wire Notes Line
 	4950 4010 4910 3980
 $Comp
-L 2x4_pin_male_header_DOC doc5
+L icezum:2x4_pin_male_header_DOC doc5
 U 1 1 574B214C
 P 5700 4150
 F 0 "doc5" H 5950 4060 60  0001 C CNN
@@ -2002,7 +1996,7 @@ F 3 "" H 5550 4840 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L icezum-headers-doc DOC1
+L icezum:icezum-headers-doc DOC1
 U 1 1 574B39A3
 P 7050 4200
 F 0 "DOC1" H 7100 5350 39  0001 C CNN
@@ -2594,7 +2588,7 @@ $EndBitmap
 Text Notes 1800 4900 0    39   ~ 0
 Thermal\nPad
 $Comp
-L GNDREF #PWR063
+L icezum:GNDREF #PWR063
 U 1 1 57800071
 P 1650 7500
 F 0 "#PWR063" H 1650 7250 50  0001 C CNN
@@ -2605,7 +2599,7 @@ F 3 "" H 1650 7500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDREF #PWR064
+L icezum:GNDREF #PWR064
 U 1 1 57800A68
 P 1750 2700
 F 0 "#PWR064" H 1750 2450 50  0001 C CNN
@@ -2616,7 +2610,7 @@ F 3 "" H 1750 2700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VIN #PWR062
+L icezum:VIN #PWR062
 U 1 1 59F1346B
 P 6250 5700
 F 0 "#PWR062" H 6250 5550 50  0001 C CNN
@@ -2655,7 +2649,7 @@ NL
 Text Notes 4350 7450 0    60   ~ 12
 NL
 $Comp
-L GNDREF #PWR0122
+L icezum:GNDREF #PWR0122
 U 1 1 59F243D6
 P 1750 4950
 F 0 "#PWR0122" H 1750 4700 50  0001 C CNN

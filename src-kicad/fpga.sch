@@ -1,6 +1,4 @@
-EESchema Schematic File Version 3
-LIBS:icezum-rescue
-LIBS:icezum
+EESchema Schematic File Version 4
 LIBS:icezum-cache
 EELAYER 26 0
 EELAYER END
@@ -17,7 +15,7 @@ Comment3 "Author:  Eladio Delagado Mingorance"
 Comment4 "License: Creative commons Attribution ShareAlike "
 $EndDescr
 $Comp
-L C C1
+L icezum:C C1
 U 1 1 5742E2A9
 P 700 1100
 F 0 "C1" H 820 1180 50  0000 L CNN
@@ -30,7 +28,7 @@ F 5 "16V" H 890 1020 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR01
+L icezum:+3V3 #PWR01
 U 1 1 5742EB21
 P 700 750
 F 0 "#PWR01" H 700 600 50  0001 C CNN
@@ -41,7 +39,7 @@ F 3 "" H 700 750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C2
+L icezum:C C2
 U 1 1 5742F27A
 P 1100 1100
 F 0 "C2" H 1220 1180 50  0000 L CNN
@@ -54,7 +52,7 @@ F 5 "16V" H 1290 1020 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDREF #PWR02
+L icezum:GNDREF #PWR02
 U 1 1 5742F317
 P 1100 1350
 F 0 "#PWR02" H 1100 1100 50  0001 C CNN
@@ -100,7 +98,7 @@ NoConn ~ 2850 2050
 NoConn ~ 2850 2150
 NoConn ~ 2850 2250
 $Comp
-L iCE40HX1K-TQ144 U1
+L icezum:iCE40HX1K-TQ144 U1
 U 2 1 57436BD0
 P 4950 900
 F 0 "U1" H 5250 1050 60  0000 C CNN
@@ -111,7 +109,7 @@ F 3 "" H 5250 500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C7
+L icezum:C C7
 U 1 1 5743AB85
 P 4100 1170
 F 0 "C7" H 4220 1250 50  0000 L CNN
@@ -124,7 +122,7 @@ F 5 "16V" H 4290 1090 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR03
+L icezum:+3V3 #PWR03
 U 1 1 5743AD45
 P 4100 800
 F 0 "#PWR03" H 4100 650 50  0001 C CNN
@@ -135,7 +133,7 @@ F 3 "" H 4100 800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDREF #PWR04
+L icezum:GNDREF #PWR04
 U 1 1 5743B1A8
 P 4100 1390
 F 0 "#PWR04" H 4100 1140 50  0001 C CNN
@@ -146,7 +144,7 @@ F 3 "" H 4100 1390 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C8
+L icezum:C C8
 U 1 1 5743B372
 P 4550 1170
 F 0 "C8" H 4670 1250 50  0000 L CNN
@@ -159,7 +157,7 @@ F 5 "16V" H 4740 1090 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDREF #PWR05
+L icezum:GNDREF #PWR05
 U 1 1 5743B3FC
 P 4550 1390
 F 0 "#PWR05" H 4550 1140 50  0001 C CNN
@@ -170,7 +168,7 @@ F 3 "" H 4550 1390 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R4
+L icezum:R R4
 U 1 1 574319A2
 P 4800 2300
 F 0 "R4" V 4730 2140 50  0000 C CNN
@@ -181,7 +179,7 @@ F 3 "" H 4800 2300 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GNDREF #PWR06
+L icezum:GNDREF #PWR06
 U 1 1 57431C0E
 P 4350 2400
 F 0 "#PWR06" H 4350 2150 50  0001 C CNN
@@ -229,7 +227,7 @@ LED6
 Text GLabel 6450 2400 2    54   Output ~ 0
 LED7
 $Comp
-L iCE40HX1K-TQ144 U1
+L icezum:iCE40HX1K-TQ144 U1
 U 3 1 57435B5D
 P 8900 900
 F 0 "U1" H 9200 1050 60  0000 C CNN
@@ -240,7 +238,7 @@ F 3 "" H 9200 500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C3
+L icezum:C C3
 U 1 1 5743685E
 P 8100 1100
 F 0 "C3" H 8220 1180 50  0000 L CNN
@@ -253,7 +251,7 @@ F 5 "16V" H 8290 1020 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR07
+L icezum:+3V3 #PWR07
 U 1 1 57436864
 P 8100 800
 F 0 "#PWR07" H 8100 650 50  0001 C CNN
@@ -264,7 +262,7 @@ F 3 "" H 8100 800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDREF #PWR08
+L icezum:GNDREF #PWR08
 U 1 1 5743686A
 P 8100 1350
 F 0 "#PWR08" H 8100 1100 50  0001 C CNN
@@ -275,7 +273,7 @@ F 3 "" H 8100 1350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C4
+L icezum:C C4
 U 1 1 57436872
 P 8550 1100
 F 0 "C4" H 8670 1180 50  0000 L CNN
@@ -288,7 +286,7 @@ F 5 "16V" H 8740 1020 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDREF #PWR09
+L icezum:GNDREF #PWR09
 U 1 1 57436878
 P 8550 1350
 F 0 "#PWR09" H 8550 1100 50  0001 C CNN
@@ -315,7 +313,7 @@ iCE_CDONE
 Text GLabel 7900 2100 0    54   Input ~ 0
 iCE_CREST
 $Comp
-L R R2
+L icezum:R R2
 U 1 1 57438123
 P 8400 2100
 F 0 "R2" V 8340 1940 50  0000 C CNN
@@ -326,7 +324,7 @@ F 3 "" H 8400 2100 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +3V3 #PWR010
+L icezum:+3V3 #PWR010
 U 1 1 5743856A
 P 7900 1720
 F 0 "#PWR010" H 7900 1570 50  0001 C CNN
@@ -337,7 +335,7 @@ F 3 "" H 7900 1720 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR011
+L icezum:+3V3 #PWR011
 U 1 1 57438C3B
 P 7900 2400
 F 0 "#PWR011" H 7900 2250 50  0001 C CNN
@@ -348,7 +346,7 @@ F 3 "" H 7900 2400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R3
+L icezum:R R3
 U 1 1 57438C6A
 P 8400 2450
 F 0 "R3" V 8330 2290 50  0000 C CNN
@@ -365,7 +363,7 @@ FPGA_49_GBIN5
 Text GLabel 10200 2750 2    54   BiDi ~ 0
 FPGA_50_GBIN4
 $Comp
-L C C5
+L icezum:C C5
 U 1 1 5743FA51
 P 950 4200
 F 0 "C5" H 1070 4280 50  0000 L CNN
@@ -378,7 +376,7 @@ F 5 "16V" H 1140 4120 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR012
+L icezum:+3V3 #PWR012
 U 1 1 5743FA57
 P 950 3760
 F 0 "#PWR012" H 950 3610 50  0001 C CNN
@@ -389,7 +387,7 @@ F 3 "" H 950 3760 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDREF #PWR013
+L icezum:GNDREF #PWR013
 U 1 1 5743FA5D
 P 950 4450
 F 0 "#PWR013" H 950 4200 50  0001 C CNN
@@ -400,7 +398,7 @@ F 3 "" H 950 4450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDREF #PWR014
+L icezum:GNDREF #PWR014
 U 1 1 5743FA6B
 P 1350 4450
 F 0 "#PWR014" H 1350 4200 50  0001 C CNN
@@ -431,7 +429,7 @@ U_SW2
 Text GLabel 1450 6150 0    54   Input ~ 0
 iCE_CLK
 $Comp
-L +1V2 #PWR015
+L icezum:+1V2 #PWR015
 U 1 1 57447607
 P 8150 4300
 F 0 "#PWR015" H 8150 4150 50  0001 C CNN
@@ -442,7 +440,7 @@ F 3 "" H 8150 4300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R9
+L icezum:R R9
 U 1 1 574481A7
 P 8150 4750
 F 0 "R9" V 8070 4590 50  0000 C CNN
@@ -453,7 +451,7 @@ F 3 "" H 8150 4750 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C12
+L icezum:C C12
 U 1 1 57448729
 P 8600 5050
 F 0 "C12" H 8720 5130 50  0000 L CNN
@@ -466,7 +464,7 @@ F 5 "16V" H 8790 4970 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C11
+L icezum:C C11
 U 1 1 57449030
 P 8150 5050
 F 0 "C11" H 8270 5130 50  0000 L CNN
@@ -480,7 +478,7 @@ F 5 "16V" H 8340 4970 50  0000 C CNN "Voltage"
 $EndComp
 NoConn ~ 10400 3850
 $Comp
-L C C13
+L icezum:C C13
 U 1 1 57449D9A
 P 9250 5600
 F 0 "C13" H 9370 5680 50  0000 L CNN
@@ -493,7 +491,7 @@ F 5 "16V" H 9440 5520 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDREF #PWR016
+L icezum:GNDREF #PWR016
 U 1 1 5744AF09
 P 10950 5850
 F 0 "#PWR016" H 10950 5600 50  0001 C CNN
@@ -504,7 +502,7 @@ F 3 "" H 10950 5850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C14
+L icezum:C C14
 U 1 1 5744AF55
 P 9650 5600
 F 0 "C14" H 9770 5680 50  0000 L CNN
@@ -517,7 +515,7 @@ F 5 "16V" H 9840 5520 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C15
+L icezum:C C15
 U 1 1 5744B001
 P 10100 5600
 F 0 "C15" H 10220 5680 50  0000 L CNN
@@ -530,7 +528,7 @@ F 5 "16V" H 10290 5520 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C16
+L icezum:C C16
 U 1 1 5744B0B6
 P 10500 5600
 F 0 "C16" H 10620 5680 50  0000 L CNN
@@ -543,7 +541,7 @@ F 5 "16V" H 10690 5520 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR017
+L icezum:+3V3 #PWR017
 U 1 1 5744C91B
 P 10900 3750
 F 0 "#PWR017" H 10900 3600 50  0001 C CNN
@@ -554,7 +552,7 @@ F 3 "" H 10900 3750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D_Schottky D1
+L icezum:D_Schottky D1
 U 1 1 5744CB9A
 P 10670 3950
 F 0 "D1" H 10670 4050 50  0000 C CNN
@@ -567,7 +565,7 @@ $EndComp
 Text Notes 4600 2500 0    60   ~ 0
 NL
 $Comp
-L iCE40HX1K-TQ144 U1
+L icezum:iCE40HX1K-TQ144 U1
 U 5 1 5744044B
 P 4200 4700
 F 0 "U1" H 4500 4850 60  0000 C CNN
@@ -578,7 +576,7 @@ F 3 "" H 4550 3500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C9
+L icezum:C C9
 U 1 1 57440933
 P 6000 4000
 F 0 "C9" H 6120 4080 50  0000 L CNN
@@ -591,7 +589,7 @@ F 5 "16V" H 6190 3920 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDREF #PWR018
+L icezum:GNDREF #PWR018
 U 1 1 57440C18
 P 6000 4200
 F 0 "#PWR018" H 6000 3950 50  0001 C CNN
@@ -602,7 +600,7 @@ F 3 "" H 6000 4200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R6
+L icezum:R R6
 U 1 1 574429CE
 P 7000 4200
 F 0 "R6" H 7080 4040 50  0000 C CNN
@@ -613,7 +611,7 @@ F 3 "" H 7000 4200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R7
+L icezum:R R7
 U 1 1 57447BC5
 P 7250 4200
 F 0 "R7" H 7330 4050 50  0000 C CNN
@@ -624,7 +622,7 @@ F 3 "" H 7250 4200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R8
+L icezum:R R8
 U 1 1 57447C61
 P 7500 4200
 F 0 "R8" H 7570 4050 50  0000 C CNN
@@ -635,7 +633,7 @@ F 3 "" H 7500 4200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R5
+L icezum:R R5
 U 1 1 57448214
 P 5800 4000
 F 0 "R5" H 5870 3850 50  0000 C CNN
@@ -646,7 +644,7 @@ F 3 "" H 5800 4000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C10
+L icezum:C C10
 U 1 1 574484E9
 P 4000 4900
 F 0 "C10" H 4120 4980 50  0000 L CNN
@@ -659,7 +657,7 @@ F 5 "16V" H 4190 4820 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR019
+L icezum:+3V3 #PWR019
 U 1 1 574484EF
 P 4000 4600
 F 0 "#PWR019" H 4000 4450 50  0001 C CNN
@@ -670,7 +668,7 @@ F 3 "" H 4000 4600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDREF #PWR020
+L icezum:GNDREF #PWR020
 U 1 1 574484F5
 P 4000 5100
 F 0 "#PWR020" H 4000 4850 50  0001 C CNN
@@ -689,7 +687,7 @@ iCE_MISO
 Text GLabel 5400 5900 0    60   Input ~ 0
 iCE_SCK
 $Comp
-L GNDREF #PWR021
+L icezum:GNDREF #PWR021
 U 1 1 5744B1B6
 P 6400 5200
 F 0 "#PWR021" H 6400 4950 50  0001 C CNN
@@ -732,7 +730,7 @@ D7
 Text Notes 2930 3090 0    60   ~ 12
 iCEZUM IO PINS (5V)
 $Comp
-L R R1
+L icezum:R R1
 U 1 1 57438596
 P 8400 1800
 F 0 "R1" V 8330 1640 50  0000 C CNN
@@ -743,7 +741,7 @@ F 3 "" H 8400 1800 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GNDREF #PWR022
+L icezum:GNDREF #PWR022
 U 1 1 5742F120
 P 700 1350
 F 0 "#PWR022" H 700 1100 50  0001 C CNN
@@ -754,7 +752,7 @@ F 3 "" H 700 1350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L iCE40HX1K-TQ144 U1
+L icezum:iCE40HX1K-TQ144 U1
 U 1 1 5743108E
 P 1450 850
 F 0 "U1" H 1750 1000 60  0000 C CNN
@@ -804,7 +802,7 @@ NoConn ~ 10300 2200
 NoConn ~ 10300 2300
 NoConn ~ 10300 2400
 $Comp
-L C C6
+L icezum:C C6
 U 1 1 5743FA65
 P 1350 4200
 F 0 "C6" H 1470 4280 50  0000 L CNN
@@ -818,7 +816,7 @@ F 5 "16V" H 1540 4120 50  0000 C CNN "Voltage"
 $EndComp
 NoConn ~ 1700 6250
 $Comp
-L iCE40HX1K-TQ144 U1
+L icezum:iCE40HX1K-TQ144 U1
 U 4 1 5743EEA2
 P 1700 3950
 F 0 "U1" H 2000 4100 60  0000 C CNN
@@ -842,7 +840,7 @@ NoConn ~ 3100 6050
 NoConn ~ 3100 6150
 NoConn ~ 3100 6250
 $Comp
-L N25Q032A U2
+L icezum:N25Q032A U2
 U 1 1 574426E3
 P 5900 4700
 F 0 "U2" H 6170 4910 60  0000 C CNN
@@ -853,7 +851,7 @@ F 3 "" H 6430 4800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR023
+L icezum:+3V3 #PWR023
 U 1 1 57440A53
 P 6000 3750
 F 0 "#PWR023" H 6000 3600 50  0001 C CNN
@@ -866,7 +864,7 @@ $EndComp
 Text Notes 6050 5600 0    60   ~ 12
 Configuration memory
 $Comp
-L iCE40HX1K-TQ144 U1
+L icezum:iCE40HX1K-TQ144 U1
 U 6 1 57446945
 P 9000 3850
 F 0 "U1" H 9300 4000 60  0000 C CNN
@@ -877,7 +875,7 @@ F 3 "" H 9300 2550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDREF #PWR024
+L icezum:GNDREF #PWR024
 U 1 1 57447B1C
 P 8750 3950
 F 0 "#PWR024" H 8750 3700 50  0001 C CNN
@@ -984,15 +982,13 @@ Wire Wire Line
 Wire Wire Line
 	10900 3950 10900 3750
 Wire Notes Line
-	3450 740  3650 740 
+	3450 740  3700 740 
 Wire Notes Line
 	3450 2960 3700 2960
 Wire Notes Line
 	3450 2960 3450 740 
 Wire Notes Line
 	3700 2960 3700 740 
-Wire Notes Line
-	3700 740  3640 740 
 Wire Wire Line
 	7900 1720 7900 1800
 Wire Wire Line
@@ -1250,7 +1246,7 @@ Wire Wire Line
 Wire Wire Line
 	8600 5300 8600 5200
 $Comp
-L +1V2 #PWR025
+L icezum:+1V2 #PWR025
 U 1 1 5744B1E2
 P 10950 5200
 F 0 "#PWR025" H 10950 5050 50  0001 C CNN
@@ -1783,7 +1779,7 @@ $EndBitmap
 Wire Wire Line
 	8700 2100 8700 2700
 $Comp
-L FIDUCIAL FID3
+L icezum:FIDUCIAL FID3
 U 1 1 5794B355
 P 6400 7150
 F 0 "FID3" H 6400 6850 59  0000 C CNN
@@ -1794,7 +1790,7 @@ F 3 "" H 6400 7150 157 0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FIDUCIAL FID2
+L icezum:FIDUCIAL FID2
 U 1 1 5794B3FE
 P 5750 7150
 F 0 "FID2" H 5750 6850 59  0000 C CNN
@@ -1805,7 +1801,7 @@ F 3 "" H 5750 7150 157 0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FIDUCIAL FID1
+L icezum:FIDUCIAL FID1
 U 1 1 5794B48D
 P 5100 7150
 F 0 "FID1" H 5100 6850 59  0000 C CNN
@@ -1820,7 +1816,7 @@ Wire Notes Line
 Wire Notes Line
 	4700 6550 4700 7800
 $Comp
-L LED LD10
+L icezum:LED LD10
 U 1 1 59EFBD4A
 P 4250 6200
 F 0 "LD10" H 4300 6300 60  0000 C CNN
@@ -1831,7 +1827,7 @@ F 3 "" H 4250 6050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR077
+L icezum:+3V3 #PWR077
 U 1 1 59EFCC5F
 P 4000 6050
 F 0 "#PWR077" H 4000 5900 50  0001 C CNN
@@ -1846,7 +1842,7 @@ Wire Wire Line
 Wire Wire Line
 	4000 6200 4250 6200
 $Comp
-L R R46
+L icezum:R R46
 U 1 1 59EFD88E
 P 5350 6200
 F 0 "R46" V 5420 6050 50  0000 C CNN
