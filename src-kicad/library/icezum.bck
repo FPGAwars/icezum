@@ -19,6 +19,10 @@ D 1A low dropout adjustable and fixed-mode regulator with enable
 F http://www.diodes.com/_files/datasheets/AP7361.pdf
 $ENDCMP
 #
+$CMP APX810
+D power supplies supervisory circuit monitor
+$ENDCMP
+#
 $CMP DSC1001
 D Low-Power Precision CMOS Oscillator
 F http://ww1.microchip.com/downloads/en/DeviceDoc/DSC1001%20Datasheet%20MKQBPD05061001-8.pdf
