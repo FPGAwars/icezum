@@ -17,12 +17,12 @@ Arduino/zum compatible **Open FPGA** electronic board.  Synthesize hardware easi
 * Max input current: 3A (Perfect for powering your robots)
 * 20 Input/output 5v pins
 * 8 Input/Output 3.3V pins
-* USB micro-B connector for programming the FPGA from the PC (same than zum board)
-* FTDI 2232H USB device allows FPGA programming and UART interface to a PC
+* USB micro-B connector for programming the FPGA from the PC (same as zum board)
+* [FTDI 2232H](www.ftdichip.com/Documents/DataSheets/ICs/DS_FT2232H.pdf) USB device allows FPGA programming and UART interface to a PC
 * Reset pushbutton
 * 8 general purpose leds (user leds)
 * 2 general purpose pushbuttons
-* 4 analogue inputs though I2C bus
+* 4 analogue inputs though I2C bus ([ADS7924](http://www.ti.com/lit/ds/symlink/ads7924.pdf) from TI)
 
 ## Documentation
 
