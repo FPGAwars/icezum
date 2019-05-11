@@ -4,7 +4,7 @@ The **FTDI chip** included in the Icezum Alhambra board has an internal **256 by
 
 ### Flashing the eeprom
 
-**NOTE**: Do not play with the FTDI eeprom memory unless you know what you are doing. If you change the product id string, Icestudio will not recognized it as an FPGA board and will not upload the bitstreams
+**NOTE**: Do not play with the FTDI eeprom memory unless you know what you are doing. If you change the product id string, Icestudio will not recognized it as an FPGA board and will not upload the bitstreams. **Use at your own risk**
 
 * **Step 1**: Build the eeprom image from the config file
 
