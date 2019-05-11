@@ -28,7 +28,7 @@ The file **A1-eeprom-image.bin** will be generated
 * **Step 2**: Flash the eeprom image
 
 ```
-ftdi-eeprom --flash-eeprom Alhambra1.conf
+$ ftdi-eeprom --flash-eeprom Alhambra1.conf
 
 FTDI eeprom generator v0.17
 (c) Intra2net AG and the libftdi developers <opensource@intra2net.com>
@@ -55,7 +55,7 @@ Manufacturer: CHANGED, Description: IceZUM Alhambra v1.1 - B02-059
 The **A1-eeprom-image-orig.bin** file contains an original eeprom image. You can restore it using the following command
 
 ```
-ftdi-eeprom --flash-eeprom Alhambra1-flash-orig.conf
+$ ftdi-eeprom --flash-eeprom Alhambra1-flash-orig.conf
 
 FTDI eeprom generator v0.17
 (c) Intra2net AG and the libftdi developers <opensource@intra2net.com>
