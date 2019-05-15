@@ -2,6 +2,9 @@
 
 The **FTDI chip** included in the Icezum Alhambra board has an internal **256 bytes eeprom memory** that is flashed in the factory. It can be flashed using the ftdi-eeprom **open source tool**. This tool can be compiled to any platform following the instruction of the [tool-systems apio package](https://github.com/FPGAwars/tools-system)
 
+**NOTE**
+Since May-15th-2019, the ftdi_eeprom tools has been included into the [APIO](https://github.com/FPGAwars/apio) system tool v1.1.1 package. It can be execute by means of the apio raw command. For example, try:  **apio raw "ftdi_eeprom --help"**
+
 ### Flashing the eeprom
 
 **NOTE**: Do not play with the FTDI eeprom memory unless you know what you are doing. If you change the product id string, Icestudio will not recognized it as an FPGA board and will not upload the bitstreams. **Use at your own risk**
@@ -13,7 +16,7 @@ The **FTDI chip** included in the Icezum Alhambra board has an internal **256 by
   * Build the new eeprom image using the command:
 
 ```
-$ ftdi-eeprom --build-eeprom Alhambra1.conf
+$ apio raw "ftdi_eeprom --build-eeprom Alhambra1.conf"
 
 FTDI eeprom generator v0.17
 (c) Intra2net AG and the libftdi developers <opensource@intra2net.com>
@@ -28,7 +31,7 @@ The file **A1-eeprom-image.bin** will be generated
 * **Step 2**: Flash the eeprom image
 
 ```
-$ ftdi-eeprom --flash-eeprom Alhambra1.conf
+$ apio raw "ftdi_eeprom --flash-eeprom Alhambra1.conf"
 
 FTDI eeprom generator v0.17
 (c) Intra2net AG and the libftdi developers <opensource@intra2net.com>
@@ -55,7 +58,7 @@ Manufacturer: CHANGED, Description: IceZUM Alhambra v1.1 - B02-059
 The **A1-eeprom-image-orig.bin** file contains an original eeprom image. You can restore it using the following command
 
 ```
-$ ftdi-eeprom --flash-eeprom Alhambra1-flash-orig.conf
+$ apio raw "ftdi_eeprom --flash-eeprom Alhambra1-flash-orig.conf"
 
 FTDI eeprom generator v0.17
 (c) Intra2net AG and the libftdi developers <opensource@intra2net.com>
@@ -72,7 +75,7 @@ FTDI close: 0
 If you are curious and want to have a look a your eeprom's image, you can read it with the following command:
 
 ```
-$ ftdi-eeprom --read-eeprom Alhambra1.conf
+$  apio raw "ftdi_eeprom --read-eeprom Alhambra1.conf"
 
 FTDI eeprom generator v0.17
 (c) Intra2net AG and the libftdi developers <opensource@intra2net.com>
