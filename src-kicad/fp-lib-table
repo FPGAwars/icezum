@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name Icezum)(type KiCad)(uri ${KIPRJMOD}/icezum.pretty)(options "")(descr "Icezum board footprint library"))
-)

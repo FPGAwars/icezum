@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name icezum)(type Legacy)(uri ${KIPRJMOD}/library/icezum.lib)(options "")(descr ""))
-)
