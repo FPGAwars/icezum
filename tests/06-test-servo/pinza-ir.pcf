@@ -1,3 +1,0 @@
-set_io servo1 144
-set_io open 10
-set_io clk  21
